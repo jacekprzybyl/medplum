@@ -16,6 +16,7 @@ import {
   setScheduleSchedulingParameter,
   SNOMED,
   TimezoneExtensionURI,
+  toServiceTypeCodeableConcepts,
 } from '@medplum/core';
 import type {
   Appointment,
@@ -637,6 +638,101 @@ export const SchedulingFixtures = [
   ExamRoomASchedule,
   ExamRoomBSchedule,
   SatelliteRoomSchedule,
+];
+
+/** A visit type nobody offers any more, turned off rather than deleted. */
+export const DiscontinuedService = buildSchedulableService({
+  id: 'discontinued-consult',
+  name: 'Discontinued Consult',
+  category: 'Office visit',
+  durationMinutes: 30,
+  alignmentMinutes: 30,
+  active: false,
+});
+
+/** A provider who has left the practice, whose calendar nobody switched off. */
+export const DrLeePractitioner: WithId<Practitioner> = {
+  resourceType: 'Practitioner',
+  id: 'dr-lee',
+  name: [{ given: ['Hana'], family: 'Lee', prefix: ['Dr.'] }],
+  active: false,
+};
+
+export const DrLeeSchedule = buildSchedule('schedule-dr-lee', 'Practitioner/dr-lee', 'Dr. Hana Lee');
+
+export const DrNguyenPractitioner: WithId<Practitioner> = {
+  resourceType: 'Practitioner',
+  id: 'dr-nguyen',
+  name: [{ given: ['Linh'], family: 'Nguyen', prefix: ['Dr.'] }],
+};
+
+/** Offers two visit types, and overrides one of them: turnover after telehealth runs longer for this provider. */
+export const DrNguyenSchedule = setScheduleSchedulingParameter(
+  {
+    ...buildSchedule('schedule-dr-nguyen', 'Practitioner/dr-nguyen', 'Dr. Linh Nguyen'),
+    serviceType: [
+      ...toServiceTypeCodeableConcepts(UltrasoundImagingService),
+      ...toServiceTypeCodeableConcepts(TelehealthService),
+    ],
+  },
+  TelehealthService,
+  { url: 'bufferAfter', valueDuration: { value: 10, unit: 'min' } }
+);
+
+export const Ultrasound3Device: WithId<Device> = {
+  resourceType: 'Device',
+  id: 'ultrasound-3',
+  deviceName: [{ name: 'Ultrasound 3 (Retired)', type: 'user-friendly-name' }],
+};
+
+export const Ultrasound3Schedule: WithId<Schedule> = {
+  ...buildSchedule('schedule-ultrasound-3', 'Device/ultrasound-3', 'Ultrasound 3 (Retired)'),
+  active: false,
+};
+
+export const ExamRoomC: WithId<Location> = {
+  resourceType: 'Location',
+  id: 'exam-room-c',
+  name: 'Exam Room C',
+  physicalType: physicalType('ro'),
+  partOf: { reference: 'Location/main-clinic' },
+};
+
+/** A room with a calendar that offers nothing yet. */
+export const ExamRoomCSchedule: WithId<Schedule> = {
+  ...buildSchedule('schedule-exam-room-c', 'Location/exam-room-c', 'Exam Room C'),
+  serviceType: undefined,
+};
+
+/** Shared by a provider and a room, which scheduling cannot book. */
+export const SharedSchedule: WithId<Schedule> = {
+  ...buildSchedule('schedule-shared', 'Practitioner/dr-rivera', 'Dr. Maya Rivera'),
+  actor: [
+    { reference: 'Practitioner/dr-rivera', display: 'Dr. Maya Rivera' },
+    { reference: 'Location/exam-room-a', display: 'Exam Room A' },
+  ],
+};
+
+/**
+ * The clinic as an administrator configuring it sees it: `SchedulingFixtures`, plus what booking hides —
+ * visit types that are unconfigured or turned off, calendars that are turned off or belong to someone who
+ * left, a calendar that offers nothing, and one scheduling cannot book at all.
+ *
+ * Kept out of `SchedulingFixtures`, whose tests read the whole list.
+ */
+export const ConfigFixtures = [
+  ...SchedulingFixtures,
+  UnconfiguredService,
+  DiscontinuedService,
+  DrLeePractitioner,
+  DrLeeSchedule,
+  DrNguyenPractitioner,
+  DrNguyenSchedule,
+  Ultrasound3Device,
+  Ultrasound3Schedule,
+  ExamRoomC,
+  ExamRoomCSchedule,
+  SharedSchedule,
 ];
 
 /**
