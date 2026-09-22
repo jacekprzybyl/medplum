@@ -1,0 +1,42 @@
+import { Canvas, Meta } from '@storybook/addon-docs/blocks';
+import * as SchedulingConfigWorkspaceStories from './SchedulingConfigWorkspace.stories';
+
+<Meta of={SchedulingConfigWorkspaceStories} />
+
+# SchedulingConfigWorkspace
+
+Where scheduling is configured. Every visit type (`HealthcareService`) and every calendar (`Schedule`) is
+listed down the side; pick one and its configuration is summarised beside it. It is the configuration
+counterpart to `SchedulingWorkspace`, which books. For the data model underneath it, see
+[Defining Availability](https://www.medplum.com/docs/scheduling/defining-availability).
+
+This first version only reads. Editing visit types and calendars follows.
+
+<Canvas of={SchedulingConfigWorkspaceStories.Basic} />
+
+## What it lists
+
+The workspace fetches its own resources, and deliberately lists what booking leaves out, since that is what
+an administrator is usually looking for:
+
+- Visit types with no duration in effect, marked **Not configured**. Booking only offers a visit type it can
+  find a duration for.
+- Visit types, calendars, and calendars whose provider, room, or device is deactivated, marked **Inactive**.
+
+Calendars scheduling cannot book at all, because they hold more than one actor or an actor other than a
+`Practitioner`, `Location`, or `Device`, are not listed, but a note says how many there are.
+
+Both lists are read in pages up to a limit, and each says so when it stops short.
+
+## What it shows
+
+**A visit type** shows every scheduling parameter with the value in effect and whether that value is set on
+the visit type or is scheduling's default, its default weekly hours, and the calendars that offer it.
+
+**A calendar** has no configuration of its own apart from the visit types it offers: its overrides and hours
+are held once per visit type. So it lists those visit types, one expanded at a time, each showing the
+parameters in effect on this calendar, which of them the calendar overrides, and the hours that apply. A time
+zone neither the calendar nor the visit type sets falls back to the calendar's provider, room, or device.
+
+The warnings are the same ones `SchedulingParametersEditor` shows, so the summary and the editor always agree
+about what is wrong with a configuration.
