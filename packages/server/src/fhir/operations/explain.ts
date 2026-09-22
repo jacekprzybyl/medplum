@@ -251,10 +251,6 @@ export async function withHypotheticalIndexes<T extends object>(
   statements: string[],
   callback: (explainRepo: Repository) => Promise<T>
 ): Promise<T & { hypotheticalIndexes?: ExplainHypotheticalIndex[] }> {
-  if (statements.length === 0) {
-    return { ...(await callback(repo)) };
-  }
-
   const access = repoAccess.sqlRead(searchResourceTypes, { source: 'dbExplainHandler' });
   const transactionOptions = {
     resourceTypes: searchResourceTypes,
@@ -263,6 +259,16 @@ export async function withHypotheticalIndexes<T extends object>(
 
   try {
     return await repo.withTransaction(async (txRepo) => {
+      // Reject writes (including data-modifying CTEs) if EXPLAIN ANALYZE actually runs the query.
+      await txRepo.executeRawSql(
+        'SET TRANSACTION READ ONLY',
+        undefined,
+        repoAccess.sqlReadConfig(searchResourceTypes, { source: 'dbExplainHandler' })
+      );
+      if (statements.length === 0) {
+        return { ...(await callback(txRepo)) };
+      }
+
       // HypoPG stores indexes in connection-private memory; pin one connection for create + EXPLAIN.
       // They are not rolled back with the transaction, so always reset in finally.
       try {

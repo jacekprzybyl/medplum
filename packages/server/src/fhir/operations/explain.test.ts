@@ -93,6 +93,25 @@ describe('$explain', () => {
     expect(res).toHaveStatus(400);
   });
 
+  test('Rejects EXPLAIN ANALYZE of a data-modifying CTE', async () => {
+    // begin
+    const body = {
+      sql: `WITH d AS (DELETE FROM "Patient" WHERE id = '00000000-0000-0000-0000-000000000000' RETURNING *) SELECT * FROM d`,
+      analyze: true,
+    };
+
+    // when
+    const res = await request(app)
+      .post('/fhir/R4/$explain')
+      .set('Authorization', 'Bearer ' + accessToken)
+      .set('Content-Type', ContentType.FHIR_JSON)
+      .send(body);
+
+    // then
+    expect(res.status).toBeGreaterThanOrEqual(400);
+    expect(JSON.stringify(res.body)).toEqual(expect.stringMatching(/read-only transaction/i));
+  });
+
   test('Rejects non-SELECT sql', async () => {
     // begin
     const body = {

@@ -678,6 +678,8 @@ export function ExplainSearchForm({
     Reference<ProjectMembership> | undefined
   >();
 
+  const onBehalfOfEnabled = queryMode === 'search';
+
   const explainProfileSearchCriteria: Record<string, string> | undefined = useMemo(() => {
     if (!explainProject?.reference) {
       return undefined;
@@ -687,6 +689,14 @@ export function ExplainSearchForm({
   }, [explainProject]);
 
   useEffect(() => {
+    if (!onBehalfOfEnabled) {
+      setExplainProject(undefined);
+      setExplainProfile(undefined);
+      setExplainMemberships(undefined);
+      setOnBehalfOfProjectMembership(undefined);
+      return;
+    }
+
     setOnBehalfOfProjectMembership(undefined);
 
     if (!explainProfile?.reference && !explainProject?.reference) {
@@ -710,7 +720,7 @@ export function ExplainSearchForm({
         console.error(err);
         showNotification({ color: 'red', message: normalizeErrorString(err), autoClose: false });
       });
-  }, [medplum, explainProfile, explainProject]);
+  }, [medplum, explainProfile, explainProject, onBehalfOfEnabled]);
 
   const searchCriteria = useMemo(() => {
     const criteria: Record<string, string> = {};
@@ -735,7 +745,8 @@ export function ExplainSearchForm({
       });
       return;
     }
-    const onBehalfOfHeader: string | undefined = formData['onBehalfOfProjectMembership'];
+    const onBehalfOfHeader: string | undefined =
+      queryMode === 'search' ? formData['onBehalfOfProjectMembership'] : undefined;
     delete formData['onBehalfOfProjectMembership'];
 
     const jsonFormat = formData.json === 'on';
@@ -881,6 +892,53 @@ export function ExplainSearchForm({
           disabled={queryMode === 'sql'}
           placeholder="Observation?code=85354-9&_sort=-date&_count=5"
         />
+        <InputWrapper
+          label="On Behalf Of"
+          description={onBehalfOfEnabled ? undefined : 'Only available when query type is FHIR search.'}
+        >
+          <Stack gap="sm">
+            <ReferenceInput<Project>
+              required={onBehalfOfEnabled}
+              disabled={!onBehalfOfEnabled}
+              placeholder="Project"
+              targetTypes={['Project']}
+              name="onBehalfOfProject"
+              onChange={setExplainProject}
+            />
+            <ReferenceInput<Practitioner | Patient>
+              required={onBehalfOfEnabled}
+              disabled={!onBehalfOfEnabled}
+              placeholder="Practitioner or Patient"
+              name="onBehalfOfProfile"
+              targetTypes={['Practitioner', 'Patient']}
+              onChange={setExplainProfile}
+              searchCriteria={explainProfileSearchCriteria}
+            />
+            {onBehalfOfEnabled && explainMemberships?.length !== 1 && (
+              <ReferenceInput<ProjectMembership>
+                required
+                placeholder="ProjectMembership"
+                name="onBehalfOfProjectMembership"
+                targetTypes={['ProjectMembership']}
+                onChange={setOnBehalfOfProjectMembership}
+                searchCriteria={searchCriteria}
+              />
+            )}
+            {onBehalfOfEnabled && explainMemberships?.length === 1 && (
+              <>
+                <input
+                  type="hidden"
+                  name="onBehalfOfProjectMembership"
+                  value={getReferenceString(explainMemberships[0])}
+                />
+                <ReferenceDisplay value={createReference(explainMemberships[0])} />
+              </>
+            )}
+            {onBehalfOfEnabled && !onBehalfOfProjectMembership && (
+              <Text fs="italic">On Behalf Of not set. Running as super admin</Text>
+            )}
+          </Stack>
+        </InputWrapper>
         <Textarea
           name="sql"
           label="SQL"
@@ -916,46 +974,6 @@ export function ExplainSearchForm({
           <Checkbox name="count" label="Total count" />
           <Checkbox name="json" label="JSON format" />
         </Group>
-        <InputWrapper label="On Behalf Of">
-          <Stack gap="sm">
-            <ReferenceInput<Project>
-              required
-              placeholder="Project"
-              targetTypes={['Project']}
-              name="onBehalfOfProject"
-              onChange={setExplainProject}
-            />
-            <ReferenceInput<Practitioner | Patient>
-              required
-              placeholder="Practitioner or Patient"
-              name="onBehalfOfProfile"
-              targetTypes={['Practitioner', 'Patient']}
-              onChange={setExplainProfile}
-              searchCriteria={explainProfileSearchCriteria}
-            />
-            {explainMemberships?.length !== 1 && (
-              <ReferenceInput<ProjectMembership>
-                required
-                placeholder="ProjectMembership"
-                name="onBehalfOfProjectMembership"
-                targetTypes={['ProjectMembership']}
-                onChange={setOnBehalfOfProjectMembership}
-                searchCriteria={searchCriteria}
-              />
-            )}
-            {explainMemberships?.length === 1 && (
-              <>
-                <input
-                  type="hidden"
-                  name="onBehalfOfProjectMembership"
-                  value={getReferenceString(explainMemberships[0])}
-                />
-                <ReferenceDisplay value={createReference(explainMemberships[0])} />
-              </>
-            )}
-            {!onBehalfOfProjectMembership && <Text fs="italic">On Behalf Of not set. Running as super admin</Text>}
-          </Stack>
-        </InputWrapper>
         <Button type="submit">Explain Search</Button>
       </Stack>
     </Form>

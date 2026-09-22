@@ -672,6 +672,8 @@ describe('SuperAdminPage', () => {
 
       expect(screen.getByLabelText('Search')).toBeDisabled();
       expect(screen.getByLabelText('SQL *')).toBeEnabled();
+      expect(screen.getByPlaceholderText('Project')).toBeDisabled();
+      expect(screen.getByPlaceholderText('Practitioner or Patient')).toBeDisabled();
 
       await act(async () => {
         fireEvent.change(screen.getByLabelText('SQL *'), {
