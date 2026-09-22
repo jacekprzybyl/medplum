@@ -672,8 +672,10 @@ describe('SuperAdminPage', () => {
 
       expect(screen.getByLabelText('Search')).toBeDisabled();
       expect(screen.getByLabelText('SQL *')).toBeEnabled();
-      expect(screen.getByPlaceholderText('Project')).toBeDisabled();
-      expect(screen.getByPlaceholderText('Practitioner or Patient')).toBeDisabled();
+      // A disabled ReferenceInput drops its search field, so the placeholder is gone entirely.
+      expect(screen.queryByPlaceholderText('Project')).not.toBeInTheDocument();
+      expect(screen.queryByPlaceholderText('Practitioner or Patient')).not.toBeInTheDocument();
+      expect(screen.getByText('Only available when query type is FHIR search.')).toBeInTheDocument();
 
       await act(async () => {
         fireEvent.change(screen.getByLabelText('SQL *'), {
