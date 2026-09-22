@@ -98,9 +98,7 @@ describe('withHypotheticalIndexes', () => {
         }
         return [];
       }),
-      withTransaction: vi.fn(async (callback: (txRepo: Repository) => Promise<unknown>) =>
-        callback(repo)
-      ),
+      withTransaction: vi.fn(async (callback: (txRepo: Repository) => Promise<unknown>) => callback(repo)),
     } as unknown as Repository;
 
     const result = await withHypotheticalIndexes(
@@ -144,9 +142,7 @@ describe('withHypotheticalIndexes', () => {
         calls.push(sql);
         return [];
       }),
-      withTransaction: vi.fn(async (callback: (txRepo: Repository) => Promise<unknown>) =>
-        callback(repo)
-      ),
+      withTransaction: vi.fn(async (callback: (txRepo: Repository) => Promise<unknown>) => callback(repo)),
     } as unknown as Repository;
 
     await expect(
