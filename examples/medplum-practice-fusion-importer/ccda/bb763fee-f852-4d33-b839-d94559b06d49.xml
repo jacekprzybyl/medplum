@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClinicalDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:voc="urn:hl7-org:v3/voc" xmlns:sdtc="urn:hl7-org:sdtc" xmlns="urn:hl7-org:v3">
+ <realmCode code="US" />
+ <typeId root="2.16.840.1.113883.1.3" extension="POCD_HD000040" />
+ <templateId root="2.16.840.1.113883.10.20.22.1.1" />
+ <templateId root="2.16.840.1.113883.10.20.22.1.1" extension="2015-08-01" />
+ <templateId root="2.16.840.1.113883.10.20.22.1.1" extension="2023-05-01" />
+ <templateId root="2.16.840.1.113883.10.20.22.1.2" />
+ <templateId root="2.16.840.1.113883.10.20.22.1.2" extension="2015-08-01" />
+ <id root="2.16.840.1.113883.3.3388.1.1.1.529462" extension="829ddede-3a2f-4286-9da0-5ac0637f2153" />
+ <code code="34133-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Summarization of episode note" />
+ <title>Clinical Summary</title>
+ <effectiveTime value="20260921192800+0000" />
+ <confidentialityCode code="R" codeSystem="2.16.840.1.113883.5.25" codeSystemName="Confidentiality" displayName="Restricted" />
+ <languageCode code="en-US" />
+ <recordTarget>
+  <patientRole>
+   <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3" extension="35c896d0-c5b2-4a52-afd1-5237a16dd37d" />
+   <id root="2.16.840.1.113883.3.3388.3.3" extension="35c896d0-c5b2-4a52-afd1-5237a16dd37d" />
+   <id root="2.16.840.1.113883.3.3388.3.4" extension="PNKP-TRD-WAAK" />
+   <addr use="HP">
+    <streetAddressLine>654 N TRESA PL</streetAddressLine>
+    <city>STAR</city>
+    <state>ID</state>
+    <postalCode>83669</postalCode>
+    <country>US</country>
+   </addr>
+   <addr use="HP">
+    <streetAddressLine>654 N Tresa Pl</streetAddressLine>
+    <city>Star</city>
+    <state>ID</state>
+    <postalCode>83669</postalCode>
+    <country>US</country>
+   </addr>
+   <telecom use="MC" value="tel:+1(530)651-4467" />
+   <patient>
+    <name use="L">
+     <given>Hermione</given>
+     <family>Opheim</family>
+    </name>
+    <administrativeGenderCode code="F" codeSystem="2.16.840.1.113883.5.1" displayName="Female" />
+    <birthTime value="20170619" />
+    <sdtc:deceasedInd value="false" />
+    <raceCode nullFlavor="NASK" />
+    <ethnicGroupCode nullFlavor="NASK" />
+    <languageCommunication>
+     <languageCode nullFlavor="NI" />
+    </languageCommunication>
+   </patient>
+   <providerOrganization>
+    <id root="2.16.840.1.113883.3.3388.1.1.1.529462" />
+    <name>The Healing Hut</name>
+    <telecom use="WP" value="tel:+1(208)939-6748" />
+    <addr use="WP">
+     <streetAddressLine>8000 W Ustick Rd</streetAddressLine>
+     <city>Boise</city>
+     <state>ID</state>
+     <postalCode>83704</postalCode>
+     <country>US</country>
+    </addr>
+   </providerOrganization>
+  </patientRole>
+ </recordTarget>
+ <author>
+  <time value="20260921192800+0000" />
+  <assignedAuthor>
+   <id root="2.16.840.1.113883.3.3388" />
+   <addr use="WP">
+    <streetAddressLine>305 Church at North Hills St.</streetAddressLine>
+    <city>Raleigh</city>
+    <state>NC</state>
+    <postalCode>27609</postalCode>
+    <country>US</country>
+   </addr>
+   <telecom use="WP" value="tel:+1(415)346-7700" />
+   <assignedAuthoringDevice>
+    <manufacturerModelName>Practice Fusion, Inc.</manufacturerModelName>
+    <softwareName>Practice Fusion EHR</softwareName>
+   </assignedAuthoringDevice>
+   <representedOrganization>
+    <id root="2.16.840.1.113883.3.3388.3.1" extension="58c61deb-4894-4b8d-ab43-7b2885440460" />
+    <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+    <id root="2.16.840.1.113883.3.3388.1.1.1.529462" />
+    <name>The Healing Hut</name>
+    <addr use="WP">
+     <streetAddressLine>8000 W Ustick Rd</streetAddressLine>
+     <city>Boise</city>
+     <state>ID</state>
+     <postalCode>83704</postalCode>
+     <country>US</country>
+    </addr>
+   </representedOrganization>
+  </assignedAuthor>
+ </author>
+ <dataEnterer>
+  <assignedEntity>
+   <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+   <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+   <id root="2.16.840.1.113883.3.3388.3.2" extension="ed967aff-423c-44c8-93c7-8490fb5c5e7a" />
+   <id root="2.16.840.1.113883.3.3388.3.6" extension="UCAX-W7KQJ" />
+   <addr use="WP">
+    <streetAddressLine>8000 W Ustick Rd</streetAddressLine>
+    <city>Boise</city>
+    <state>ID</state>
+    <postalCode>83704</postalCode>
+    <country>US</country>
+   </addr>
+   <telecom use="WP" value="tel:+1(208)939-6748" />
+   <assignedPerson>
+    <name>
+     <prefix>Dr</prefix>
+     <given>Jade</given>
+     <given>N</given>
+     <family>Dandy</family>
+     <suffix>ND, MS</suffix>
+    </name>
+   </assignedPerson>
+  </assignedEntity>
+ </dataEnterer>
+ <custodian>
+  <assignedCustodian>
+   <representedCustodianOrganization>
+    <id root="2.16.840.1.113883.3.3388.1.1.1.529462" extension="POCD_HD000040" />
+    <name>The Healing Hut</name>
+    <telecom use="WP" value="tel:+1(208)939-6748" />
+    <addr use="WP">
+     <streetAddressLine>8000 W Ustick Rd</streetAddressLine>
+     <city>Boise</city>
+     <state>ID</state>
+     <postalCode>83704</postalCode>
+     <country>US</country>
+    </addr>
+   </representedCustodianOrganization>
+  </assignedCustodian>
+ </custodian>
+ <authenticator>
+  <time value="20260921192800+0000" />
+  <signatureCode code="S" />
+  <assignedEntity>
+   <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+   <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+   <id root="2.16.840.1.113883.3.3388.3.2" extension="ed967aff-423c-44c8-93c7-8490fb5c5e7a" />
+   <addr use="WP">
+    <streetAddressLine>8000 W Ustick Rd</streetAddressLine>
+    <city>Boise</city>
+    <state>ID</state>
+    <postalCode>83704</postalCode>
+    <country>US</country>
+   </addr>
+   <telecom use="WP" value="tel:+1(208)939-6748" />
+   <assignedPerson>
+    <name>
+     <prefix>Dr</prefix>
+     <given>Jade</given>
+     <given>N</given>
+     <family>Dandy</family>
+     <suffix>ND, MS</suffix>
+    </name>
+   </assignedPerson>
+  </assignedEntity>
+ </authenticator>
+ <documentationOf>
+  <serviceEvent classCode="PCPR" moodCode="EVN">
+   <effectiveTime xsi:type="IVL_TS">
+    <low value="20260921192800+0000" />
+    <high nullFlavor="NI" />
+   </effectiveTime>
+  </serviceEvent>
+ </documentationOf>
+ <componentOf>
+  <encompassingEncounter>
+   <id root="2.16.840.1.113883.3.3388.1.1.1.529462.4.1.4" extension="1569006337" />
+   <effectiveTime xsi:type="IVL_TS">
+    <low value="20260915060000+0000" />
+    <high value="20260916055900+0000" />
+   </effectiveTime>
+  </encompassingEncounter>
+ </componentOf>
+ <component>
+  <structuredBody>
+   <component>
+    <section nullFlavor="NI">
+     <templateId root="2.16.840.1.113883.10.20.22.2.10" />
+     <templateId root="2.16.840.1.113883.10.20.22.2.10" extension="2014-06-09" />
+     <code code="18776-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Plan of Treatment" />
+     <title>Plan of Treatment</title>
+     <text>
+      <table width="95%" border="1">
+       <tbody>
+        <tr>
+         <td>No Plan of Treatment indicated</td>
+        </tr>
+       </tbody>
+      </table>
+     </text>
+    </section>
+   </component>
+   <component>
+    <section nullFlavor="NI">
+     <templateId root="2.16.840.1.113883.10.20.22.2.6.1" />
+     <templateId root="2.16.840.1.113883.10.20.22.2.6.1" extension="2015-08-01" />
+     <code code="48765-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Allergies, Adverse Reactions, Alerts" />
+     <title>Allergies and Intolerances</title>
+     <text>
+      <table width="95%" border="1">
+       <tbody>
+        <tr>
+         <td>No Information</td>
+        </tr>
+       </tbody>
+      </table>
+     </text>
+    </section>
+   </component>
+   <component>
+    <section>
+     <templateId root="2.16.840.1.113883.10.20.22.2.9" />
+     <templateId root="2.16.840.1.113883.10.20.22.2.9" extension="2014-06-09" />
+     <code code="51847-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Assessment and Plan" />
+     <title>Assessment and Plan</title>
+     <text>
+      <table width="95%" border="1">
+       <tbody>
+        <tr>
+         <td>No Plans indicated</td>
+        </tr>
+       </tbody>
+      </table>
+     </text>
+    </section>
+   </component>
+   <component>
+    <section>
+     <templateId root="2.16.840.1.113883.10.20.22.2.22.1" />
+     <templateId root="2.16.840.1.113883.10.20.22.2.22.1" extension="2015-08-01" />
+     <code code="46240-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History of encounters" />
+     <title>Encounters</title>
+     <text>
+      <table width="95%" border="1">
+       <thead>
+        <tr>
+         <th>Date</th>
+         <th>Location</th>
+         <th>Signed</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr ID="Encounter-ad91148f-5451-473e-96f4-e74d8f45903e">
+         <td>2026-09-15</td>
+         <td>The Healing Hut</td>
+         <td rowspan="2">Dr Kimberly Rainey, DPT<br />The Healing Hut<br />9/16/2026</td>
+        </tr>
+        <tr>
+         <td colspan="2">Encounter for "check-up" (procedure)</td>
+        </tr>
+       </tbody>
+      </table>
+     </text>
+     <entry typeCode="DRIV">
+      <encounter classCode="ENC" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.49" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.49" extension="2015-08-01" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1569006337.1.3.2" extension="ad91148f-5451-473e-96f4-e74d8f45903e" />
+       <code code="185349003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Encounter for &quot;check-up&quot; (procedure)">
+        <originalText>
+         <reference value="#Encounter-ad91148f-5451-473e-96f4-e74d8f45903e" />
+        </originalText>
+       </code>
+       <effectiveTime xsi:type="IVL_TS">
+        <low value="20260915060000+0000" />
+        <high value="20260916055959+0000" />
+       </effectiveTime>
+       <performer typeCode="PRF">
+        <assignedEntity classCode="ASSIGNED">
+         <id root="2.16.840.1.113883.3.3388.1.1.1.529462.1.1.3" extension="8254b199-ece8-4368-9a8e-c83e84be9d78" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="c31eb337-4223-4486-a4c1-17b14a9077ec" />
+         <addr use="WP">
+          <streetAddressLine>The Healing Hut</streetAddressLine>
+          <streetAddressLine>8000 W Ustick Rd</streetAddressLine>
+          <city>Boise</city>
+          <state>ID</state>
+          <postalCode>83704</postalCode>
+          <country>US</country>
+         </addr>
+         <telecom use="WP" value="tel:+1(208)939-6748" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Kimberly</given>
+           <family>Rainey</family>
+           <suffix>DPT</suffix>
+          </name>
+         </assignedPerson>
+        </assignedEntity>
+       </performer>
+       <participant typeCode="LOC">
+        <participantRole classCode="SDLOC">
+         <templateId root="2.16.840.1.113883.10.20.22.4.32" />
+         <code nullFlavor="NI" />
+         <addr use="WP">
+          <streetAddressLine>The Healing Hut</streetAddressLine>
+          <streetAddressLine>8000 W Ustick Rd</streetAddressLine>
+          <city>Boise</city>
+          <state>ID</state>
+          <postalCode>83704</postalCode>
+          <country>US</country>
+         </addr>
+         <telecom use="WP" value="tel:+1(208)939-6748" />
+        </participantRole>
+       </participant>
+      </encounter>
+     </entry>
+    </section>
+   </component>
+   <component>
+    <section>
+     <templateId root="2.16.840.1.113883.10.20.22.2.14" />
+     <templateId root="2.16.840.1.113883.10.20.22.2.14" extension="2014-06-09" />
+     <code code="47420-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Functional Status" />
+     <title>Functional Status</title>
+     <text>No Information</text>
+    </section>
+   </component>
+   <component>
+    <section>
+     <templateId root="2.16.840.1.113883.10.20.22.2.56" />
+     <templateId root="2.16.840.1.113883.10.20.22.2.56" extension="2015-08-01" />
+     <code code="10190-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Mental status" />
+     <title>Mental status</title>
+     <text>No Information</text>
+    </section>
+   </component>
+   <component>
+    <section>
+     <templateId root="2.16.840.1.113883.10.20.22.2.2.1" />
+     <templateId root="2.16.840.1.113883.10.20.22.2.2.1" extension="2015-08-01" />
+     <code code="11369-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History of Immunizations" />
+     <title>Immunizations</title>
+     <text>
+      <table width="95%" border="1">
+       <tbody>
+        <tr ID="ImmunizationsNoHistory">
+         <td>No Immunization History</td>
+        </tr>
+       </tbody>
+      </table>
+     </text>
+     <entry>
+      <substanceAdministration classCode="SBADM" moodCode="EVN" negationInd="true">
+       <templateId root="2.16.840.1.113883.10.20.22.4.52" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.52" extension="2015-08-01" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1569006337.1.12" extension="ImmunizationsNoHistory" />
+       <text>
+        <reference value="#ImmunizationsNoHistory" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime nullFlavor="NA" />
+       <consumable>
+        <manufacturedProduct classCode="MANU">
+         <templateId root="2.16.840.1.113883.10.20.22.4.54" />
+         <templateId root="2.16.840.1.113883.10.20.22.4.54" extension="2014-06-09" />
+         <manufacturedMaterial>
+          <code nullFlavor="OTH">
+           <translation code="71181003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="vaccine" />
+          </code>
+         </manufacturedMaterial>
+        </manufacturedProduct>
+       </consumable>
+      </substanceAdministration>
+     </entry>
+    </section>
+   </component>
+   <component>
+    <section nullFlavor="NI">
+     <templateId root="2.16.840.1.113883.10.20.22.2.1.1" />
+     <templateId root="2.16.840.1.113883.10.20.22.2.1.1" extension="2014-06-09" />
+     <code code="10160-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History of Medication Use" />
+     <title>Medications</title>
+     <text>
+      <table width="95%" border="1">
+       <tbody>
+        <tr>
+         <td>No Information</td>
+        </tr>
+       </tbody>
+      </table>
+     </text>
+    </section>
+   </component>
+   <component>
+    <section nullFlavor="NI">
+     <templateId root="2.16.840.1.113883.10.20.22.2.18" />
+     <templateId root="2.16.840.1.113883.10.20.22.2.18" extension="2015-08-01" />
+     <code code="48768-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Payers" />
+     <title>Payers</title>
+     <text>
+      <table width="95%" border="1">
+       <tbody>
+        <tr>
+         <td>No Information</td>
+        </tr>
+       </tbody>
+      </table>
+     </text>
+    </section>
+   </component>
+   <component>
+    <section nullFlavor="NI">
+     <templateId root="2.16.840.1.113883.10.20.22.2.5.1" />
+     <templateId root="2.16.840.1.113883.10.20.22.2.5.1" extension="2015-08-01" />
+     <code code="11450-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Problem List" />
+     <title>Problem List</title>
+     <text>
+      <table width="95%" border="1">
+       <tbody>
+        <tr>
+         <td>No Information</td>
+        </tr>
+       </tbody>
+      </table>
+     </text>
+    </section>
+   </component>
+   <component>
+    <section>
+     <templateId root="2.16.840.1.113883.10.20.22.2.23" />
+     <templateId root="2.16.840.1.113883.10.20.22.2.23" extension="2014-06-09" />
+     <code code="46264-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Medical Equipment" />
+     <title>Medical Equipment</title>
+     <text>
+      <table width="95%" border="1">
+       <tbody>
+        <tr>
+         <td>No Information</td>
+        </tr>
+       </tbody>
+      </table>
+     </text>
+     <entry>
+      <procedure classCode="PROC" moodCode="EVN" negationInd="true">
+       <templateId root="2.16.840.1.113883.10.20.22.4.14" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.14" extension="2022-06-01" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1569006337.1.13" extension="ImplantableDevicesNoKnown" />
+       <code code="71388002" codeSystem="2.16.840.1.113883.6.96" displayName="Procedure" />
+       <statusCode code="completed" />
+       <effectiveTime nullFlavor="NA" />
+       <participant typeCode="DEV">
+        <participantRole classCode="MANU">
+         <templateId root="2.16.840.1.113883.10.20.22.4.37" />
+         <id nullFlavor="NA" root="2.16.840.1.113883.3.3719" assigningAuthorityName="FDA" />
+         <playingDevice>
+          <code code="40388003" codeSystem="2.16.840.1.113883.6.96" displayName="Implant" />
+         </playingDevice>
+         <scopingEntity>
+          <id root="2.16.840.1.113883.3.3719" />
+         </scopingEntity>
+        </participantRole>
+       </participant>
+      </procedure>
+     </entry>
+    </section>
+   </component>
+   <component>
+    <section nullFlavor="NI">
+     <templateId root="2.16.840.1.113883.10.20.22.2.7.1" />
+     <templateId root="2.16.840.1.113883.10.20.22.2.7.1" extension="2014-06-09" />
+     <code code="47519-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Procedures" />
+     <title>Procedures</title>
+     <text>
+      <table width="95%" border="1">
+       <thead>
+        <tr>
+         <th>Procedure</th>
+         <th>Date</th>
+         <th>Author</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>No Procedures Indicated</td>
+         <td>Not Applicable</td>
+         <td>&#160;</td>
+        </tr>
+       </tbody>
+      </table>
+     </text>
+    </section>
+   </component>
+   <component>
+    <section>
+     <templateId root="1.3.6.1.4.1.19376.1.5.3.1.3.1" />
+     <templateId root="1.3.6.1.4.1.19376.1.5.3.1.3.1" extension="2014-06-09" />
+     <code code="42349-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Reason for Referral" />
+     <title>Reason for Referral</title>
+     <text>
+      <paragraph>No Reason for Referral Indicated</paragraph>
+     </text>
+    </section>
+   </component>
+   <component>
+    <section nullFlavor="NI">
+     <templateId root="2.16.840.1.113883.10.20.22.2.3.1" />
+     <templateId root="2.16.840.1.113883.10.20.22.2.3.1" extension="2015-08-01" />
+     <code code="30954-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Results" />
+     <title>Results</title>
+     <text>No Lab Tests. No Lab results.</text>
+    </section>
+   </component>
+   <component>
+    <section>
+     <templateId root="2.16.840.1.113883.10.20.22.2.17" />
+     <templateId root="2.16.840.1.113883.10.20.22.2.17" extension="2015-08-01" />
+     <code code="29762-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Social History" />
+     <title>Social History</title>
+     <text>
+      <table width="95%" border="1">
+       <thead>
+        <tr>
+         <th>Social History</th>
+         <th>Effective Date</th>
+         <th>Author</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr ID="Sex">
+         <td>Sex: Female</td>
+         <td>2017-06-19</td>
+         <td>Dr Kimberly Rainey, DPT<br />The Healing Hut<br />9/15/2026</td>
+        </tr>
+       </tbody>
+      </table>
+     </text>
+     <entry>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.507" extension="2023-06-28" />
+       <code code="46098-0" codeSystem="2.16.840.1.113883.6.1" displayName="Sex" />
+       <text>
+        <reference value="#Sex" />
+       </text>
+       <statusCode code="completed" />
+       <effectiveTime value="20170619" />
+       <value xsi:type="CD" code="248152002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Female" />
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20260915193930+0000" />
+        <assignedAuthor>
+         <id nullFlavor="UNK" root="2.16.840.1.113883.4.6" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="c31eb337-4223-4486-a4c1-17b14a9077ec" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Kimberly</given>
+           <family>Rainey</family>
+           <suffix>DPT</suffix>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+      </observation>
+     </entry>
+    </section>
+   </component>
+   <component>
+    <section nullFlavor="NI">
+     <templateId root="2.16.840.1.113883.10.20.22.2.4.1" />
+     <templateId root="2.16.840.1.113883.10.20.22.2.4.1" extension="2015-08-01" />
+     <code code="8716-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Vital Signs" />
+     <title>Vital Signs</title>
+     <text>Not indicated</text>
+    </section>
+   </component>
+   <component>
+    <section nullFlavor="NI">
+     <templateId root="2.16.840.1.113883.10.20.22.2.60" />
+     <code code="61146-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Goals" />
+     <title>Goals</title>
+     <text>
+      <table width="95%" border="1">
+       <tbody>
+        <tr>
+         <td>No Goals are recorded</td>
+        </tr>
+       </tbody>
+      </table>
+     </text>
+    </section>
+   </component>
+   <component>
+    <section nullFlavor="NI">
+     <templateId root="2.16.840.1.113883.10.20.22.2.58" />
+     <templateId root="2.16.840.1.113883.10.20.22.2.58" extension="2015-08-01" />
+     <code code="75310-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Health Concerns Document" />
+     <title>Health Concerns</title>
+     <text>
+      <table width="95%" border="1">
+       <tbody>
+        <tr>
+         <td>No Information</td>
+        </tr>
+       </tbody>
+      </table>
+     </text>
+    </section>
+   </component>
+  </structuredBody>
+ </component>
+</ClinicalDocument>

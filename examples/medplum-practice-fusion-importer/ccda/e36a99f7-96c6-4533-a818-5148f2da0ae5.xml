@@ -1,0 +1,2309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClinicalDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:voc="urn:hl7-org:v3/voc" xmlns:sdtc="urn:hl7-org:sdtc" xmlns="urn:hl7-org:v3">
+ <realmCode code="US" />
+ <typeId root="2.16.840.1.113883.1.3" extension="POCD_HD000040" />
+ <templateId root="2.16.840.1.113883.10.20.22.1.1" />
+ <templateId root="2.16.840.1.113883.10.20.22.1.1" extension="2015-08-01" />
+ <templateId root="2.16.840.1.113883.10.20.22.1.1" extension="2023-05-01" />
+ <templateId root="2.16.840.1.113883.10.20.22.1.2" />
+ <templateId root="2.16.840.1.113883.10.20.22.1.2" extension="2015-08-01" />
+ <id root="2.16.840.1.113883.3.3388.1.1.1.529462" extension="3f2587b1-52aa-47be-b17d-940fcbcce539" />
+ <code code="34133-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Summarization of episode note" />
+ <title>Clinical Summary</title>
+ <effectiveTime value="20260921192722+0000" />
+ <confidentialityCode code="R" codeSystem="2.16.840.1.113883.5.25" codeSystemName="Confidentiality" displayName="Restricted" />
+ <languageCode code="en-US" />
+ <recordTarget>
+  <patientRole>
+   <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3" extension="07b8877a-7c8e-4cf7-9406-9bd9a3875be9" />
+   <id root="2.16.840.1.113883.3.3388.3.3" extension="07b8877a-7c8e-4cf7-9406-9bd9a3875be9" />
+   <id root="2.16.840.1.113883.3.3388.3.4" extension="PCMK-99V-PAEG" />
+   <addr use="HP">
+    <streetAddressLine>1284 E 2 1/2 ST</streetAddressLine>
+    <city>MERIDIAN</city>
+    <state>ID</state>
+    <postalCode>83642</postalCode>
+    <country>US</country>
+   </addr>
+   <addr use="HP">
+    <streetAddressLine>1284 E 2 1/2 St</streetAddressLine>
+    <city>Meridian</city>
+    <state>ID</state>
+    <postalCode>83642</postalCode>
+    <country>US</country>
+   </addr>
+   <telecom use="MC" value="tel:+1(208)751-3688" />
+   <telecom value="mailto:asetoki32@gmail.com" />
+   <patient>
+    <name use="L">
+     <given>Alicia</given>
+     <family>Setoki</family>
+    </name>
+    <administrativeGenderCode code="F" codeSystem="2.16.840.1.113883.5.1" displayName="Female" />
+    <birthTime value="20000111" />
+    <sdtc:deceasedInd value="false" />
+    <raceCode code="2106-3" codeSystem="2.16.840.1.113883.6.238" codeSystemName="Race &amp; Ethnicity - CDC" displayName="White" />
+    <ethnicGroupCode code="2135-2" codeSystem="2.16.840.1.113883.6.238" codeSystemName="Race &amp; Ethnicity - CDC" displayName="Hispanic or Latino" />
+    <languageCommunication>
+     <languageCode nullFlavor="NI" />
+    </languageCommunication>
+   </patient>
+   <providerOrganization>
+    <id root="2.16.840.1.113883.3.3388.1.1.1.529462" />
+    <name>The Healing Hut</name>
+    <telecom use="WP" value="tel:+1(208)939-6748" />
+    <addr use="WP">
+     <streetAddressLine>8000 W Ustick Rd</streetAddressLine>
+     <city>Boise</city>
+     <state>ID</state>
+     <postalCode>83704</postalCode>
+     <country>US</country>
+    </addr>
+   </providerOrganization>
+  </patientRole>
+ </recordTarget>
+ <author>
+  <time value="20260921192722+0000" />
+  <assignedAuthor>
+   <id root="2.16.840.1.113883.3.3388" />
+   <addr use="WP">
+    <streetAddressLine>305 Church at North Hills St.</streetAddressLine>
+    <city>Raleigh</city>
+    <state>NC</state>
+    <postalCode>27609</postalCode>
+    <country>US</country>
+   </addr>
+   <telecom use="WP" value="tel:+1(415)346-7700" />
+   <assignedAuthoringDevice>
+    <manufacturerModelName>Practice Fusion, Inc.</manufacturerModelName>
+    <softwareName>Practice Fusion EHR</softwareName>
+   </assignedAuthoringDevice>
+   <representedOrganization>
+    <id root="2.16.840.1.113883.3.3388.3.1" extension="58c61deb-4894-4b8d-ab43-7b2885440460" />
+    <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+    <id root="2.16.840.1.113883.3.3388.1.1.1.529462" />
+    <name>The Healing Hut</name>
+    <addr use="WP">
+     <streetAddressLine>8000 W Ustick Rd</streetAddressLine>
+     <city>Boise</city>
+     <state>ID</state>
+     <postalCode>83704</postalCode>
+     <country>US</country>
+    </addr>
+   </representedOrganization>
+  </assignedAuthor>
+ </author>
+ <dataEnterer>
+  <assignedEntity>
+   <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+   <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+   <id root="2.16.840.1.113883.3.3388.3.2" extension="ed967aff-423c-44c8-93c7-8490fb5c5e7a" />
+   <id root="2.16.840.1.113883.3.3388.3.6" extension="UCAX-W7KQJ" />
+   <addr use="WP">
+    <streetAddressLine>8000 W Ustick Rd</streetAddressLine>
+    <city>Boise</city>
+    <state>ID</state>
+    <postalCode>83704</postalCode>
+    <country>US</country>
+   </addr>
+   <telecom use="WP" value="tel:+1(208)939-6748" />
+   <assignedPerson>
+    <name>
+     <prefix>Dr</prefix>
+     <given>Jade</given>
+     <given>N</given>
+     <family>Dandy</family>
+     <suffix>ND, MS</suffix>
+    </name>
+   </assignedPerson>
+  </assignedEntity>
+ </dataEnterer>
+ <custodian>
+  <assignedCustodian>
+   <representedCustodianOrganization>
+    <id root="2.16.840.1.113883.3.3388.1.1.1.529462" extension="POCD_HD000040" />
+    <name>The Healing Hut</name>
+    <telecom use="WP" value="tel:+1(208)939-6748" />
+    <addr use="WP">
+     <streetAddressLine>8000 W Ustick Rd</streetAddressLine>
+     <city>Boise</city>
+     <state>ID</state>
+     <postalCode>83704</postalCode>
+     <country>US</country>
+    </addr>
+   </representedCustodianOrganization>
+  </assignedCustodian>
+ </custodian>
+ <authenticator>
+  <time value="20260921192722+0000" />
+  <signatureCode code="S" />
+  <assignedEntity>
+   <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+   <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+   <id root="2.16.840.1.113883.3.3388.3.2" extension="ed967aff-423c-44c8-93c7-8490fb5c5e7a" />
+   <addr use="WP">
+    <streetAddressLine>8000 W Ustick Rd</streetAddressLine>
+    <city>Boise</city>
+    <state>ID</state>
+    <postalCode>83704</postalCode>
+    <country>US</country>
+   </addr>
+   <telecom use="WP" value="tel:+1(208)939-6748" />
+   <assignedPerson>
+    <name>
+     <prefix>Dr</prefix>
+     <given>Jade</given>
+     <given>N</given>
+     <family>Dandy</family>
+     <suffix>ND, MS</suffix>
+    </name>
+   </assignedPerson>
+  </assignedEntity>
+ </authenticator>
+ <documentationOf>
+  <serviceEvent classCode="PCPR" moodCode="EVN">
+   <effectiveTime xsi:type="IVL_TS">
+    <low value="20260921192722+0000" />
+    <high nullFlavor="NI" />
+   </effectiveTime>
+  </serviceEvent>
+ </documentationOf>
+ <componentOf>
+  <encompassingEncounter>
+   <id root="2.16.840.1.113883.3.3388.1.1.1.529462.4.1.4" extension="533279900" />
+   <effectiveTime xsi:type="IVL_TS">
+    <low value="20260406060000+0000" />
+    <high value="20260818055900+0000" />
+   </effectiveTime>
+  </encompassingEncounter>
+ </componentOf>
+ <component>
+  <structuredBody>
+   <component>
+    <section nullFlavor="NI">
+     <templateId root="2.16.840.1.113883.10.20.22.2.10" />
+     <templateId root="2.16.840.1.113883.10.20.22.2.10" extension="2014-06-09" />
+     <code code="18776-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Plan of Treatment" />
+     <title>Plan of Treatment</title>
+     <text>
+      <table width="95%" border="1">
+       <tbody>
+        <tr>
+         <td>No Plan of Treatment indicated</td>
+        </tr>
+       </tbody>
+      </table>
+     </text>
+    </section>
+   </component>
+   <component>
+    <section nullFlavor="NI">
+     <templateId root="2.16.840.1.113883.10.20.22.2.6.1" />
+     <templateId root="2.16.840.1.113883.10.20.22.2.6.1" extension="2015-08-01" />
+     <code code="48765-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Allergies, Adverse Reactions, Alerts" />
+     <title>Allergies and Intolerances</title>
+     <text>
+      <table width="95%" border="1">
+       <tbody>
+        <tr>
+         <td>No Information</td>
+        </tr>
+       </tbody>
+      </table>
+     </text>
+    </section>
+   </component>
+   <component>
+    <section>
+     <templateId root="2.16.840.1.113883.10.20.22.2.9" />
+     <templateId root="2.16.840.1.113883.10.20.22.2.9" extension="2014-06-09" />
+     <code code="51847-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Assessment and Plan" />
+     <title>Assessment and Plan</title>
+     <text>
+      <table width="95%" border="1">
+       <thead>
+        <tr>
+         <th>Assessment and Plan</th>
+         <th>Author</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr ID="APLABfe956417-17bd-4ed1-b6d7-a8876c05dc1b">
+         <td>Tests Pending: HCG, TOTAL, QL Expected results on: 2026-04-06</td>
+         <td>Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />4/6/2026</td>
+        </tr>
+        <tr ID="APLABedfb67ce-643a-41fa-9606-8768335f28a4">
+         <td>Tests Pending: HCG, TOTAL, QN Expected results on: 2026-04-13</td>
+         <td>Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />4/13/2026</td>
+        </tr>
+        <tr ID="APLABd86ef8df-3b38-49bc-b2a8-fbc672cbfed2">
+         <td>Tests Pending: HCG, TOTAL, QN Expected results on: 2026-04-20</td>
+         <td>Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />4/20/2026</td>
+        </tr>
+        <tr ID="APLABcc7f3f94-7b5b-4ebf-9840-c29cfe534afc">
+         <td>Tests Pending: IRON AND TOTAL IRON BINDING CAPACITY Expected results on: 2026-08-03</td>
+         <td>Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />8/3/2026</td>
+        </tr>
+        <tr ID="APLAB4e551577-c7f2-41ec-bc73-dd1b5ce2ae84">
+         <td>Tests Pending: FERRITIN Expected results on: 2026-08-03</td>
+         <td>Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />8/3/2026</td>
+        </tr>
+        <tr ID="APLABd9208fb3-d807-4dac-9520-faf48f4df156">
+         <td>Tests Pending: PROGESTERONE Expected results on: 2026-08-03</td>
+         <td>Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />8/3/2026</td>
+        </tr>
+        <tr ID="APLAB25954942-ed22-45a2-917c-3b41ee621fe4">
+         <td>Tests Pending: CBC (INCLUDES DIFF/PLT) Expected results on: 2026-08-03</td>
+         <td>Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />8/3/2026</td>
+        </tr>
+        <tr ID="APLABd45b180c-600f-4fd2-bc5d-5f6c8c56bde1">
+         <td>Tests Pending: COMPREHENSIVE METABOLIC PANEL Expected results on: 2026-08-03</td>
+         <td>Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />8/3/2026</td>
+        </tr>
+        <tr ID="APLAB89995567-712d-499d-b6b7-c4cd30adf591">
+         <td>Tests Pending: HCG, TOTAL, QN Expected results on: 2026-08-03</td>
+         <td>Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />8/3/2026</td>
+        </tr>
+        <tr ID="APLABd7628dbc-29bc-44aa-b122-e351e7defe5f">
+         <td>Tests Pending: HEMOGLOBIN A1c Expected results on: 2026-08-03</td>
+         <td>Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />8/3/2026</td>
+        </tr>
+        <tr ID="APLABe5aa7d1c-3150-491e-8b67-93898d8f2199">
+         <td>Tests Pending: COPPER Expected results on: 2026-08-06</td>
+         <td>Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />8/6/2026</td>
+        </tr>
+        <tr ID="APLABbae83db4-e42e-4370-9675-faeef14cf0b8">
+         <td>Tests Pending: ZINC Expected results on: 2026-08-06</td>
+         <td>Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />8/6/2026</td>
+        </tr>
+        <tr ID="APLAB896f616d-e5e3-43ab-965e-ab1e09dfe656">
+         <td>Tests Pending: VITAMIN B12/FOLATE, SERUM PANEL Expected results on: 2026-08-06</td>
+         <td>Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />8/6/2026</td>
+        </tr>
+        <tr ID="APLAB8476a7a3-1e2b-4e48-8adc-c4cc250a718e">
+         <td>Tests Pending: VITAMIN D,25-OH,TOTAL,IA Expected results on: 2026-08-06</td>
+         <td>Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />8/6/2026</td>
+        </tr>
+        <tr ID="APLAB5385d3d1-9a8d-4c77-87fb-71409e7e9824">
+         <td>Tests Pending: TSH Expected results on: 2026-08-06</td>
+         <td>Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />8/6/2026</td>
+        </tr>
+        <tr ID="APLAB2f6ba928-a9df-40b6-8f68-fca9c793fd2e">
+         <td>Tests Pending: T3, FREE Expected results on: 2026-08-06</td>
+         <td>Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />8/6/2026</td>
+        </tr>
+        <tr ID="APLABc15ac828-4d03-478d-8709-7adf09a9b1ac">
+         <td>Tests Pending: T4, FREE Expected results on: 2026-08-06</td>
+         <td>Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />8/6/2026</td>
+        </tr>
+        <tr ID="APLAB4f482542-35da-4214-84de-c463bc592964">
+         <td>Tests Pending: THYROGLOBULIN ANTIBODIES Expected results on: 2026-08-06</td>
+         <td>Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />8/6/2026</td>
+        </tr>
+        <tr ID="APLABf8a0fbe2-cb11-4def-9a9e-25d6ab125c8f">
+         <td>Tests Pending: THYROID PEROXIDASE ANTIBODIES Expected results on: 2026-08-06</td>
+         <td>Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />8/6/2026</td>
+        </tr>
+        <tr ID="APLABf21a3313-ca7d-46ec-bea5-beb45ddbc985">
+         <td>Tests Pending: T3 REVERSE, LC/MS/MS Expected results on: 2026-08-06</td>
+         <td>Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />8/6/2026</td>
+        </tr>
+        <tr ID="APLAB8a5c04cb-bf9f-4b3d-9740-28196ad35cef">
+         <td>Tests Pending: HCG, TOTAL, QN Expected results on: 2026-08-06</td>
+         <td>Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />8/6/2026</td>
+        </tr>
+        <tr ID="APLAB616b6077-d54d-443c-9c08-cd21b01cde29">
+         <td>Tests Pending: HCG, TOTAL, QN Expected results on: 2026-08-10</td>
+         <td>Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />8/10/2026</td>
+        </tr>
+        <tr ID="APLAB966372b7-ec1b-4ba1-831e-c6fe33e8a295">
+         <td>Tests Pending: PROGESTERONE Expected results on: 2026-08-10</td>
+         <td>Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />8/10/2026</td>
+        </tr>
+        <tr ID="APLABabe0d795-18b1-409f-ae1d-3e6551c3f76a">
+         <td>Tests Pending: HCG, TOTAL, QN Expected results on: 2026-08-17</td>
+         <td>Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />8/17/2026</td>
+        </tr>
+       </tbody>
+      </table>
+     </text>
+     <entry>
+      <act classCode="ACT" moodCode="ARQ">
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" extension="2014-06-09" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.533279900.1.3.4.5" extension="fe956417-17bd-4ed1-b6d7-a8876c05dc1b" />
+       <code xsi:type="CE" code="8435" codeSystemName="L" displayName="HCG, TOTAL, QL" />
+       <text>
+        <reference value="#APLABfe956417-17bd-4ed1-b6d7-a8876c05dc1b" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime value="20260406155107+0000" />
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20260406155101+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>ND, MS</suffix>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+      </act>
+     </entry>
+     <entry>
+      <act classCode="ACT" moodCode="ARQ">
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" extension="2014-06-09" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.533279900.1.3.4.5" extension="edfb67ce-643a-41fa-9606-8768335f28a4" />
+       <code xsi:type="CE" code="8396" codeSystemName="L" displayName="HCG, TOTAL, QN" />
+       <text>
+        <reference value="#APLABedfb67ce-643a-41fa-9606-8768335f28a4" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime value="20260413145650+0000" />
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20260413145646+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>ND, MS</suffix>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+      </act>
+     </entry>
+     <entry>
+      <act classCode="ACT" moodCode="ARQ">
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" extension="2014-06-09" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.533279900.1.3.4.5" extension="d86ef8df-3b38-49bc-b2a8-fbc672cbfed2" />
+       <code xsi:type="CE" code="8396" codeSystemName="L" displayName="HCG, TOTAL, QN" />
+       <text>
+        <reference value="#APLABd86ef8df-3b38-49bc-b2a8-fbc672cbfed2" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime value="20260420162717+0000" />
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20260420162713+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>ND, MS</suffix>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+      </act>
+     </entry>
+     <entry>
+      <act classCode="ACT" moodCode="ARQ">
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" extension="2014-06-09" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.533279900.1.3.4.5" extension="cc7f3f94-7b5b-4ebf-9840-c29cfe534afc" />
+       <code xsi:type="CE" code="7573" codeSystemName="L" displayName="IRON AND TOTAL IRON BINDING CAPACITY" />
+       <text>
+        <reference value="#APLABcc7f3f94-7b5b-4ebf-9840-c29cfe534afc" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime value="20260803212243+0000" />
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20260803212239+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>ND, MS</suffix>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+      </act>
+     </entry>
+     <entry>
+      <act classCode="ACT" moodCode="ARQ">
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" extension="2014-06-09" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.533279900.1.3.4.5" extension="4e551577-c7f2-41ec-bc73-dd1b5ce2ae84" />
+       <code xsi:type="CE" code="457" codeSystemName="L" displayName="FERRITIN" />
+       <text>
+        <reference value="#APLAB4e551577-c7f2-41ec-bc73-dd1b5ce2ae84" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime value="20260803212243+0000" />
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20260803212239+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>ND, MS</suffix>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+      </act>
+     </entry>
+     <entry>
+      <act classCode="ACT" moodCode="ARQ">
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" extension="2014-06-09" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.533279900.1.3.4.5" extension="d9208fb3-d807-4dac-9520-faf48f4df156" />
+       <code xsi:type="CE" code="745" codeSystemName="L" displayName="PROGESTERONE" />
+       <text>
+        <reference value="#APLABd9208fb3-d807-4dac-9520-faf48f4df156" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime value="20260803212243+0000" />
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20260803212239+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>ND, MS</suffix>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+      </act>
+     </entry>
+     <entry>
+      <act classCode="ACT" moodCode="ARQ">
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" extension="2014-06-09" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.533279900.1.3.4.5" extension="25954942-ed22-45a2-917c-3b41ee621fe4" />
+       <code xsi:type="CE" code="6399" codeSystemName="L" displayName="CBC (INCLUDES DIFF/PLT)" />
+       <text>
+        <reference value="#APLAB25954942-ed22-45a2-917c-3b41ee621fe4" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime value="20260803212243+0000" />
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20260803212239+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>ND, MS</suffix>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+      </act>
+     </entry>
+     <entry>
+      <act classCode="ACT" moodCode="ARQ">
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" extension="2014-06-09" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.533279900.1.3.4.5" extension="d45b180c-600f-4fd2-bc5d-5f6c8c56bde1" />
+       <code xsi:type="CE" code="10231" codeSystemName="L" displayName="COMPREHENSIVE METABOLIC PANEL" />
+       <text>
+        <reference value="#APLABd45b180c-600f-4fd2-bc5d-5f6c8c56bde1" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime value="20260803212243+0000" />
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20260803212239+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>ND, MS</suffix>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+      </act>
+     </entry>
+     <entry>
+      <act classCode="ACT" moodCode="ARQ">
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" extension="2014-06-09" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.533279900.1.3.4.5" extension="89995567-712d-499d-b6b7-c4cd30adf591" />
+       <code xsi:type="CE" code="8396" codeSystemName="L" displayName="HCG, TOTAL, QN" />
+       <text>
+        <reference value="#APLAB89995567-712d-499d-b6b7-c4cd30adf591" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime value="20260803212243+0000" />
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20260803212239+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>ND, MS</suffix>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+      </act>
+     </entry>
+     <entry>
+      <act classCode="ACT" moodCode="ARQ">
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" extension="2014-06-09" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.533279900.1.3.4.5" extension="d7628dbc-29bc-44aa-b122-e351e7defe5f" />
+       <code xsi:type="CE" code="496" codeSystemName="L" displayName="HEMOGLOBIN A1c" />
+       <text>
+        <reference value="#APLABd7628dbc-29bc-44aa-b122-e351e7defe5f" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime value="20260803212243+0000" />
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20260803212239+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>ND, MS</suffix>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+      </act>
+     </entry>
+     <entry>
+      <act classCode="ACT" moodCode="ARQ">
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" extension="2014-06-09" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.533279900.1.3.4.5" extension="e5aa7d1c-3150-491e-8b67-93898d8f2199" />
+       <code xsi:type="CE" code="363" codeSystemName="L" displayName="COPPER" />
+       <text>
+        <reference value="#APLABe5aa7d1c-3150-491e-8b67-93898d8f2199" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime value="20260806163635+0000" />
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20260806163632+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>ND, MS</suffix>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+      </act>
+     </entry>
+     <entry>
+      <act classCode="ACT" moodCode="ARQ">
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" extension="2014-06-09" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.533279900.1.3.4.5" extension="bae83db4-e42e-4370-9675-faeef14cf0b8" />
+       <code xsi:type="CE" code="945" codeSystemName="L" displayName="ZINC" />
+       <text>
+        <reference value="#APLABbae83db4-e42e-4370-9675-faeef14cf0b8" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime value="20260806163635+0000" />
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20260806163632+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>ND, MS</suffix>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+      </act>
+     </entry>
+     <entry>
+      <act classCode="ACT" moodCode="ARQ">
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" extension="2014-06-09" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.533279900.1.3.4.5" extension="896f616d-e5e3-43ab-965e-ab1e09dfe656" />
+       <code xsi:type="CE" code="7065" codeSystemName="L" displayName="VITAMIN B12/FOLATE, SERUM PANEL" />
+       <text>
+        <reference value="#APLAB896f616d-e5e3-43ab-965e-ab1e09dfe656" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime value="20260806163635+0000" />
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20260806163632+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>ND, MS</suffix>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+      </act>
+     </entry>
+     <entry>
+      <act classCode="ACT" moodCode="ARQ">
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" extension="2014-06-09" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.533279900.1.3.4.5" extension="8476a7a3-1e2b-4e48-8adc-c4cc250a718e" />
+       <code xsi:type="CE" code="17306" codeSystemName="L" displayName="VITAMIN D,25-OH,TOTAL,IA" />
+       <text>
+        <reference value="#APLAB8476a7a3-1e2b-4e48-8adc-c4cc250a718e" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime value="20260806163635+0000" />
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20260806163632+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>ND, MS</suffix>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+      </act>
+     </entry>
+     <entry>
+      <act classCode="ACT" moodCode="ARQ">
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" extension="2014-06-09" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.533279900.1.3.4.5" extension="5385d3d1-9a8d-4c77-87fb-71409e7e9824" />
+       <code xsi:type="CE" code="899" codeSystemName="L" displayName="TSH" />
+       <text>
+        <reference value="#APLAB5385d3d1-9a8d-4c77-87fb-71409e7e9824" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime value="20260806163635+0000" />
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20260806163632+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>ND, MS</suffix>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+      </act>
+     </entry>
+     <entry>
+      <act classCode="ACT" moodCode="ARQ">
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" extension="2014-06-09" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.533279900.1.3.4.5" extension="2f6ba928-a9df-40b6-8f68-fca9c793fd2e" />
+       <code xsi:type="CE" code="34429" codeSystemName="L" displayName="T3, FREE" />
+       <text>
+        <reference value="#APLAB2f6ba928-a9df-40b6-8f68-fca9c793fd2e" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime value="20260806163635+0000" />
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20260806163632+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>ND, MS</suffix>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+      </act>
+     </entry>
+     <entry>
+      <act classCode="ACT" moodCode="ARQ">
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" extension="2014-06-09" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.533279900.1.3.4.5" extension="c15ac828-4d03-478d-8709-7adf09a9b1ac" />
+       <code xsi:type="CE" code="866" codeSystemName="L" displayName="T4, FREE" />
+       <text>
+        <reference value="#APLABc15ac828-4d03-478d-8709-7adf09a9b1ac" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime value="20260806163635+0000" />
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20260806163632+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>ND, MS</suffix>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+      </act>
+     </entry>
+     <entry>
+      <act classCode="ACT" moodCode="ARQ">
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" extension="2014-06-09" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.533279900.1.3.4.5" extension="4f482542-35da-4214-84de-c463bc592964" />
+       <code xsi:type="CE" code="267" codeSystemName="L" displayName="THYROGLOBULIN ANTIBODIES" />
+       <text>
+        <reference value="#APLAB4f482542-35da-4214-84de-c463bc592964" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime value="20260806163635+0000" />
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20260806163632+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>ND, MS</suffix>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+      </act>
+     </entry>
+     <entry>
+      <act classCode="ACT" moodCode="ARQ">
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" extension="2014-06-09" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.533279900.1.3.4.5" extension="f8a0fbe2-cb11-4def-9a9e-25d6ab125c8f" />
+       <code xsi:type="CE" code="5081" codeSystemName="L" displayName="THYROID PEROXIDASE ANTIBODIES" />
+       <text>
+        <reference value="#APLABf8a0fbe2-cb11-4def-9a9e-25d6ab125c8f" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime value="20260806163635+0000" />
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20260806163632+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>ND, MS</suffix>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+      </act>
+     </entry>
+     <entry>
+      <act classCode="ACT" moodCode="ARQ">
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" extension="2014-06-09" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.533279900.1.3.4.5" extension="f21a3313-ca7d-46ec-bea5-beb45ddbc985" />
+       <code xsi:type="CE" code="90963" codeSystemName="L" displayName="T3 REVERSE, LC/MS/MS" />
+       <text>
+        <reference value="#APLABf21a3313-ca7d-46ec-bea5-beb45ddbc985" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime value="20260806163635+0000" />
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20260806163632+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>ND, MS</suffix>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+      </act>
+     </entry>
+     <entry>
+      <act classCode="ACT" moodCode="ARQ">
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" extension="2014-06-09" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.533279900.1.3.4.5" extension="8a5c04cb-bf9f-4b3d-9740-28196ad35cef" />
+       <code xsi:type="CE" code="8396" codeSystemName="L" displayName="HCG, TOTAL, QN" />
+       <text>
+        <reference value="#APLAB8a5c04cb-bf9f-4b3d-9740-28196ad35cef" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime value="20260806163635+0000" />
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20260806163632+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>ND, MS</suffix>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+      </act>
+     </entry>
+     <entry>
+      <act classCode="ACT" moodCode="ARQ">
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" extension="2014-06-09" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.533279900.1.3.4.5" extension="616b6077-d54d-443c-9c08-cd21b01cde29" />
+       <code xsi:type="CE" code="8396" codeSystemName="L" displayName="HCG, TOTAL, QN" />
+       <text>
+        <reference value="#APLAB616b6077-d54d-443c-9c08-cd21b01cde29" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime value="20260810154715+0000" />
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20260810154712+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>ND, MS</suffix>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+      </act>
+     </entry>
+     <entry>
+      <act classCode="ACT" moodCode="ARQ">
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" extension="2014-06-09" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.533279900.1.3.4.5" extension="966372b7-ec1b-4ba1-831e-c6fe33e8a295" />
+       <code xsi:type="CE" code="745" codeSystemName="L" displayName="PROGESTERONE" />
+       <text>
+        <reference value="#APLAB966372b7-ec1b-4ba1-831e-c6fe33e8a295" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime value="20260810154715+0000" />
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20260810154712+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>ND, MS</suffix>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+      </act>
+     </entry>
+     <entry>
+      <act classCode="ACT" moodCode="ARQ">
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" extension="2014-06-09" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.533279900.1.3.4.5" extension="abe0d795-18b1-409f-ae1d-3e6551c3f76a" />
+       <code xsi:type="CE" code="8396" codeSystemName="L" displayName="HCG, TOTAL, QN" />
+       <text>
+        <reference value="#APLABabe0d795-18b1-409f-ae1d-3e6551c3f76a" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime value="20260817215958+0000" />
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20260817215954+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>ND, MS</suffix>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+      </act>
+     </entry>
+    </section>
+   </component>
+   <component>
+    <section>
+     <templateId root="2.16.840.1.113883.10.20.22.2.22.1" />
+     <templateId root="2.16.840.1.113883.10.20.22.2.22.1" extension="2015-08-01" />
+     <code code="46240-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History of encounters" />
+     <title>Encounters</title>
+     <text>
+      <table width="95%" border="1">
+       <thead>
+        <tr>
+         <th>Date</th>
+         <th>Location</th>
+         <th>Signed</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr ID="Encounter-61dfdffd-d347-4aeb-82a2-1d1a954dbaab">
+         <td>2026-08-17</td>
+         <td>The Healing Hut</td>
+         <td rowspan="2">Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />8/17/2026</td>
+        </tr>
+        <tr>
+         <td colspan="2">Encounter for "check-up" (procedure)</td>
+        </tr>
+       </tbody>
+      </table>
+      <table width="95%" border="1">
+       <thead>
+        <tr>
+         <th>Date</th>
+         <th>Location</th>
+         <th>Signed</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr ID="Encounter-526f63a5-3e0c-43bb-ab4f-0971c585f460">
+         <td>2026-08-10</td>
+         <td>The Healing Hut</td>
+         <td rowspan="2">Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />8/10/2026</td>
+        </tr>
+        <tr>
+         <td colspan="2">Encounter for "check-up" (procedure)</td>
+        </tr>
+       </tbody>
+      </table>
+      <table width="95%" border="1">
+       <thead>
+        <tr>
+         <th>Date</th>
+         <th>Location</th>
+         <th>Signed</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr ID="Encounter-dea12ba5-7ff5-4cc9-930f-17c316c4bbb5">
+         <td>2026-08-06</td>
+         <td>The Healing Hut</td>
+         <td rowspan="2">Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />8/6/2026</td>
+        </tr>
+        <tr>
+         <td colspan="2">Encounter for "check-up" (procedure)</td>
+        </tr>
+       </tbody>
+      </table>
+      <table width="95%" border="1">
+       <thead>
+        <tr>
+         <th>Date</th>
+         <th>Location</th>
+         <th>Signed</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr ID="Encounter-9c4e0426-eaa4-4cbd-875f-77d61856c747">
+         <td>2026-08-03</td>
+         <td>The Healing Hut</td>
+         <td rowspan="2">Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />8/3/2026</td>
+        </tr>
+        <tr>
+         <td colspan="2">Encounter for "check-up" (procedure)</td>
+        </tr>
+       </tbody>
+      </table>
+      <table width="95%" border="1">
+       <thead>
+        <tr>
+         <th>Date</th>
+         <th>Location</th>
+         <th>Signed</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr ID="Encounter-bbb7b481-9a8d-4f7a-81c8-192d340f803e">
+         <td>2026-04-20</td>
+         <td>The Healing Hut</td>
+         <td rowspan="2">Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />4/20/2026</td>
+        </tr>
+        <tr>
+         <td colspan="2">Encounter for "check-up" (procedure)</td>
+        </tr>
+       </tbody>
+      </table>
+      <table width="95%" border="1">
+       <thead>
+        <tr>
+         <th>Date</th>
+         <th>Location</th>
+         <th>Signed</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr ID="Encounter-be783426-970b-40b8-89fe-84827672e879">
+         <td>2026-04-06</td>
+         <td>The Healing Hut</td>
+         <td rowspan="2">Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />4/6/2026</td>
+        </tr>
+        <tr>
+         <td colspan="2">Encounter for "check-up" (procedure)</td>
+        </tr>
+       </tbody>
+      </table>
+     </text>
+     <entry typeCode="DRIV">
+      <encounter classCode="ENC" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.49" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.49" extension="2015-08-01" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.533279900.1.3.2" extension="61dfdffd-d347-4aeb-82a2-1d1a954dbaab" />
+       <code code="185349003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Encounter for &quot;check-up&quot; (procedure)">
+        <originalText>
+         <reference value="#Encounter-61dfdffd-d347-4aeb-82a2-1d1a954dbaab" />
+        </originalText>
+       </code>
+       <effectiveTime xsi:type="IVL_TS">
+        <low value="20260817060000+0000" />
+        <high value="20260818055959+0000" />
+       </effectiveTime>
+       <performer typeCode="PRF">
+        <assignedEntity classCode="ASSIGNED">
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <addr use="WP">
+          <streetAddressLine>The Healing Hut</streetAddressLine>
+          <streetAddressLine>8000 W Ustick Rd</streetAddressLine>
+          <city>Boise</city>
+          <state>ID</state>
+          <postalCode>83704</postalCode>
+          <country>US</country>
+         </addr>
+         <telecom use="WP" value="tel:+1(503)896-4636" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>Naturopathic Medical Doctor</suffix>
+          </name>
+         </assignedPerson>
+        </assignedEntity>
+       </performer>
+       <participant typeCode="LOC">
+        <participantRole classCode="SDLOC">
+         <templateId root="2.16.840.1.113883.10.20.22.4.32" />
+         <code nullFlavor="NI" />
+         <addr use="WP">
+          <streetAddressLine>The Healing Hut</streetAddressLine>
+          <streetAddressLine>8000 W Ustick Rd</streetAddressLine>
+          <city>Boise</city>
+          <state>ID</state>
+          <postalCode>83704</postalCode>
+          <country>US</country>
+         </addr>
+         <telecom use="WP" value="tel:+1(208)939-6748" />
+        </participantRole>
+       </participant>
+      </encounter>
+     </entry>
+     <entry typeCode="DRIV">
+      <encounter classCode="ENC" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.49" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.49" extension="2015-08-01" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.533279900.1.3.2" extension="526f63a5-3e0c-43bb-ab4f-0971c585f460" />
+       <code code="185349003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Encounter for &quot;check-up&quot; (procedure)">
+        <originalText>
+         <reference value="#Encounter-526f63a5-3e0c-43bb-ab4f-0971c585f460" />
+        </originalText>
+       </code>
+       <effectiveTime xsi:type="IVL_TS">
+        <low value="20260810060000+0000" />
+        <high value="20260811055959+0000" />
+       </effectiveTime>
+       <performer typeCode="PRF">
+        <assignedEntity classCode="ASSIGNED">
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <addr use="WP">
+          <streetAddressLine>The Healing Hut</streetAddressLine>
+          <streetAddressLine>8000 W Ustick Rd</streetAddressLine>
+          <city>Boise</city>
+          <state>ID</state>
+          <postalCode>83704</postalCode>
+          <country>US</country>
+         </addr>
+         <telecom use="WP" value="tel:+1(503)896-4636" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>Naturopathic Medical Doctor</suffix>
+          </name>
+         </assignedPerson>
+        </assignedEntity>
+       </performer>
+       <participant typeCode="LOC">
+        <participantRole classCode="SDLOC">
+         <templateId root="2.16.840.1.113883.10.20.22.4.32" />
+         <code nullFlavor="NI" />
+         <addr use="WP">
+          <streetAddressLine>The Healing Hut</streetAddressLine>
+          <streetAddressLine>8000 W Ustick Rd</streetAddressLine>
+          <city>Boise</city>
+          <state>ID</state>
+          <postalCode>83704</postalCode>
+          <country>US</country>
+         </addr>
+         <telecom use="WP" value="tel:+1(208)939-6748" />
+        </participantRole>
+       </participant>
+      </encounter>
+     </entry>
+     <entry typeCode="DRIV">
+      <encounter classCode="ENC" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.49" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.49" extension="2015-08-01" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.533279900.1.3.2" extension="dea12ba5-7ff5-4cc9-930f-17c316c4bbb5" />
+       <code code="185349003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Encounter for &quot;check-up&quot; (procedure)">
+        <originalText>
+         <reference value="#Encounter-dea12ba5-7ff5-4cc9-930f-17c316c4bbb5" />
+        </originalText>
+       </code>
+       <effectiveTime xsi:type="IVL_TS">
+        <low value="20260806060000+0000" />
+        <high value="20260807055959+0000" />
+       </effectiveTime>
+       <performer typeCode="PRF">
+        <assignedEntity classCode="ASSIGNED">
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <addr use="WP">
+          <streetAddressLine>The Healing Hut</streetAddressLine>
+          <streetAddressLine>8000 W Ustick Rd</streetAddressLine>
+          <city>Boise</city>
+          <state>ID</state>
+          <postalCode>83704</postalCode>
+          <country>US</country>
+         </addr>
+         <telecom use="WP" value="tel:+1(503)896-4636" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>Naturopathic Medical Doctor</suffix>
+          </name>
+         </assignedPerson>
+        </assignedEntity>
+       </performer>
+       <participant typeCode="LOC">
+        <participantRole classCode="SDLOC">
+         <templateId root="2.16.840.1.113883.10.20.22.4.32" />
+         <code nullFlavor="NI" />
+         <addr use="WP">
+          <streetAddressLine>The Healing Hut</streetAddressLine>
+          <streetAddressLine>8000 W Ustick Rd</streetAddressLine>
+          <city>Boise</city>
+          <state>ID</state>
+          <postalCode>83704</postalCode>
+          <country>US</country>
+         </addr>
+         <telecom use="WP" value="tel:+1(208)939-6748" />
+        </participantRole>
+       </participant>
+      </encounter>
+     </entry>
+     <entry typeCode="DRIV">
+      <encounter classCode="ENC" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.49" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.49" extension="2015-08-01" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.533279900.1.3.2" extension="9c4e0426-eaa4-4cbd-875f-77d61856c747" />
+       <code code="185349003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Encounter for &quot;check-up&quot; (procedure)">
+        <originalText>
+         <reference value="#Encounter-9c4e0426-eaa4-4cbd-875f-77d61856c747" />
+        </originalText>
+       </code>
+       <effectiveTime xsi:type="IVL_TS">
+        <low value="20260803060000+0000" />
+        <high value="20260804055959+0000" />
+       </effectiveTime>
+       <performer typeCode="PRF">
+        <assignedEntity classCode="ASSIGNED">
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <addr use="WP">
+          <streetAddressLine>The Healing Hut</streetAddressLine>
+          <streetAddressLine>8000 W Ustick Rd</streetAddressLine>
+          <city>Boise</city>
+          <state>ID</state>
+          <postalCode>83704</postalCode>
+          <country>US</country>
+         </addr>
+         <telecom use="WP" value="tel:+1(503)896-4636" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>Naturopathic Medical Doctor</suffix>
+          </name>
+         </assignedPerson>
+        </assignedEntity>
+       </performer>
+       <participant typeCode="LOC">
+        <participantRole classCode="SDLOC">
+         <templateId root="2.16.840.1.113883.10.20.22.4.32" />
+         <code nullFlavor="NI" />
+         <addr use="WP">
+          <streetAddressLine>The Healing Hut</streetAddressLine>
+          <streetAddressLine>8000 W Ustick Rd</streetAddressLine>
+          <city>Boise</city>
+          <state>ID</state>
+          <postalCode>83704</postalCode>
+          <country>US</country>
+         </addr>
+         <telecom use="WP" value="tel:+1(208)939-6748" />
+        </participantRole>
+       </participant>
+      </encounter>
+     </entry>
+     <entry typeCode="DRIV">
+      <encounter classCode="ENC" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.49" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.49" extension="2015-08-01" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.533279900.1.3.2" extension="bbb7b481-9a8d-4f7a-81c8-192d340f803e" />
+       <code code="185349003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Encounter for &quot;check-up&quot; (procedure)">
+        <originalText>
+         <reference value="#Encounter-bbb7b481-9a8d-4f7a-81c8-192d340f803e" />
+        </originalText>
+       </code>
+       <effectiveTime xsi:type="IVL_TS">
+        <low value="20260420060000+0000" />
+        <high value="20260421055959+0000" />
+       </effectiveTime>
+       <performer typeCode="PRF">
+        <assignedEntity classCode="ASSIGNED">
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <addr use="WP">
+          <streetAddressLine>The Healing Hut</streetAddressLine>
+          <streetAddressLine>8000 W Ustick Rd</streetAddressLine>
+          <city>Boise</city>
+          <state>ID</state>
+          <postalCode>83704</postalCode>
+          <country>US</country>
+         </addr>
+         <telecom use="WP" value="tel:+1(503)896-4636" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>Naturopathic Medical Doctor</suffix>
+          </name>
+         </assignedPerson>
+        </assignedEntity>
+       </performer>
+       <participant typeCode="LOC">
+        <participantRole classCode="SDLOC">
+         <templateId root="2.16.840.1.113883.10.20.22.4.32" />
+         <code nullFlavor="NI" />
+         <addr use="WP">
+          <streetAddressLine>The Healing Hut</streetAddressLine>
+          <streetAddressLine>8000 W Ustick Rd</streetAddressLine>
+          <city>Boise</city>
+          <state>ID</state>
+          <postalCode>83704</postalCode>
+          <country>US</country>
+         </addr>
+         <telecom use="WP" value="tel:+1(208)939-6748" />
+        </participantRole>
+       </participant>
+      </encounter>
+     </entry>
+     <entry typeCode="DRIV">
+      <encounter classCode="ENC" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.49" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.49" extension="2015-08-01" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.533279900.1.3.2" extension="be783426-970b-40b8-89fe-84827672e879" />
+       <code code="185349003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Encounter for &quot;check-up&quot; (procedure)">
+        <originalText>
+         <reference value="#Encounter-be783426-970b-40b8-89fe-84827672e879" />
+        </originalText>
+       </code>
+       <effectiveTime xsi:type="IVL_TS">
+        <low value="20260406060000+0000" />
+        <high value="20260407055959+0000" />
+       </effectiveTime>
+       <performer typeCode="PRF">
+        <assignedEntity classCode="ASSIGNED">
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <addr use="WP">
+          <streetAddressLine>The Healing Hut</streetAddressLine>
+          <streetAddressLine>8000 W Ustick Rd</streetAddressLine>
+          <city>Boise</city>
+          <state>ID</state>
+          <postalCode>83704</postalCode>
+          <country>US</country>
+         </addr>
+         <telecom use="WP" value="tel:+1(503)896-4636" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>Naturopathic Medical Doctor</suffix>
+          </name>
+         </assignedPerson>
+        </assignedEntity>
+       </performer>
+       <participant typeCode="LOC">
+        <participantRole classCode="SDLOC">
+         <templateId root="2.16.840.1.113883.10.20.22.4.32" />
+         <code nullFlavor="NI" />
+         <addr use="WP">
+          <streetAddressLine>The Healing Hut</streetAddressLine>
+          <streetAddressLine>8000 W Ustick Rd</streetAddressLine>
+          <city>Boise</city>
+          <state>ID</state>
+          <postalCode>83704</postalCode>
+          <country>US</country>
+         </addr>
+         <telecom use="WP" value="tel:+1(208)939-6748" />
+        </participantRole>
+       </participant>
+      </encounter>
+     </entry>
+    </section>
+   </component>
+   <component>
+    <section>
+     <templateId root="2.16.840.1.113883.10.20.22.2.14" />
+     <templateId root="2.16.840.1.113883.10.20.22.2.14" extension="2014-06-09" />
+     <code code="47420-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Functional Status" />
+     <title>Functional Status</title>
+     <text>No Information</text>
+    </section>
+   </component>
+   <component>
+    <section>
+     <templateId root="2.16.840.1.113883.10.20.22.2.56" />
+     <templateId root="2.16.840.1.113883.10.20.22.2.56" extension="2015-08-01" />
+     <code code="10190-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Mental status" />
+     <title>Mental status</title>
+     <text>No Information</text>
+    </section>
+   </component>
+   <component>
+    <section>
+     <templateId root="2.16.840.1.113883.10.20.22.2.2.1" />
+     <templateId root="2.16.840.1.113883.10.20.22.2.2.1" extension="2015-08-01" />
+     <code code="11369-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History of Immunizations" />
+     <title>Immunizations</title>
+     <text>
+      <table width="95%" border="1">
+       <tbody>
+        <tr ID="ImmunizationsNoHistory">
+         <td>No Immunization History</td>
+        </tr>
+       </tbody>
+      </table>
+     </text>
+     <entry>
+      <substanceAdministration classCode="SBADM" moodCode="EVN" negationInd="true">
+       <templateId root="2.16.840.1.113883.10.20.22.4.52" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.52" extension="2015-08-01" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.533279900.1.12" extension="ImmunizationsNoHistory" />
+       <text>
+        <reference value="#ImmunizationsNoHistory" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime nullFlavor="NA" />
+       <consumable>
+        <manufacturedProduct classCode="MANU">
+         <templateId root="2.16.840.1.113883.10.20.22.4.54" />
+         <templateId root="2.16.840.1.113883.10.20.22.4.54" extension="2014-06-09" />
+         <manufacturedMaterial>
+          <code nullFlavor="OTH">
+           <translation code="71181003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="vaccine" />
+          </code>
+         </manufacturedMaterial>
+        </manufacturedProduct>
+       </consumable>
+      </substanceAdministration>
+     </entry>
+    </section>
+   </component>
+   <component>
+    <section nullFlavor="NI">
+     <templateId root="2.16.840.1.113883.10.20.22.2.1.1" />
+     <templateId root="2.16.840.1.113883.10.20.22.2.1.1" extension="2014-06-09" />
+     <code code="10160-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History of Medication Use" />
+     <title>Medications</title>
+     <text>
+      <table width="95%" border="1">
+       <tbody>
+        <tr>
+         <td>No Information</td>
+        </tr>
+       </tbody>
+      </table>
+     </text>
+    </section>
+   </component>
+   <component>
+    <section nullFlavor="NI">
+     <templateId root="2.16.840.1.113883.10.20.22.2.18" />
+     <templateId root="2.16.840.1.113883.10.20.22.2.18" extension="2015-08-01" />
+     <code code="48768-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Payers" />
+     <title>Payers</title>
+     <text>
+      <table width="95%" border="1">
+       <tbody>
+        <tr>
+         <td>No Information</td>
+        </tr>
+       </tbody>
+      </table>
+     </text>
+    </section>
+   </component>
+   <component>
+    <section>
+     <templateId root="2.16.840.1.113883.10.20.22.2.5.1" />
+     <templateId root="2.16.840.1.113883.10.20.22.2.5.1" extension="2015-08-01" />
+     <code code="11450-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Problem List" />
+     <title>Problem List</title>
+     <text>
+      <table width="95%" border="1">
+       <thead>
+        <tr>
+         <th>Description</th>
+         <th>Onset Date</th>
+         <th>Abatement Date</th>
+         <th>Status</th>
+         <th>Author</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr ID="problemee3ccdbd-b46f-4c41-b46d-bcf2cfd4e718">
+         <td>Left lower quadrant pain</td>
+         <td>not applicable</td>
+         <td>not applicable</td>
+         <td>active</td>
+         <td>Mrs Mary Downey<br />The Healing Hut<br />5/29/2026</td>
+        </tr>
+        <tr ID="problem33e6d95b-da92-4ecd-a7b3-64e641b667ea">
+         <td>Right lower quadrant pain</td>
+         <td>not applicable</td>
+         <td>not applicable</td>
+         <td>active</td>
+         <td>Mrs Mary Downey<br />The Healing Hut<br />5/29/2026</td>
+        </tr>
+        <tr ID="problem1a3feeea-93a3-477c-b918-877754577a69">
+         <td>Miscarriage</td>
+         <td>not applicable</td>
+         <td>not applicable</td>
+         <td>active</td>
+         <td>Mrs Mary Downey<br />The Healing Hut<br />5/29/2026</td>
+        </tr>
+       </tbody>
+      </table>
+     </text>
+     <entry typeCode="DRIV">
+      <act classCode="ACT" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.3" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.3" extension="2015-08-01" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3" extension="533279900" />
+       <code code="CONC" codeSystem="2.16.840.1.113883.5.6" displayName="Concern" />
+       <statusCode code="active" />
+       <effectiveTime xsi:type="IVL_TS">
+        <low value="20260529195025+0000" />
+        <high nullFlavor="NI" />
+       </effectiveTime>
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20260529195025+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1821492547" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="6a2cbc52-de27-41f0-bf84-c92f5ee53cd8" />
+         <assignedPerson>
+          <name>
+           <prefix>Mrs</prefix>
+           <given>Mary</given>
+           <family>Downey</family>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+       <entryRelationship typeCode="SUBJ">
+        <observation classCode="OBS" moodCode="EVN" negationInd="false">
+         <templateId root="2.16.840.1.113883.10.20.22.4.4" />
+         <templateId root="2.16.840.1.113883.10.20.22.4.4" extension="2015-08-01" />
+         <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.533279900.2.1" extension="ee3ccdbd-b46f-4c41-b46d-bcf2cfd4e718" />
+         <code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Diagnosis">
+          <translation code="29308-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Diagnosis" />
+         </code>
+         <text>
+          <reference value="#problemee3ccdbd-b46f-4c41-b46d-bcf2cfd4e718" />
+         </text>
+         <statusCode code="completed" />
+         <effectiveTime xsi:type="IVL_TS">
+          <low nullFlavor="NA" />
+          <high nullFlavor="NA" />
+         </effectiveTime>
+         <value xsi:type="CD" code="301716002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Left lower quadrant pain">
+          <translation xsi:type="CD" code="R10.32" codeSystem="2.16.840.1.113883.6.90" codeSystemName="ICD10CM" displayName="Left lower quadrant pain" />
+          <translation xsi:type="CD" code="789.04" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" displayName="Abdominal pain, left lower quadrant" />
+         </value>
+         <performer typeCode="PRF">
+          <assignedEntity classCode="ASSIGNED">
+           <id root="2.16.840.1.113883.4.6" extension="1821492547" />
+           <id root="2.16.840.1.113883.3.3388.3.9" extension="6a2cbc52-de27-41f0-bf84-c92f5ee53cd8" />
+           <addr use="WP">
+            <streetAddressLine>The Healing Hut</streetAddressLine>
+            <streetAddressLine>8000 W Ustick Rd</streetAddressLine>
+            <city>Boise</city>
+            <state>ID</state>
+            <postalCode>83704</postalCode>
+            <country>US</country>
+           </addr>
+           <telecom use="WP" value="tel:+1(208)939-6748" />
+           <assignedPerson>
+            <name>
+             <prefix>Mrs</prefix>
+             <given>Mary</given>
+             <family>Downey</family>
+            </name>
+           </assignedPerson>
+          </assignedEntity>
+         </performer>
+         <author>
+          <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+          <time value="20260529195025+0000" />
+          <assignedAuthor>
+           <id root="2.16.840.1.113883.4.6" extension="1821492547" />
+           <id root="2.16.840.1.113883.3.3388.3.9" extension="6a2cbc52-de27-41f0-bf84-c92f5ee53cd8" />
+           <assignedPerson>
+            <name>
+             <prefix>Mrs</prefix>
+             <given>Mary</given>
+             <family>Downey</family>
+            </name>
+           </assignedPerson>
+           <representedOrganization>
+            <name>The Healing Hut</name>
+           </representedOrganization>
+          </assignedAuthor>
+         </author>
+         <entryRelationship typeCode="REFR">
+          <observation classCode="OBS" moodCode="EVN">
+           <templateId root="2.16.840.1.113883.10.20.22.4.6" />
+           <templateId root="2.16.840.1.113883.10.20.22.4.6" extension="2019-06-20" />
+           <code code="33999-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Status" />
+           <text>
+            <reference value="#problemee3ccdbd-b46f-4c41-b46d-bcf2cfd4e718" />
+           </text>
+           <statusCode code="completed" />
+           <effectiveTime xsi:type="IVL_TS">
+            <low nullFlavor="NI" />
+            <high nullFlavor="NI" />
+           </effectiveTime>
+           <value xsi:type="CD" code="55561003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Active" />
+          </observation>
+         </entryRelationship>
+        </observation>
+       </entryRelationship>
+      </act>
+     </entry>
+     <entry typeCode="DRIV">
+      <act classCode="ACT" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.3" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.3" extension="2015-08-01" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3" extension="533279900" />
+       <code code="CONC" codeSystem="2.16.840.1.113883.5.6" displayName="Concern" />
+       <statusCode code="active" />
+       <effectiveTime xsi:type="IVL_TS">
+        <low value="20260529195016+0000" />
+        <high nullFlavor="NI" />
+       </effectiveTime>
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20260529195016+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1821492547" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="6a2cbc52-de27-41f0-bf84-c92f5ee53cd8" />
+         <assignedPerson>
+          <name>
+           <prefix>Mrs</prefix>
+           <given>Mary</given>
+           <family>Downey</family>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+       <entryRelationship typeCode="SUBJ">
+        <observation classCode="OBS" moodCode="EVN" negationInd="false">
+         <templateId root="2.16.840.1.113883.10.20.22.4.4" />
+         <templateId root="2.16.840.1.113883.10.20.22.4.4" extension="2015-08-01" />
+         <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.533279900.2.1" extension="33e6d95b-da92-4ecd-a7b3-64e641b667ea" />
+         <code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Diagnosis">
+          <translation code="29308-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Diagnosis" />
+         </code>
+         <text>
+          <reference value="#problem33e6d95b-da92-4ecd-a7b3-64e641b667ea" />
+         </text>
+         <statusCode code="completed" />
+         <effectiveTime xsi:type="IVL_TS">
+          <low nullFlavor="NA" />
+          <high nullFlavor="NA" />
+         </effectiveTime>
+         <value xsi:type="CD" code="301754002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Right lower quadrant pain">
+          <translation xsi:type="CD" code="R10.31" codeSystem="2.16.840.1.113883.6.90" codeSystemName="ICD10CM" displayName="Right lower quadrant pain" />
+          <translation xsi:type="CD" code="789.03" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" displayName="Abdominal pain, right lower quadrant" />
+         </value>
+         <performer typeCode="PRF">
+          <assignedEntity classCode="ASSIGNED">
+           <id root="2.16.840.1.113883.4.6" extension="1821492547" />
+           <id root="2.16.840.1.113883.3.3388.3.9" extension="6a2cbc52-de27-41f0-bf84-c92f5ee53cd8" />
+           <addr use="WP">
+            <streetAddressLine>The Healing Hut</streetAddressLine>
+            <streetAddressLine>8000 W Ustick Rd</streetAddressLine>
+            <city>Boise</city>
+            <state>ID</state>
+            <postalCode>83704</postalCode>
+            <country>US</country>
+           </addr>
+           <telecom use="WP" value="tel:+1(208)939-6748" />
+           <assignedPerson>
+            <name>
+             <prefix>Mrs</prefix>
+             <given>Mary</given>
+             <family>Downey</family>
+            </name>
+           </assignedPerson>
+          </assignedEntity>
+         </performer>
+         <author>
+          <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+          <time value="20260529195016+0000" />
+          <assignedAuthor>
+           <id root="2.16.840.1.113883.4.6" extension="1821492547" />
+           <id root="2.16.840.1.113883.3.3388.3.9" extension="6a2cbc52-de27-41f0-bf84-c92f5ee53cd8" />
+           <assignedPerson>
+            <name>
+             <prefix>Mrs</prefix>
+             <given>Mary</given>
+             <family>Downey</family>
+            </name>
+           </assignedPerson>
+           <representedOrganization>
+            <name>The Healing Hut</name>
+           </representedOrganization>
+          </assignedAuthor>
+         </author>
+         <entryRelationship typeCode="REFR">
+          <observation classCode="OBS" moodCode="EVN">
+           <templateId root="2.16.840.1.113883.10.20.22.4.6" />
+           <templateId root="2.16.840.1.113883.10.20.22.4.6" extension="2019-06-20" />
+           <code code="33999-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Status" />
+           <text>
+            <reference value="#problem33e6d95b-da92-4ecd-a7b3-64e641b667ea" />
+           </text>
+           <statusCode code="completed" />
+           <effectiveTime xsi:type="IVL_TS">
+            <low nullFlavor="NI" />
+            <high nullFlavor="NI" />
+           </effectiveTime>
+           <value xsi:type="CD" code="55561003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Active" />
+          </observation>
+         </entryRelationship>
+        </observation>
+       </entryRelationship>
+      </act>
+     </entry>
+     <entry typeCode="DRIV">
+      <act classCode="ACT" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.3" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.3" extension="2015-08-01" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3" extension="533279900" />
+       <code code="CONC" codeSystem="2.16.840.1.113883.5.6" displayName="Concern" />
+       <statusCode code="active" />
+       <effectiveTime xsi:type="IVL_TS">
+        <low value="20260529195059+0000" />
+        <high nullFlavor="NI" />
+       </effectiveTime>
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20260529195059+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1821492547" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="6a2cbc52-de27-41f0-bf84-c92f5ee53cd8" />
+         <assignedPerson>
+          <name>
+           <prefix>Mrs</prefix>
+           <given>Mary</given>
+           <family>Downey</family>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+       <entryRelationship typeCode="SUBJ">
+        <observation classCode="OBS" moodCode="EVN" negationInd="false">
+         <templateId root="2.16.840.1.113883.10.20.22.4.4" />
+         <templateId root="2.16.840.1.113883.10.20.22.4.4" extension="2015-08-01" />
+         <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.533279900.2.1" extension="1a3feeea-93a3-477c-b918-877754577a69" />
+         <code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Diagnosis">
+          <translation code="29308-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Diagnosis" />
+         </code>
+         <text>
+          <reference value="#problem1a3feeea-93a3-477c-b918-877754577a69" />
+         </text>
+         <statusCode code="completed" />
+         <effectiveTime xsi:type="IVL_TS">
+          <low nullFlavor="NA" />
+          <high nullFlavor="NA" />
+         </effectiveTime>
+         <value xsi:type="CD" code="17369002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Miscarriage">
+          <translation xsi:type="CD" code="O03.89" codeSystem="2.16.840.1.113883.6.90" codeSystemName="ICD10CM" displayName="Complete or unspecified spontaneous abortion with other complications" />
+          <translation xsi:type="CD" code="634.70" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" displayName="Spontaneous abortion, unspecified, with other specified complications" />
+          <translation xsi:type="CD" code="634.72" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" displayName="Spontaneous abortion, complete, with other specified complications" />
+         </value>
+         <performer typeCode="PRF">
+          <assignedEntity classCode="ASSIGNED">
+           <id root="2.16.840.1.113883.4.6" extension="1821492547" />
+           <id root="2.16.840.1.113883.3.3388.3.9" extension="6a2cbc52-de27-41f0-bf84-c92f5ee53cd8" />
+           <addr use="WP">
+            <streetAddressLine>The Healing Hut</streetAddressLine>
+            <streetAddressLine>8000 W Ustick Rd</streetAddressLine>
+            <city>Boise</city>
+            <state>ID</state>
+            <postalCode>83704</postalCode>
+            <country>US</country>
+           </addr>
+           <telecom use="WP" value="tel:+1(208)939-6748" />
+           <assignedPerson>
+            <name>
+             <prefix>Mrs</prefix>
+             <given>Mary</given>
+             <family>Downey</family>
+            </name>
+           </assignedPerson>
+          </assignedEntity>
+         </performer>
+         <author>
+          <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+          <time value="20260529195059+0000" />
+          <assignedAuthor>
+           <id root="2.16.840.1.113883.4.6" extension="1821492547" />
+           <id root="2.16.840.1.113883.3.3388.3.9" extension="6a2cbc52-de27-41f0-bf84-c92f5ee53cd8" />
+           <assignedPerson>
+            <name>
+             <prefix>Mrs</prefix>
+             <given>Mary</given>
+             <family>Downey</family>
+            </name>
+           </assignedPerson>
+           <representedOrganization>
+            <name>The Healing Hut</name>
+           </representedOrganization>
+          </assignedAuthor>
+         </author>
+         <entryRelationship typeCode="REFR">
+          <observation classCode="OBS" moodCode="EVN">
+           <templateId root="2.16.840.1.113883.10.20.22.4.6" />
+           <templateId root="2.16.840.1.113883.10.20.22.4.6" extension="2019-06-20" />
+           <code code="33999-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Status" />
+           <text>
+            <reference value="#problem1a3feeea-93a3-477c-b918-877754577a69" />
+           </text>
+           <statusCode code="completed" />
+           <effectiveTime xsi:type="IVL_TS">
+            <low nullFlavor="NI" />
+            <high nullFlavor="NI" />
+           </effectiveTime>
+           <value xsi:type="CD" code="55561003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Active" />
+          </observation>
+         </entryRelationship>
+        </observation>
+       </entryRelationship>
+      </act>
+     </entry>
+    </section>
+   </component>
+   <component>
+    <section>
+     <templateId root="2.16.840.1.113883.10.20.22.2.23" />
+     <templateId root="2.16.840.1.113883.10.20.22.2.23" extension="2014-06-09" />
+     <code code="46264-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Medical Equipment" />
+     <title>Medical Equipment</title>
+     <text>
+      <table width="95%" border="1">
+       <tbody>
+        <tr>
+         <td>No Information</td>
+        </tr>
+       </tbody>
+      </table>
+     </text>
+     <entry>
+      <procedure classCode="PROC" moodCode="EVN" negationInd="true">
+       <templateId root="2.16.840.1.113883.10.20.22.4.14" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.14" extension="2022-06-01" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.533279900.1.13" extension="ImplantableDevicesNoKnown" />
+       <code code="71388002" codeSystem="2.16.840.1.113883.6.96" displayName="Procedure" />
+       <statusCode code="completed" />
+       <effectiveTime nullFlavor="NA" />
+       <participant typeCode="DEV">
+        <participantRole classCode="MANU">
+         <templateId root="2.16.840.1.113883.10.20.22.4.37" />
+         <id nullFlavor="NA" root="2.16.840.1.113883.3.3719" assigningAuthorityName="FDA" />
+         <playingDevice>
+          <code code="40388003" codeSystem="2.16.840.1.113883.6.96" displayName="Implant" />
+         </playingDevice>
+         <scopingEntity>
+          <id root="2.16.840.1.113883.3.3719" />
+         </scopingEntity>
+        </participantRole>
+       </participant>
+      </procedure>
+     </entry>
+    </section>
+   </component>
+   <component>
+    <section nullFlavor="NI">
+     <templateId root="2.16.840.1.113883.10.20.22.2.7.1" />
+     <templateId root="2.16.840.1.113883.10.20.22.2.7.1" extension="2014-06-09" />
+     <code code="47519-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Procedures" />
+     <title>Procedures</title>
+     <text>
+      <table width="95%" border="1">
+       <thead>
+        <tr>
+         <th>Procedure</th>
+         <th>Date</th>
+         <th>Author</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>No Procedures Indicated</td>
+         <td>Not Applicable</td>
+         <td>&#160;</td>
+        </tr>
+       </tbody>
+      </table>
+     </text>
+    </section>
+   </component>
+   <component>
+    <section>
+     <templateId root="1.3.6.1.4.1.19376.1.5.3.1.3.1" />
+     <templateId root="1.3.6.1.4.1.19376.1.5.3.1.3.1" extension="2014-06-09" />
+     <code code="42349-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Reason for Referral" />
+     <title>Reason for Referral</title>
+     <text>
+      <paragraph>No Reason for Referral Indicated</paragraph>
+     </text>
+    </section>
+   </component>
+   <component>
+    <section nullFlavor="NI">
+     <templateId root="2.16.840.1.113883.10.20.22.2.3.1" />
+     <templateId root="2.16.840.1.113883.10.20.22.2.3.1" extension="2015-08-01" />
+     <code code="30954-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Results" />
+     <title>Results</title>
+     <text>No Lab Tests. No Lab results.</text>
+    </section>
+   </component>
+   <component>
+    <section>
+     <templateId root="2.16.840.1.113883.10.20.22.2.17" />
+     <templateId root="2.16.840.1.113883.10.20.22.2.17" extension="2015-08-01" />
+     <code code="29762-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Social History" />
+     <title>Social History</title>
+     <text>
+      <table width="95%" border="1">
+       <thead>
+        <tr>
+         <th>Social History</th>
+         <th>Effective Date</th>
+         <th>Author</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr ID="Sex">
+         <td>Sex: Female</td>
+         <td>2000-01-11</td>
+         <td>Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />4/6/2026</td>
+        </tr>
+        <tr ID="GenderIdentity">
+         <td>Gender Identity: Female</td>
+         <td>2026-04-06</td>
+         <td>Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />4/6/2026</td>
+        </tr>
+        <tr ID="SexualOrientation">
+         <td>Sexual Orientation: Straight or heterosexual</td>
+         <td>2026-04-06</td>
+         <td>Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />4/6/2026</td>
+        </tr>
+       </tbody>
+      </table>
+     </text>
+     <entry>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.507" extension="2023-06-28" />
+       <code code="46098-0" codeSystem="2.16.840.1.113883.6.1" displayName="Sex" />
+       <text>
+        <reference value="#Sex" />
+       </text>
+       <statusCode code="completed" />
+       <effectiveTime value="20000111" />
+       <value xsi:type="CD" code="248152002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Female" />
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20260406152635+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>ND, MS</suffix>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+      </observation>
+     </entry>
+     <entry>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.34.3.45" extension="2023-05-01" />
+       <id root="5501b49a-32ea-4c78-9c31-3dbe782871b7" />
+       <code code="76691-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Gender identity" />
+       <text>
+        <reference value="#GenderIdentity" />
+       </text>
+       <statusCode code="completed" />
+       <effectiveTime xsi:type="IVL_TS">
+        <low value="20260406152635+0000" />
+       </effectiveTime>
+       <value xsi:type="CD" code="446141000124107" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Female" />
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20260406152635+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>ND, MS</suffix>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+      </observation>
+     </entry>
+     <entry>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.501" extension="2023-05-01" />
+       <id root="7919e027-592e-4f22-9344-12460ec8c368" />
+       <code code="76690-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Sexual Orientation" />
+       <text>
+        <reference value="#SexualOrientation" />
+       </text>
+       <statusCode code="completed" />
+       <effectiveTime xsi:type="IVL_TS">
+        <low value="20260406152635+0000" />
+       </effectiveTime>
+       <value xsi:type="CD" code="20430005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Straight or heterosexual" />
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20260406152635+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>ND, MS</suffix>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+      </observation>
+     </entry>
+    </section>
+   </component>
+   <component>
+    <section nullFlavor="NI">
+     <templateId root="2.16.840.1.113883.10.20.22.2.4.1" />
+     <templateId root="2.16.840.1.113883.10.20.22.2.4.1" extension="2015-08-01" />
+     <code code="8716-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Vital Signs" />
+     <title>Vital Signs</title>
+     <text>Not indicated</text>
+    </section>
+   </component>
+   <component>
+    <section nullFlavor="NI">
+     <templateId root="2.16.840.1.113883.10.20.22.2.60" />
+     <code code="61146-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Goals" />
+     <title>Goals</title>
+     <text>
+      <table width="95%" border="1">
+       <tbody>
+        <tr>
+         <td>No Goals are recorded</td>
+        </tr>
+       </tbody>
+      </table>
+     </text>
+    </section>
+   </component>
+   <component>
+    <section nullFlavor="NI">
+     <templateId root="2.16.840.1.113883.10.20.22.2.58" />
+     <templateId root="2.16.840.1.113883.10.20.22.2.58" extension="2015-08-01" />
+     <code code="75310-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Health Concerns Document" />
+     <title>Health Concerns</title>
+     <text>
+      <table width="95%" border="1">
+       <tbody>
+        <tr>
+         <td>No Information</td>
+        </tr>
+       </tbody>
+      </table>
+     </text>
+    </section>
+   </component>
+  </structuredBody>
+ </component>
+</ClinicalDocument>

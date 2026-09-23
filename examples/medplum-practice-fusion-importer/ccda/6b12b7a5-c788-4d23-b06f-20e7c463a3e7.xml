@@ -1,0 +1,4471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClinicalDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:voc="urn:hl7-org:v3/voc" xmlns:sdtc="urn:hl7-org:sdtc" xmlns="urn:hl7-org:v3">
+ <realmCode code="US" />
+ <typeId root="2.16.840.1.113883.1.3" extension="POCD_HD000040" />
+ <templateId root="2.16.840.1.113883.10.20.22.1.1" />
+ <templateId root="2.16.840.1.113883.10.20.22.1.1" extension="2015-08-01" />
+ <templateId root="2.16.840.1.113883.10.20.22.1.1" extension="2023-05-01" />
+ <templateId root="2.16.840.1.113883.10.20.22.1.2" />
+ <templateId root="2.16.840.1.113883.10.20.22.1.2" extension="2015-08-01" />
+ <id root="2.16.840.1.113883.3.3388.1.1.1.529462" extension="2e5d4e76-e03b-4f5d-8315-ebb35aee2edf" />
+ <code code="34133-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Summarization of episode note" />
+ <title>Clinical Summary</title>
+ <effectiveTime value="20260921192037+0000" />
+ <confidentialityCode code="R" codeSystem="2.16.840.1.113883.5.25" codeSystemName="Confidentiality" displayName="Restricted" />
+ <languageCode code="en-US" />
+ <recordTarget>
+  <patientRole>
+   <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3" extension="965271a3-49ce-4ff8-b5d0-8127bca6dd7d" />
+   <id root="2.16.840.1.113883.3.3388.3.3" extension="965271a3-49ce-4ff8-b5d0-8127bca6dd7d" />
+   <id root="2.16.840.1.113883.3.3388.3.4" extension="PCYJ-74J-WTQC" />
+   <addr use="HP">
+    <streetAddressLine>PO BOX 802</streetAddressLine>
+    <city>NEW MEADOWS</city>
+    <state>ID</state>
+    <postalCode>83654</postalCode>
+    <country>US</country>
+   </addr>
+   <addr use="HP">
+    <streetAddressLine>PO BOX 802</streetAddressLine>
+    <city>New Meadows</city>
+    <state>ID</state>
+    <postalCode>83654</postalCode>
+    <country>US</country>
+   </addr>
+   <telecom use="MC" value="tel:+1(208)908-2143" />
+   <patient>
+    <name use="L">
+     <given>Wendi</given>
+     <family>Crossley Blaylock</family>
+    </name>
+    <administrativeGenderCode code="F" codeSystem="2.16.840.1.113883.5.1" displayName="Female" />
+    <birthTime value="19700806" />
+    <sdtc:deceasedInd value="false" />
+    <raceCode nullFlavor="NASK" />
+    <ethnicGroupCode nullFlavor="NASK" />
+    <languageCommunication>
+     <languageCode nullFlavor="NI" />
+    </languageCommunication>
+   </patient>
+   <providerOrganization>
+    <id root="2.16.840.1.113883.3.3388.1.1.1.529462" />
+    <name>The Healing Hut</name>
+    <telecom use="WP" value="tel:+1(208)939-6748" />
+    <addr use="WP">
+     <streetAddressLine>8000 W Ustick Rd</streetAddressLine>
+     <city>Boise</city>
+     <state>ID</state>
+     <postalCode>83704</postalCode>
+     <country>US</country>
+    </addr>
+   </providerOrganization>
+  </patientRole>
+ </recordTarget>
+ <author>
+  <time value="20260921192037+0000" />
+  <assignedAuthor>
+   <id root="2.16.840.1.113883.3.3388" />
+   <addr use="WP">
+    <streetAddressLine>305 Church at North Hills St.</streetAddressLine>
+    <city>Raleigh</city>
+    <state>NC</state>
+    <postalCode>27609</postalCode>
+    <country>US</country>
+   </addr>
+   <telecom use="WP" value="tel:+1(415)346-7700" />
+   <assignedAuthoringDevice>
+    <manufacturerModelName>Practice Fusion, Inc.</manufacturerModelName>
+    <softwareName>Practice Fusion EHR</softwareName>
+   </assignedAuthoringDevice>
+   <representedOrganization>
+    <id root="2.16.840.1.113883.3.3388.3.1" extension="58c61deb-4894-4b8d-ab43-7b2885440460" />
+    <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+    <id root="2.16.840.1.113883.3.3388.1.1.1.529462" />
+    <name>The Healing Hut</name>
+    <addr use="WP">
+     <streetAddressLine>8000 W Ustick Rd</streetAddressLine>
+     <city>Boise</city>
+     <state>ID</state>
+     <postalCode>83704</postalCode>
+     <country>US</country>
+    </addr>
+   </representedOrganization>
+  </assignedAuthor>
+ </author>
+ <dataEnterer>
+  <assignedEntity>
+   <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+   <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+   <id root="2.16.840.1.113883.3.3388.3.2" extension="ed967aff-423c-44c8-93c7-8490fb5c5e7a" />
+   <id root="2.16.840.1.113883.3.3388.3.6" extension="UCAX-W7KQJ" />
+   <addr use="WP">
+    <streetAddressLine>8000 W Ustick Rd</streetAddressLine>
+    <city>Boise</city>
+    <state>ID</state>
+    <postalCode>83704</postalCode>
+    <country>US</country>
+   </addr>
+   <telecom use="WP" value="tel:+1(208)939-6748" />
+   <assignedPerson>
+    <name>
+     <prefix>Dr</prefix>
+     <given>Jade</given>
+     <given>N</given>
+     <family>Dandy</family>
+     <suffix>ND, MS</suffix>
+    </name>
+   </assignedPerson>
+  </assignedEntity>
+ </dataEnterer>
+ <custodian>
+  <assignedCustodian>
+   <representedCustodianOrganization>
+    <id root="2.16.840.1.113883.3.3388.1.1.1.529462" extension="POCD_HD000040" />
+    <name>The Healing Hut</name>
+    <telecom use="WP" value="tel:+1(208)939-6748" />
+    <addr use="WP">
+     <streetAddressLine>8000 W Ustick Rd</streetAddressLine>
+     <city>Boise</city>
+     <state>ID</state>
+     <postalCode>83704</postalCode>
+     <country>US</country>
+    </addr>
+   </representedCustodianOrganization>
+  </assignedCustodian>
+ </custodian>
+ <authenticator>
+  <time value="20260921192037+0000" />
+  <signatureCode code="S" />
+  <assignedEntity>
+   <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+   <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+   <id root="2.16.840.1.113883.3.3388.3.2" extension="ed967aff-423c-44c8-93c7-8490fb5c5e7a" />
+   <addr use="WP">
+    <streetAddressLine>8000 W Ustick Rd</streetAddressLine>
+    <city>Boise</city>
+    <state>ID</state>
+    <postalCode>83704</postalCode>
+    <country>US</country>
+   </addr>
+   <telecom use="WP" value="tel:+1(208)939-6748" />
+   <assignedPerson>
+    <name>
+     <prefix>Dr</prefix>
+     <given>Jade</given>
+     <given>N</given>
+     <family>Dandy</family>
+     <suffix>ND, MS</suffix>
+    </name>
+   </assignedPerson>
+  </assignedEntity>
+ </authenticator>
+ <documentationOf>
+  <serviceEvent classCode="PCPR" moodCode="EVN">
+   <effectiveTime xsi:type="IVL_TS">
+    <low value="20260921192037+0000" />
+    <high nullFlavor="NI" />
+   </effectiveTime>
+  </serviceEvent>
+ </documentationOf>
+ <componentOf>
+  <encompassingEncounter>
+   <id root="2.16.840.1.113883.3.3388.1.1.1.529462.4.1.4" extension="1587297830" />
+   <effectiveTime xsi:type="IVL_TS">
+    <low value="20231220070000+0000" />
+    <high value="20260519055900+0000" />
+   </effectiveTime>
+  </encompassingEncounter>
+ </componentOf>
+ <component>
+  <structuredBody>
+   <component>
+    <section nullFlavor="NI">
+     <templateId root="2.16.840.1.113883.10.20.22.2.10" />
+     <templateId root="2.16.840.1.113883.10.20.22.2.10" extension="2014-06-09" />
+     <code code="18776-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Plan of Treatment" />
+     <title>Plan of Treatment</title>
+     <text>
+      <table width="95%" border="1">
+       <tbody>
+        <tr>
+         <td>No Plan of Treatment indicated</td>
+        </tr>
+       </tbody>
+      </table>
+     </text>
+    </section>
+   </component>
+   <component>
+    <section>
+     <templateId root="2.16.840.1.113883.10.20.22.2.6.1" />
+     <templateId root="2.16.840.1.113883.10.20.22.2.6.1" extension="2015-08-01" />
+     <code code="48765-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Allergies, Adverse Reactions, Alerts" />
+     <title>Allergies and Intolerances</title>
+     <text>
+      <table width="95%" border="1">
+       <thead>
+        <tr>
+         <th>&#160;</th>
+         <th>Author</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr ID="AllergiesNoKnown">
+         <td>No Known Drug Allergies</td>
+         <td>Mrs Rebecca McDonald<br />The Healing Hut<br />12/20/2023</td>
+        </tr>
+       </tbody>
+      </table>
+     </text>
+     <entry typeCode="DRIV">
+      <act classCode="ACT" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.30" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.30" extension="2015-08-01" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830" extension="AllergiesNoKnown" />
+       <code xsi:type="CE" code="CONC" codeSystem="2.16.840.1.113883.5.6" codeSystemName="HL7ActClass" />
+       <text>
+        <reference value="#AllergiesNoKnown" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime xsi:type="IVL_TS">
+        <low nullFlavor="NI" />
+       </effectiveTime>
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20231220201256+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1982315636" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="43d0acdb-5a39-483e-bf4d-8af59c0071b1" />
+         <assignedPerson>
+          <name>
+           <prefix>Mrs</prefix>
+           <given>Rebecca</given>
+           <family>McDonald</family>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+       <entryRelationship typeCode="SUBJ">
+        <observation classCode="OBS" moodCode="EVN" negationInd="true">
+         <templateId root="2.16.840.1.113883.10.20.22.4.7" />
+         <templateId root="2.16.840.1.113883.10.20.22.4.7" extension="2014-06-09" />
+         <id root="2.16.840.1.113883.3.3388.1.1.1.40324.3.529462.3.1587297830" extension="AllergiesNoKnown" />
+         <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4" />
+         <text>
+          <reference value="#AllergiesNoKnown" />
+         </text>
+         <statusCode code="completed" />
+         <effectiveTime xsi:type="IVL_TS">
+          <low nullFlavor="NA" />
+         </effectiveTime>
+         <value xsi:type="CD" code="416098002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Drug allergy (disorder)" />
+         <participant typeCode="CSM">
+          <participantRole classCode="MANU">
+           <playingEntity classCode="MMAT">
+            <code nullFlavor="NA" />
+           </playingEntity>
+          </participantRole>
+         </participant>
+        </observation>
+       </entryRelationship>
+      </act>
+     </entry>
+    </section>
+   </component>
+   <component>
+    <section>
+     <templateId root="2.16.840.1.113883.10.20.22.2.9" />
+     <templateId root="2.16.840.1.113883.10.20.22.2.9" extension="2014-06-09" />
+     <code code="51847-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Assessment and Plan" />
+     <title>Assessment and Plan</title>
+     <text>
+      <table width="95%" border="1">
+       <thead>
+        <tr>
+         <th>Assessment and Plan</th>
+         <th>Author</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr ID="APLAB39922814-3a88-4a96-ad82-04fd4a006f1e">
+         <td>Tests Pending: IRON AND TOTAL IRON BINDING CAPACITY Expected results on: 2023-12-20</td>
+         <td>Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />12/20/2023</td>
+        </tr>
+        <tr ID="APLAB322d55b3-3b61-4cc8-add8-0a9a5f59e974">
+         <td>Tests Pending: FERRITIN Expected results on: 2023-12-20</td>
+         <td>Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />12/20/2023</td>
+        </tr>
+        <tr ID="APLAB041ae245-68c3-4048-8ddb-6c17bcd76b10">
+         <td>Tests Pending: TSH Expected results on: 2023-12-20</td>
+         <td>Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />12/20/2023</td>
+        </tr>
+        <tr ID="APLABd514443b-380e-49ae-826d-ce27a8209c9b">
+         <td>Tests Pending: T3, FREE Expected results on: 2023-12-20</td>
+         <td>Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />12/20/2023</td>
+        </tr>
+        <tr ID="APLABc4fb799a-9c67-46d5-9405-71c273cfe79f">
+         <td>Tests Pending: T4, FREE Expected results on: 2023-12-20</td>
+         <td>Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />12/20/2023</td>
+        </tr>
+        <tr ID="APLAB610f77f3-231b-49b8-ad6c-78813e4bd317">
+         <td>Tests Pending: THYROGLOBULIN ANTIBODIES Expected results on: 2023-12-20</td>
+         <td>Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />12/20/2023</td>
+        </tr>
+        <tr ID="APLABf9f51db3-fb50-40f1-95e4-feb7d390c57c">
+         <td>Tests Pending: THYROID PEROXIDASE ANTIBODIES Expected results on: 2023-12-20</td>
+         <td>Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />12/20/2023</td>
+        </tr>
+        <tr ID="APLAB4dd59181-b31c-4228-a908-eb0181f8704e">
+         <td>Tests Pending: T3 REVERSE, LC/MS/MS Expected results on: 2023-12-20</td>
+         <td>Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />12/20/2023</td>
+        </tr>
+        <tr ID="APLABece645a5-5907-4489-90f0-f701baf3cd8b">
+         <td>Tests Pending: COPPER Expected results on: 2023-12-20</td>
+         <td>Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />12/20/2023</td>
+        </tr>
+        <tr ID="APLABed07919e-0f60-4841-9666-c4c769e1ddc2">
+         <td>Tests Pending: ZINC Expected results on: 2023-12-20</td>
+         <td>Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />12/20/2023</td>
+        </tr>
+        <tr ID="APLABb668fc6b-360b-41fe-974f-9e347107bb70">
+         <td>Tests Pending: VITAMIN B12/FOLATE, SERUM PANEL Expected results on: 2023-12-20</td>
+         <td>Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />12/20/2023</td>
+        </tr>
+        <tr ID="APLAB64b24031-e5c1-41d9-8e1b-0ecbd5733371">
+         <td>Tests Pending: VITAMIN D,25-OH,TOTAL,IA Expected results on: 2023-12-20</td>
+         <td>Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />12/20/2023</td>
+        </tr>
+       </tbody>
+      </table>
+     </text>
+     <entry>
+      <act classCode="ACT" moodCode="ARQ">
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" extension="2014-06-09" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.3.4.5" extension="39922814-3a88-4a96-ad82-04fd4a006f1e" />
+       <code xsi:type="CE" code="7573" codeSystemName="L" displayName="IRON AND TOTAL IRON BINDING CAPACITY" />
+       <text>
+        <reference value="#APLAB39922814-3a88-4a96-ad82-04fd4a006f1e" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime value="20231220193034+0000" />
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20231220193028+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>ND, MS</suffix>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+      </act>
+     </entry>
+     <entry>
+      <act classCode="ACT" moodCode="ARQ">
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" extension="2014-06-09" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.3.4.5" extension="322d55b3-3b61-4cc8-add8-0a9a5f59e974" />
+       <code xsi:type="CE" code="457" codeSystemName="L" displayName="FERRITIN" />
+       <text>
+        <reference value="#APLAB322d55b3-3b61-4cc8-add8-0a9a5f59e974" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime value="20231220193034+0000" />
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20231220193028+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>ND, MS</suffix>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+      </act>
+     </entry>
+     <entry>
+      <act classCode="ACT" moodCode="ARQ">
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" extension="2014-06-09" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.3.4.5" extension="041ae245-68c3-4048-8ddb-6c17bcd76b10" />
+       <code xsi:type="CE" code="899" codeSystemName="L" displayName="TSH" />
+       <text>
+        <reference value="#APLAB041ae245-68c3-4048-8ddb-6c17bcd76b10" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime value="20231220193034+0000" />
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20231220193028+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>ND, MS</suffix>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+      </act>
+     </entry>
+     <entry>
+      <act classCode="ACT" moodCode="ARQ">
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" extension="2014-06-09" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.3.4.5" extension="d514443b-380e-49ae-826d-ce27a8209c9b" />
+       <code xsi:type="CE" code="34429" codeSystemName="L" displayName="T3, FREE" />
+       <text>
+        <reference value="#APLABd514443b-380e-49ae-826d-ce27a8209c9b" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime value="20231220193034+0000" />
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20231220193028+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>ND, MS</suffix>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+      </act>
+     </entry>
+     <entry>
+      <act classCode="ACT" moodCode="ARQ">
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" extension="2014-06-09" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.3.4.5" extension="c4fb799a-9c67-46d5-9405-71c273cfe79f" />
+       <code xsi:type="CE" code="866" codeSystemName="L" displayName="T4, FREE" />
+       <text>
+        <reference value="#APLABc4fb799a-9c67-46d5-9405-71c273cfe79f" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime value="20231220193034+0000" />
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20231220193028+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>ND, MS</suffix>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+      </act>
+     </entry>
+     <entry>
+      <act classCode="ACT" moodCode="ARQ">
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" extension="2014-06-09" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.3.4.5" extension="610f77f3-231b-49b8-ad6c-78813e4bd317" />
+       <code xsi:type="CE" code="267" codeSystemName="L" displayName="THYROGLOBULIN ANTIBODIES" />
+       <text>
+        <reference value="#APLAB610f77f3-231b-49b8-ad6c-78813e4bd317" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime value="20231220193034+0000" />
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20231220193028+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>ND, MS</suffix>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+      </act>
+     </entry>
+     <entry>
+      <act classCode="ACT" moodCode="ARQ">
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" extension="2014-06-09" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.3.4.5" extension="f9f51db3-fb50-40f1-95e4-feb7d390c57c" />
+       <code xsi:type="CE" code="5081" codeSystemName="L" displayName="THYROID PEROXIDASE ANTIBODIES" />
+       <text>
+        <reference value="#APLABf9f51db3-fb50-40f1-95e4-feb7d390c57c" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime value="20231220193034+0000" />
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20231220193028+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>ND, MS</suffix>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+      </act>
+     </entry>
+     <entry>
+      <act classCode="ACT" moodCode="ARQ">
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" extension="2014-06-09" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.3.4.5" extension="4dd59181-b31c-4228-a908-eb0181f8704e" />
+       <code xsi:type="CE" code="90963" codeSystemName="L" displayName="T3 REVERSE, LC/MS/MS" />
+       <text>
+        <reference value="#APLAB4dd59181-b31c-4228-a908-eb0181f8704e" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime value="20231220193034+0000" />
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20231220193028+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>ND, MS</suffix>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+      </act>
+     </entry>
+     <entry>
+      <act classCode="ACT" moodCode="ARQ">
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" extension="2014-06-09" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.3.4.5" extension="ece645a5-5907-4489-90f0-f701baf3cd8b" />
+       <code xsi:type="CE" code="363" codeSystemName="L" displayName="COPPER" />
+       <text>
+        <reference value="#APLABece645a5-5907-4489-90f0-f701baf3cd8b" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime value="20231220193034+0000" />
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20231220193028+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>ND, MS</suffix>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+      </act>
+     </entry>
+     <entry>
+      <act classCode="ACT" moodCode="ARQ">
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" extension="2014-06-09" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.3.4.5" extension="ed07919e-0f60-4841-9666-c4c769e1ddc2" />
+       <code xsi:type="CE" code="945" codeSystemName="L" displayName="ZINC" />
+       <text>
+        <reference value="#APLABed07919e-0f60-4841-9666-c4c769e1ddc2" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime value="20231220193034+0000" />
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20231220193028+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>ND, MS</suffix>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+      </act>
+     </entry>
+     <entry>
+      <act classCode="ACT" moodCode="ARQ">
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" extension="2014-06-09" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.3.4.5" extension="b668fc6b-360b-41fe-974f-9e347107bb70" />
+       <code xsi:type="CE" code="7065" codeSystemName="L" displayName="VITAMIN B12/FOLATE, SERUM PANEL" />
+       <text>
+        <reference value="#APLABb668fc6b-360b-41fe-974f-9e347107bb70" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime value="20231220193034+0000" />
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20231220193028+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>ND, MS</suffix>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+      </act>
+     </entry>
+     <entry>
+      <act classCode="ACT" moodCode="ARQ">
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.39" extension="2014-06-09" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.3.4.5" extension="64b24031-e5c1-41d9-8e1b-0ecbd5733371" />
+       <code xsi:type="CE" code="17306" codeSystemName="L" displayName="VITAMIN D,25-OH,TOTAL,IA" />
+       <text>
+        <reference value="#APLAB64b24031-e5c1-41d9-8e1b-0ecbd5733371" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime value="20231220193034+0000" />
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20231220193028+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>ND, MS</suffix>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+      </act>
+     </entry>
+    </section>
+   </component>
+   <component>
+    <section>
+     <templateId root="2.16.840.1.113883.10.20.22.2.22.1" />
+     <templateId root="2.16.840.1.113883.10.20.22.2.22.1" extension="2015-08-01" />
+     <code code="46240-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History of encounters" />
+     <title>Encounters</title>
+     <text>
+      <table width="95%" border="1">
+       <thead>
+        <tr>
+         <th>Date</th>
+         <th>Location</th>
+         <th>Signed</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr ID="Encounter-9aac8768-896e-4ec0-85bf-b83b2f332335">
+         <td>2026-05-18</td>
+         <td>The Healing Hut</td>
+         <td rowspan="2">Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />5/18/2026</td>
+        </tr>
+        <tr>
+         <td colspan="2">Encounter for "check-up" (procedure)</td>
+        </tr>
+       </tbody>
+      </table>
+      <table width="95%" border="1">
+       <thead>
+        <tr>
+         <th>Date</th>
+         <th>Location</th>
+         <th>Signed</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr ID="Encounter-5000d911-839d-41b2-82fc-9c330157fee5">
+         <td>2024-10-09</td>
+         <td>Jade Dandy Practice</td>
+         <td rowspan="2">Mrs Tabitha Lewallen<br />The Healing Hut<br />10/9/2024</td>
+        </tr>
+        <tr>
+         <td colspan="2">Encounter by computer link</td>
+        </tr>
+       </tbody>
+      </table>
+      <table width="95%" border="1">
+       <thead>
+        <tr>
+         <th>Date</th>
+         <th>Location</th>
+         <th>Signed</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr ID="Encounter-7648dbc8-3470-4b9e-b680-45903e5a137e">
+         <td>2024-07-18</td>
+         <td>Jade Dandy Practice</td>
+         <td rowspan="2">Mrs Tabitha Lewallen<br />The Healing Hut<br />7/18/2024</td>
+        </tr>
+        <tr>
+         <td colspan="2">Telephone encounter (procedure)</td>
+        </tr>
+       </tbody>
+      </table>
+      <table width="95%" border="1">
+       <thead>
+        <tr>
+         <th>Date</th>
+         <th>Location</th>
+         <th>Signed</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr ID="Encounter-2010ea6a-4b31-4270-89f8-2b6b3c210eff">
+         <td>2024-06-24</td>
+         <td>Jade Dandy Practice</td>
+         <td rowspan="2">Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />6/24/2024</td>
+        </tr>
+        <tr>
+         <td colspan="2">Encounter for "check-up" (procedure)</td>
+        </tr>
+       </tbody>
+      </table>
+      <table width="95%" border="1">
+       <thead>
+        <tr>
+         <th>Date</th>
+         <th>Location</th>
+         <th>Signed</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr ID="Encounter-080ec882-3063-4886-88ca-866bdd4bfb41">
+         <td>2024-04-04</td>
+         <td>Jade Dandy Practice</td>
+         <td rowspan="2">Dr Kimberly Rainey, DPT<br />The Healing Hut<br />4/4/2024</td>
+        </tr>
+        <tr>
+         <td colspan="2">Encounter for "check-up" (procedure)</td>
+        </tr>
+       </tbody>
+      </table>
+      <table width="95%" border="1">
+       <thead>
+        <tr>
+         <th>Date</th>
+         <th>Location</th>
+         <th>Signed</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr ID="Encounter-bc361862-a288-495a-8e15-8bceb069b5b3">
+         <td>2024-03-19</td>
+         <td>Jade Dandy Practice</td>
+         <td rowspan="2">Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />3/19/2024</td>
+        </tr>
+        <tr>
+         <td colspan="2">Encounter for "check-up" (procedure)</td>
+        </tr>
+       </tbody>
+      </table>
+      <table width="95%" border="1">
+       <thead>
+        <tr>
+         <th>Date</th>
+         <th>Location</th>
+         <th>Signed</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr ID="Encounter-b38449ed-7349-47fe-ab09-7bcc56fd5b5e">
+         <td>2024-01-22</td>
+         <td>Jade Dandy Practice</td>
+         <td rowspan="2">Dr Kimberly Rainey, DPT<br />The Healing Hut<br />1/22/2024</td>
+        </tr>
+        <tr>
+         <td colspan="2">Telephone encounter (procedure)</td>
+        </tr>
+       </tbody>
+      </table>
+      <table width="95%" border="1">
+       <thead>
+        <tr>
+         <th>Date</th>
+         <th>Location</th>
+         <th>Signed</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr ID="Encounter-d5df82bb-f783-4a43-91d1-9a87468854e9">
+         <td>2024-01-04</td>
+         <td>Jade Dandy Practice</td>
+         <td rowspan="2">Mrs Tabitha Lewallen<br />The Healing Hut<br />1/4/2024</td>
+        </tr>
+        <tr>
+         <td colspan="2">Telephone encounter (procedure)</td>
+        </tr>
+       </tbody>
+      </table>
+      <table width="95%" border="1">
+       <thead>
+        <tr>
+         <th>Date</th>
+         <th>Location</th>
+         <th>Signed</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr ID="Encounter-cf5a1923-17c5-4034-ba99-fc6f769cb892">
+         <td>2023-12-20</td>
+         <td>Jade Dandy Practice</td>
+         <td rowspan="2">Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />12/20/2023</td>
+        </tr>
+        <tr>
+         <td colspan="2">Encounter for "check-up" (procedure)</td>
+        </tr>
+       </tbody>
+      </table>
+     </text>
+     <entry typeCode="DRIV">
+      <encounter classCode="ENC" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.49" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.49" extension="2015-08-01" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.3.2" extension="9aac8768-896e-4ec0-85bf-b83b2f332335" />
+       <code code="185349003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Encounter for &quot;check-up&quot; (procedure)">
+        <originalText>
+         <reference value="#Encounter-9aac8768-896e-4ec0-85bf-b83b2f332335" />
+        </originalText>
+       </code>
+       <effectiveTime xsi:type="IVL_TS">
+        <low value="20260518060000+0000" />
+        <high value="20260519055959+0000" />
+       </effectiveTime>
+       <performer typeCode="PRF">
+        <assignedEntity classCode="ASSIGNED">
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <addr use="WP">
+          <streetAddressLine>The Healing Hut</streetAddressLine>
+          <streetAddressLine>8000 W Ustick Rd</streetAddressLine>
+          <city>Boise</city>
+          <state>ID</state>
+          <postalCode>83704</postalCode>
+          <country>US</country>
+         </addr>
+         <telecom use="WP" value="tel:+1(503)896-4636" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>Naturopathic Medical Doctor</suffix>
+          </name>
+         </assignedPerson>
+        </assignedEntity>
+       </performer>
+       <participant typeCode="LOC">
+        <participantRole classCode="SDLOC">
+         <templateId root="2.16.840.1.113883.10.20.22.4.32" />
+         <code nullFlavor="NI" />
+         <addr use="WP">
+          <streetAddressLine>The Healing Hut</streetAddressLine>
+          <streetAddressLine>8000 W Ustick Rd</streetAddressLine>
+          <city>Boise</city>
+          <state>ID</state>
+          <postalCode>83704</postalCode>
+          <country>US</country>
+         </addr>
+         <telecom use="WP" value="tel:+1(208)939-6748" />
+        </participantRole>
+       </participant>
+      </encounter>
+     </entry>
+     <entry typeCode="DRIV">
+      <encounter classCode="ENC" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.49" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.49" extension="2015-08-01" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.3.2" extension="5000d911-839d-41b2-82fc-9c330157fee5" />
+       <code code="185320006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Encounter by computer link">
+        <originalText>
+         <reference value="#Encounter-5000d911-839d-41b2-82fc-9c330157fee5" />
+        </originalText>
+       </code>
+       <effectiveTime xsi:type="IVL_TS">
+        <low value="20241009060000+0000" />
+        <high value="20241010055959+0000" />
+       </effectiveTime>
+       <performer typeCode="PRF">
+        <assignedEntity classCode="ASSIGNED">
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="41073288-67ef-4450-bff9-0e5c14ee76ca" />
+         <addr use="WP">
+          <streetAddressLine>Jade Dandy Practice</streetAddressLine>
+          <streetAddressLine>600 E State St Ste B</streetAddressLine>
+          <streetAddressLine>D</streetAddressLine>
+          <city>Eagle</city>
+          <state>ID</state>
+          <postalCode>83616</postalCode>
+          <country>US</country>
+         </addr>
+         <telecom use="WP" value="tel:+1(208)939-6748" />
+         <assignedPerson>
+          <name>
+           <prefix>Mrs</prefix>
+           <given>Tabitha</given>
+           <family>Lewallen</family>
+          </name>
+         </assignedPerson>
+        </assignedEntity>
+       </performer>
+       <participant typeCode="LOC">
+        <participantRole classCode="SDLOC">
+         <templateId root="2.16.840.1.113883.10.20.22.4.32" />
+         <code nullFlavor="NI" />
+         <addr use="WP">
+          <streetAddressLine>Jade Dandy Practice</streetAddressLine>
+          <streetAddressLine>600 E State St Ste B</streetAddressLine>
+          <streetAddressLine>D</streetAddressLine>
+          <city>Eagle</city>
+          <state>ID</state>
+          <postalCode>83616</postalCode>
+          <country>US</country>
+         </addr>
+         <telecom use="WP" value="tel:+1(208)939-6748" />
+        </participantRole>
+       </participant>
+      </encounter>
+     </entry>
+     <entry typeCode="DRIV">
+      <encounter classCode="ENC" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.49" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.49" extension="2015-08-01" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.3.2" extension="7648dbc8-3470-4b9e-b680-45903e5a137e" />
+       <code code="185317003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Telephone encounter (procedure)">
+        <originalText>
+         <reference value="#Encounter-7648dbc8-3470-4b9e-b680-45903e5a137e" />
+        </originalText>
+       </code>
+       <effectiveTime xsi:type="IVL_TS">
+        <low value="20240718060000+0000" />
+        <high value="20240719055959+0000" />
+       </effectiveTime>
+       <performer typeCode="PRF">
+        <assignedEntity classCode="ASSIGNED">
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="41073288-67ef-4450-bff9-0e5c14ee76ca" />
+         <addr use="WP">
+          <streetAddressLine>Jade Dandy Practice</streetAddressLine>
+          <streetAddressLine>600 E State St Ste B</streetAddressLine>
+          <streetAddressLine>D</streetAddressLine>
+          <city>Eagle</city>
+          <state>ID</state>
+          <postalCode>83616</postalCode>
+          <country>US</country>
+         </addr>
+         <telecom use="WP" value="tel:+1(208)939-6748" />
+         <assignedPerson>
+          <name>
+           <prefix>Mrs</prefix>
+           <given>Tabitha</given>
+           <family>Lewallen</family>
+          </name>
+         </assignedPerson>
+        </assignedEntity>
+       </performer>
+       <participant typeCode="LOC">
+        <participantRole classCode="SDLOC">
+         <templateId root="2.16.840.1.113883.10.20.22.4.32" />
+         <code nullFlavor="NI" />
+         <addr use="WP">
+          <streetAddressLine>Jade Dandy Practice</streetAddressLine>
+          <streetAddressLine>600 E State St Ste B</streetAddressLine>
+          <streetAddressLine>D</streetAddressLine>
+          <city>Eagle</city>
+          <state>ID</state>
+          <postalCode>83616</postalCode>
+          <country>US</country>
+         </addr>
+         <telecom use="WP" value="tel:+1(208)939-6748" />
+        </participantRole>
+       </participant>
+      </encounter>
+     </entry>
+     <entry typeCode="DRIV">
+      <encounter classCode="ENC" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.49" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.49" extension="2015-08-01" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.3.2" extension="2010ea6a-4b31-4270-89f8-2b6b3c210eff" />
+       <code code="185349003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Encounter for &quot;check-up&quot; (procedure)">
+        <originalText>
+         <reference value="#Encounter-2010ea6a-4b31-4270-89f8-2b6b3c210eff" />
+        </originalText>
+       </code>
+       <effectiveTime xsi:type="IVL_TS">
+        <low value="20240624060000+0000" />
+        <high value="20240625055959+0000" />
+       </effectiveTime>
+       <performer typeCode="PRF">
+        <assignedEntity classCode="ASSIGNED">
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <addr use="WP">
+          <streetAddressLine>Jade Dandy Practice</streetAddressLine>
+          <streetAddressLine>600 E State St Ste B</streetAddressLine>
+          <streetAddressLine>D</streetAddressLine>
+          <city>Eagle</city>
+          <state>ID</state>
+          <postalCode>83616</postalCode>
+          <country>US</country>
+         </addr>
+         <telecom use="WP" value="tel:+1(503)896-4636" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <family>Dandy</family>
+           <suffix>Naturopathic Medical Doctor</suffix>
+          </name>
+         </assignedPerson>
+        </assignedEntity>
+       </performer>
+       <participant typeCode="LOC">
+        <participantRole classCode="SDLOC">
+         <templateId root="2.16.840.1.113883.10.20.22.4.32" />
+         <code nullFlavor="NI" />
+         <addr use="WP">
+          <streetAddressLine>Jade Dandy Practice</streetAddressLine>
+          <streetAddressLine>600 E State St Ste B</streetAddressLine>
+          <streetAddressLine>D</streetAddressLine>
+          <city>Eagle</city>
+          <state>ID</state>
+          <postalCode>83616</postalCode>
+          <country>US</country>
+         </addr>
+         <telecom use="WP" value="tel:+1(208)939-6748" />
+        </participantRole>
+       </participant>
+      </encounter>
+     </entry>
+     <entry typeCode="DRIV">
+      <encounter classCode="ENC" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.49" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.49" extension="2015-08-01" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.3.2" extension="080ec882-3063-4886-88ca-866bdd4bfb41" />
+       <code code="185349003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Encounter for &quot;check-up&quot; (procedure)">
+        <originalText>
+         <reference value="#Encounter-080ec882-3063-4886-88ca-866bdd4bfb41" />
+        </originalText>
+       </code>
+       <effectiveTime xsi:type="IVL_TS">
+        <low value="20240404060000+0000" />
+        <high value="20240405055959+0000" />
+       </effectiveTime>
+       <performer typeCode="PRF">
+        <assignedEntity classCode="ASSIGNED">
+         <id root="2.16.840.1.113883.3.3388.1.1.1.529462.1.1.3" extension="8254b199-ece8-4368-9a8e-c83e84be9d78" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="c31eb337-4223-4486-a4c1-17b14a9077ec" />
+         <addr use="WP">
+          <streetAddressLine>Jade Dandy Practice</streetAddressLine>
+          <streetAddressLine>600 E State St Ste B</streetAddressLine>
+          <streetAddressLine>D</streetAddressLine>
+          <city>Eagle</city>
+          <state>ID</state>
+          <postalCode>83616</postalCode>
+          <country>US</country>
+         </addr>
+         <telecom use="WP" value="tel:+1(208)939-6748" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Kimberly</given>
+           <family>Rainey</family>
+           <suffix>DPT</suffix>
+          </name>
+         </assignedPerson>
+        </assignedEntity>
+       </performer>
+       <participant typeCode="LOC">
+        <participantRole classCode="SDLOC">
+         <templateId root="2.16.840.1.113883.10.20.22.4.32" />
+         <code nullFlavor="NI" />
+         <addr use="WP">
+          <streetAddressLine>Jade Dandy Practice</streetAddressLine>
+          <streetAddressLine>600 E State St Ste B</streetAddressLine>
+          <streetAddressLine>D</streetAddressLine>
+          <city>Eagle</city>
+          <state>ID</state>
+          <postalCode>83616</postalCode>
+          <country>US</country>
+         </addr>
+         <telecom use="WP" value="tel:+1(208)939-6748" />
+        </participantRole>
+       </participant>
+      </encounter>
+     </entry>
+     <entry typeCode="DRIV">
+      <encounter classCode="ENC" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.49" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.49" extension="2015-08-01" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.3.2" extension="bc361862-a288-495a-8e15-8bceb069b5b3" />
+       <code code="185349003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Encounter for &quot;check-up&quot; (procedure)">
+        <originalText>
+         <reference value="#Encounter-bc361862-a288-495a-8e15-8bceb069b5b3" />
+        </originalText>
+       </code>
+       <effectiveTime xsi:type="IVL_TS">
+        <low value="20240319060000+0000" />
+        <high value="20240320055959+0000" />
+       </effectiveTime>
+       <performer typeCode="PRF">
+        <assignedEntity classCode="ASSIGNED">
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <addr use="WP">
+          <streetAddressLine>Jade Dandy Practice</streetAddressLine>
+          <streetAddressLine>600 E State St Ste B</streetAddressLine>
+          <streetAddressLine>D</streetAddressLine>
+          <city>Eagle</city>
+          <state>ID</state>
+          <postalCode>83616</postalCode>
+          <country>US</country>
+         </addr>
+         <telecom use="WP" value="tel:+1(503)896-4636" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <family>Dandy</family>
+           <suffix>Naturopathic Medical Doctor</suffix>
+          </name>
+         </assignedPerson>
+        </assignedEntity>
+       </performer>
+       <participant typeCode="LOC">
+        <participantRole classCode="SDLOC">
+         <templateId root="2.16.840.1.113883.10.20.22.4.32" />
+         <code nullFlavor="NI" />
+         <addr use="WP">
+          <streetAddressLine>Jade Dandy Practice</streetAddressLine>
+          <streetAddressLine>600 E State St Ste B</streetAddressLine>
+          <streetAddressLine>D</streetAddressLine>
+          <city>Eagle</city>
+          <state>ID</state>
+          <postalCode>83616</postalCode>
+          <country>US</country>
+         </addr>
+         <telecom use="WP" value="tel:+1(208)939-6748" />
+        </participantRole>
+       </participant>
+      </encounter>
+     </entry>
+     <entry typeCode="DRIV">
+      <encounter classCode="ENC" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.49" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.49" extension="2015-08-01" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.3.2" extension="b38449ed-7349-47fe-ab09-7bcc56fd5b5e" />
+       <code code="185317003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Telephone encounter (procedure)">
+        <originalText>
+         <reference value="#Encounter-b38449ed-7349-47fe-ab09-7bcc56fd5b5e" />
+        </originalText>
+       </code>
+       <effectiveTime xsi:type="IVL_TS">
+        <low value="20240122070000+0000" />
+        <high value="20240123065959+0000" />
+       </effectiveTime>
+       <performer typeCode="PRF">
+        <assignedEntity classCode="ASSIGNED">
+         <id root="2.16.840.1.113883.3.3388.1.1.1.529462.1.1.3" extension="8254b199-ece8-4368-9a8e-c83e84be9d78" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="c31eb337-4223-4486-a4c1-17b14a9077ec" />
+         <addr use="WP">
+          <streetAddressLine>Jade Dandy Practice</streetAddressLine>
+          <streetAddressLine>600 E State St Ste B</streetAddressLine>
+          <streetAddressLine>D</streetAddressLine>
+          <city>Eagle</city>
+          <state>ID</state>
+          <postalCode>83616</postalCode>
+          <country>US</country>
+         </addr>
+         <telecom use="WP" value="tel:+1(208)939-6748" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Kimberly</given>
+           <family>Rainey</family>
+           <suffix>DPT</suffix>
+          </name>
+         </assignedPerson>
+        </assignedEntity>
+       </performer>
+       <participant typeCode="LOC">
+        <participantRole classCode="SDLOC">
+         <templateId root="2.16.840.1.113883.10.20.22.4.32" />
+         <code nullFlavor="NI" />
+         <addr use="WP">
+          <streetAddressLine>Jade Dandy Practice</streetAddressLine>
+          <streetAddressLine>600 E State St Ste B</streetAddressLine>
+          <streetAddressLine>D</streetAddressLine>
+          <city>Eagle</city>
+          <state>ID</state>
+          <postalCode>83616</postalCode>
+          <country>US</country>
+         </addr>
+         <telecom use="WP" value="tel:+1(208)939-6748" />
+        </participantRole>
+       </participant>
+      </encounter>
+     </entry>
+     <entry typeCode="DRIV">
+      <encounter classCode="ENC" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.49" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.49" extension="2015-08-01" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.3.2" extension="d5df82bb-f783-4a43-91d1-9a87468854e9" />
+       <code code="185317003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Telephone encounter (procedure)">
+        <originalText>
+         <reference value="#Encounter-d5df82bb-f783-4a43-91d1-9a87468854e9" />
+        </originalText>
+       </code>
+       <effectiveTime xsi:type="IVL_TS">
+        <low value="20240104070000+0000" />
+        <high value="20240105065959+0000" />
+       </effectiveTime>
+       <performer typeCode="PRF">
+        <assignedEntity classCode="ASSIGNED">
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="41073288-67ef-4450-bff9-0e5c14ee76ca" />
+         <addr use="WP">
+          <streetAddressLine>Jade Dandy Practice</streetAddressLine>
+          <streetAddressLine>600 E State St Ste B</streetAddressLine>
+          <streetAddressLine>D</streetAddressLine>
+          <city>Eagle</city>
+          <state>ID</state>
+          <postalCode>83616</postalCode>
+          <country>US</country>
+         </addr>
+         <telecom use="WP" value="tel:+1(208)939-6748" />
+         <assignedPerson>
+          <name>
+           <prefix>Mrs</prefix>
+           <given>Tabitha</given>
+           <family>Lewallen</family>
+          </name>
+         </assignedPerson>
+        </assignedEntity>
+       </performer>
+       <participant typeCode="LOC">
+        <participantRole classCode="SDLOC">
+         <templateId root="2.16.840.1.113883.10.20.22.4.32" />
+         <code nullFlavor="NI" />
+         <addr use="WP">
+          <streetAddressLine>Jade Dandy Practice</streetAddressLine>
+          <streetAddressLine>600 E State St Ste B</streetAddressLine>
+          <streetAddressLine>D</streetAddressLine>
+          <city>Eagle</city>
+          <state>ID</state>
+          <postalCode>83616</postalCode>
+          <country>US</country>
+         </addr>
+         <telecom use="WP" value="tel:+1(208)939-6748" />
+        </participantRole>
+       </participant>
+      </encounter>
+     </entry>
+     <entry typeCode="DRIV">
+      <encounter classCode="ENC" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.49" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.49" extension="2015-08-01" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.3.2" extension="cf5a1923-17c5-4034-ba99-fc6f769cb892" />
+       <code code="185349003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Encounter for &quot;check-up&quot; (procedure)">
+        <originalText>
+         <reference value="#Encounter-cf5a1923-17c5-4034-ba99-fc6f769cb892" />
+        </originalText>
+       </code>
+       <effectiveTime xsi:type="IVL_TS">
+        <low value="20231220070000+0000" />
+        <high value="20231221065959+0000" />
+       </effectiveTime>
+       <performer typeCode="PRF">
+        <assignedEntity classCode="ASSIGNED">
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <addr use="WP">
+          <streetAddressLine>Jade Dandy Practice</streetAddressLine>
+          <streetAddressLine>600 E State St Ste B</streetAddressLine>
+          <streetAddressLine>D</streetAddressLine>
+          <city>Eagle</city>
+          <state>ID</state>
+          <postalCode>83616</postalCode>
+          <country>US</country>
+         </addr>
+         <telecom use="WP" value="tel:+1(503)896-4636" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <family>Dandy</family>
+           <suffix>Naturopathic Medical Doctor</suffix>
+          </name>
+         </assignedPerson>
+        </assignedEntity>
+       </performer>
+       <participant typeCode="LOC">
+        <participantRole classCode="SDLOC">
+         <templateId root="2.16.840.1.113883.10.20.22.4.32" />
+         <code nullFlavor="NI" />
+         <addr use="WP">
+          <streetAddressLine>Jade Dandy Practice</streetAddressLine>
+          <streetAddressLine>600 E State St Ste B</streetAddressLine>
+          <streetAddressLine>D</streetAddressLine>
+          <city>Eagle</city>
+          <state>ID</state>
+          <postalCode>83616</postalCode>
+          <country>US</country>
+         </addr>
+         <telecom use="WP" value="tel:+1(208)939-6748" />
+        </participantRole>
+       </participant>
+      </encounter>
+     </entry>
+    </section>
+   </component>
+   <component>
+    <section>
+     <templateId root="2.16.840.1.113883.10.20.22.2.14" />
+     <templateId root="2.16.840.1.113883.10.20.22.2.14" extension="2014-06-09" />
+     <code code="47420-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Functional Status" />
+     <title>Functional Status</title>
+     <text>No Information</text>
+    </section>
+   </component>
+   <component>
+    <section>
+     <templateId root="2.16.840.1.113883.10.20.22.2.56" />
+     <templateId root="2.16.840.1.113883.10.20.22.2.56" extension="2015-08-01" />
+     <code code="10190-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Mental status" />
+     <title>Mental status</title>
+     <text>No Information</text>
+    </section>
+   </component>
+   <component>
+    <section>
+     <templateId root="2.16.840.1.113883.10.20.22.2.2.1" />
+     <templateId root="2.16.840.1.113883.10.20.22.2.2.1" extension="2015-08-01" />
+     <code code="11369-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History of Immunizations" />
+     <title>Immunizations</title>
+     <text>
+      <table width="95%" border="1">
+       <tbody>
+        <tr ID="ImmunizationsNoHistory">
+         <td>No Immunization History</td>
+        </tr>
+       </tbody>
+      </table>
+     </text>
+     <entry>
+      <substanceAdministration classCode="SBADM" moodCode="EVN" negationInd="true">
+       <templateId root="2.16.840.1.113883.10.20.22.4.52" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.52" extension="2015-08-01" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.12" extension="ImmunizationsNoHistory" />
+       <text>
+        <reference value="#ImmunizationsNoHistory" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime nullFlavor="NA" />
+       <consumable>
+        <manufacturedProduct classCode="MANU">
+         <templateId root="2.16.840.1.113883.10.20.22.4.54" />
+         <templateId root="2.16.840.1.113883.10.20.22.4.54" extension="2014-06-09" />
+         <manufacturedMaterial>
+          <code nullFlavor="OTH">
+           <translation code="71181003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="vaccine" />
+          </code>
+         </manufacturedMaterial>
+        </manufacturedProduct>
+       </consumable>
+      </substanceAdministration>
+     </entry>
+    </section>
+   </component>
+   <component>
+    <section>
+     <templateId root="2.16.840.1.113883.10.20.22.2.1.1" />
+     <templateId root="2.16.840.1.113883.10.20.22.2.1.1" extension="2014-06-09" />
+     <code code="10160-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History of Medication Use" />
+     <title>Medications</title>
+     <text>
+      <table width="95%" border="1">
+       <thead>
+        <tr>
+         <th>Medication</th>
+         <th>Status</th>
+         <th>Author</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr ID="Med31c3121a-15d0-445c-9829-e7e80ae1caa2">
+         <td>vitamin D</td>
+         <td>SIG: 2,000IUs daily</td>
+         <td>Mrs Rebecca McDonald<br />The Healing Hut<br />12/20/2023</td>
+        </tr>
+        <tr ID="Med82109504-22a0-4707-8bf7-9e08c0e7ad8a">
+         <td>Effexor XR 150 MG Oral Capsule Extended Release 24 Hour<br /><br />Generic Name: Venlafaxine HCl<br />RxNorm Code: 729931<br />Strength: 150 MG</td>
+         <td>SIG: Take 1 capsule (150 mg) by mouth daily with food</td>
+         <td>Mrs Rebecca McDonald<br />The Healing Hut<br />12/20/2023</td>
+        </tr>
+        <tr ID="Med9f0f4dd0-8f75-4f07-a30e-f8cb7481c8e9">
+         <td>Lisinopril 5 MG Oral Tablet<br /><br />Generic Name: Lisinopril<br />RxNorm Code: 311354<br />Strength: 5 MG</td>
+         <td>SIG: Take 1 tablet (5 mg) by mouth daily</td>
+         <td>Mrs Rebecca McDonald<br />The Healing Hut<br />12/20/2023</td>
+        </tr>
+        <tr ID="Med1229cd21-4ddb-43ff-9e88-5711113655bf">
+         <td>Levothyroxine Sodium 50 MCG Oral Capsule<br /><br />Generic Name: Levothyroxine Sodium<br />RxNorm Code: 966407<br />Strength: 50 MCG</td>
+         <td>SIG: Take 1 capsule (50 mcg) by mouth daily in the morning on an empty stomach</td>
+         <td>Mrs Rebecca McDonald<br />The Healing Hut<br />12/20/2023</td>
+        </tr>
+        <tr ID="Med719c4077-0f4d-4c22-9ce3-07d6a07c9709">
+         <td>ProAir RespiClick 108 (90 Base) MCG/ACT Inhalation Aerosol Powder Breath Activated<br /><br />Generic Name: Albuterol Sulfate<br />RxNorm Code: 1649961<br />Strength: 108 (90 Base) MCG/ACT</td>
+         <td>SIG: 1 puff inhaled orally every 4 hours as needed</td>
+         <td>Mrs Rebecca McDonald<br />The Healing Hut<br />12/20/2023</td>
+        </tr>
+        <tr ID="Med86250118-2d63-4f73-af3d-c3f1ce95745c">
+         <td>CPAP machine</td>
+         <td>SIG: use every day at bedtime</td>
+         <td>Mrs Rebecca McDonald<br />The Healing Hut<br />12/20/2023</td>
+        </tr>
+        <tr ID="Mede9cccba2-23e3-4dd3-9d28-0db556164d76">
+         <td>Doxycycline Hyclate 100 MG Oral Capsule<br /><br />Generic Name: Doxycycline Hyclate<br />RxNorm Code: 1649988<br />Strength: 100 MG</td>
+         <td>SIG: take 1 capsule (100 mg) by mouth every day as needed</td>
+         <td>Mrs Rebecca McDonald<br />The Healing Hut<br />12/20/2023</td>
+        </tr>
+        <tr ID="Med5f68ec91-681b-4523-a0f3-aa65590d4cf7">
+         <td>Atorvastatin Calcium 40 MG Oral Tablet<br /><br />Generic Name: Atorvastatin Calcium<br />RxNorm Code: 617311<br />Strength: 40 MG</td>
+         <td>SIG: take 1 tablet (40 mg) by mouth every day at bedtime</td>
+         <td>Mrs Rebecca McDonald<br />The Healing Hut<br />12/20/2023</td>
+        </tr>
+        <tr ID="Med4fa62b62-0da7-4d39-bf18-802040e0dd5b">
+         <td>Pregabalin 225 MG Oral Capsule<br /><br />Generic Name: Pregabalin<br />RxNorm Code: 577127<br />Strength: 225 MG</td>
+         <td>SIG: Take 1 capsule (225 mg) by mouth 2 times per day</td>
+         <td>Mrs Rebecca McDonald<br />The Healing Hut<br />12/20/2023</td>
+        </tr>
+        <tr ID="Med0e0da431-b606-49ef-97d6-39861223190f">
+         <td>Jardiance 10 MG Oral Tablet<br /><br />Generic Name: Empagliflozin<br />RxNorm Code: 1545664<br />Strength: 10 MG</td>
+         <td>SIG: Take 1 tablet (10 mg) by mouth daily</td>
+         <td>Mrs Rebecca McDonald<br />The Healing Hut<br />12/20/2023</td>
+        </tr>
+        <tr ID="Med68cacd8c-791d-45af-9378-b4db2f0ea1de">
+         <td>Estradiol 1 MG Oral Tablet<br /><br />Generic Name: Estradiol<br />RxNorm Code: 197658<br />Strength: 1 MG</td>
+         <td>SIG: Take 1 tablet (1 mg) by mouth daily</td>
+         <td>Mrs Rebecca McDonald<br />The Healing Hut<br />12/20/2023</td>
+        </tr>
+        <tr ID="Med398d5652-8c59-420e-aee6-ab6b0d66e684">
+         <td>Estring 7.5 MCG/24HR Vaginal Ring<br /><br />Generic Name: Estradiol Vaginal<br />RxNorm Code: 848330<br />Strength: 7.5 MCG/24HR</td>
+         <td>SIG: 2 mg vaginally every 3 months</td>
+         <td>Mrs Rebecca McDonald<br />The Healing Hut<br />12/20/2023</td>
+        </tr>
+        <tr ID="Medf995d626-1d45-465e-9f4c-59ebebfa1d96">
+         <td>Fluticasone Propionate 50 MCG/ACT Nasal Suspension<br /><br />Generic Name: Fluticasone Propionate (Nasal)<br />RxNorm Code: 1797907<br />Strength: 50 MCG/ACT</td>
+         <td>SIG: 1 spray intranasally 2 times per day in each nostril</td>
+         <td>Mrs Rebecca McDonald<br />The Healing Hut<br />12/20/2023</td>
+        </tr>
+       </tbody>
+      </table>
+     </text>
+     <entry typeCode="DRIV">
+      <substanceAdministration classCode="SBADM" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.16" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.16" extension="2014-06-09" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.4.1" extension="31c3121a-15d0-445c-9829-e7e80ae1caa2" />
+       <text>
+        <reference value="#Med31c3121a-15d0-445c-9829-e7e80ae1caa2" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime xsi:type="IVL_TS">
+        <low nullFlavor="NI" />
+        <high nullFlavor="NI" />
+       </effectiveTime>
+       <doseQuantity nullFlavor="NI" />
+       <consumable>
+        <manufacturedProduct classCode="MANU">
+         <templateId root="2.16.840.1.113883.10.20.22.4.23" />
+         <templateId root="2.16.840.1.113883.10.20.22.4.23" extension="2014-06-09" />
+         <manufacturedMaterial>
+          <code nullFlavor="NI" />
+         </manufacturedMaterial>
+        </manufacturedProduct>
+       </consumable>
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20231220201250+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1982315636" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="43d0acdb-5a39-483e-bf4d-8af59c0071b1" />
+         <assignedPerson>
+          <name>
+           <prefix>Mrs</prefix>
+           <given>Rebecca</given>
+           <family>McDonald</family>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+       <entryRelationship typeCode="SUBJ" inversionInd="true">
+        <act classCode="ACT" moodCode="INT">
+         <templateId root="2.16.840.1.113883.10.20.22.4.20" />
+         <templateId root="2.16.840.1.113883.10.20.22.4.20" extension="2014-06-09" />
+         <code xsi:type="CE" code="768729006" codeSystem="2.16.840.1.113883.6.96" displayName="Drug Dosage Education (procedure)" />
+         <statusCode code="completed" />
+        </act>
+       </entryRelationship>
+       <entryRelationship typeCode="COMP">
+        <substanceAdministration classCode="SBADM" moodCode="EVN">
+         <templateId root="2.16.840.1.113883.10.20.22.4.147" />
+         <code code="76662-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Medication Instructions" />
+         <text>
+          <reference value="#Med31c3121a-15d0-445c-9829-e7e80ae1caa2" />2,000IUs daily</text>
+         <consumable>
+          <manufacturedProduct>
+           <manufacturedLabeledDrug nullFlavor="NA" />
+          </manufacturedProduct>
+         </consumable>
+        </substanceAdministration>
+       </entryRelationship>
+      </substanceAdministration>
+     </entry>
+     <entry typeCode="DRIV">
+      <substanceAdministration classCode="SBADM" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.16" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.16" extension="2014-06-09" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.4.1" extension="82109504-22a0-4707-8bf7-9e08c0e7ad8a" />
+       <text>
+        <reference value="#Med82109504-22a0-4707-8bf7-9e08c0e7ad8a" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime xsi:type="IVL_TS">
+        <low nullFlavor="NI" />
+        <high nullFlavor="NI" />
+       </effectiveTime>
+       <doseQuantity nullFlavor="NI" />
+       <consumable>
+        <manufacturedProduct classCode="MANU">
+         <templateId root="2.16.840.1.113883.10.20.22.4.23" />
+         <templateId root="2.16.840.1.113883.10.20.22.4.23" extension="2014-06-09" />
+         <manufacturedMaterial>
+          <code code="729931" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm" displayName="Venlafaxine HCl 150 MG" />
+         </manufacturedMaterial>
+        </manufacturedProduct>
+       </consumable>
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20231220201212+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1982315636" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="43d0acdb-5a39-483e-bf4d-8af59c0071b1" />
+         <assignedPerson>
+          <name>
+           <prefix>Mrs</prefix>
+           <given>Rebecca</given>
+           <family>McDonald</family>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+       <entryRelationship typeCode="SUBJ" inversionInd="true">
+        <act classCode="ACT" moodCode="INT">
+         <templateId root="2.16.840.1.113883.10.20.22.4.20" />
+         <templateId root="2.16.840.1.113883.10.20.22.4.20" extension="2014-06-09" />
+         <code xsi:type="CE" code="768729006" codeSystem="2.16.840.1.113883.6.96" displayName="Drug Dosage Education (procedure)" />
+         <statusCode code="completed" />
+        </act>
+       </entryRelationship>
+       <entryRelationship typeCode="COMP">
+        <substanceAdministration classCode="SBADM" moodCode="EVN">
+         <templateId root="2.16.840.1.113883.10.20.22.4.147" />
+         <code code="76662-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Medication Instructions" />
+         <text>
+          <reference value="#Med82109504-22a0-4707-8bf7-9e08c0e7ad8a" />Take 1 capsule (150 mg) by mouth daily with food</text>
+         <consumable>
+          <manufacturedProduct>
+           <manufacturedLabeledDrug nullFlavor="NA" />
+          </manufacturedProduct>
+         </consumable>
+        </substanceAdministration>
+       </entryRelationship>
+      </substanceAdministration>
+     </entry>
+     <entry typeCode="DRIV">
+      <substanceAdministration classCode="SBADM" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.16" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.16" extension="2014-06-09" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.4.1" extension="9f0f4dd0-8f75-4f07-a30e-f8cb7481c8e9" />
+       <text>
+        <reference value="#Med9f0f4dd0-8f75-4f07-a30e-f8cb7481c8e9" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime xsi:type="IVL_TS">
+        <low nullFlavor="NI" />
+        <high nullFlavor="NI" />
+       </effectiveTime>
+       <doseQuantity nullFlavor="NI" />
+       <consumable>
+        <manufacturedProduct classCode="MANU">
+         <templateId root="2.16.840.1.113883.10.20.22.4.23" />
+         <templateId root="2.16.840.1.113883.10.20.22.4.23" extension="2014-06-09" />
+         <manufacturedMaterial>
+          <code code="311354" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm" displayName="Lisinopril 5 MG" />
+         </manufacturedMaterial>
+        </manufacturedProduct>
+       </consumable>
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20231220201139+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1982315636" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="43d0acdb-5a39-483e-bf4d-8af59c0071b1" />
+         <assignedPerson>
+          <name>
+           <prefix>Mrs</prefix>
+           <given>Rebecca</given>
+           <family>McDonald</family>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+       <entryRelationship typeCode="SUBJ" inversionInd="true">
+        <act classCode="ACT" moodCode="INT">
+         <templateId root="2.16.840.1.113883.10.20.22.4.20" />
+         <templateId root="2.16.840.1.113883.10.20.22.4.20" extension="2014-06-09" />
+         <code xsi:type="CE" code="768729006" codeSystem="2.16.840.1.113883.6.96" displayName="Drug Dosage Education (procedure)" />
+         <statusCode code="completed" />
+        </act>
+       </entryRelationship>
+       <entryRelationship typeCode="COMP">
+        <substanceAdministration classCode="SBADM" moodCode="EVN">
+         <templateId root="2.16.840.1.113883.10.20.22.4.147" />
+         <code code="76662-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Medication Instructions" />
+         <text>
+          <reference value="#Med9f0f4dd0-8f75-4f07-a30e-f8cb7481c8e9" />Take 1 tablet (5 mg) by mouth daily</text>
+         <consumable>
+          <manufacturedProduct>
+           <manufacturedLabeledDrug nullFlavor="NA" />
+          </manufacturedProduct>
+         </consumable>
+        </substanceAdministration>
+       </entryRelationship>
+      </substanceAdministration>
+     </entry>
+     <entry typeCode="DRIV">
+      <substanceAdministration classCode="SBADM" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.16" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.16" extension="2014-06-09" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.4.1" extension="1229cd21-4ddb-43ff-9e88-5711113655bf" />
+       <text>
+        <reference value="#Med1229cd21-4ddb-43ff-9e88-5711113655bf" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime xsi:type="IVL_TS">
+        <low nullFlavor="NI" />
+        <high nullFlavor="NI" />
+       </effectiveTime>
+       <doseQuantity nullFlavor="NI" />
+       <consumable>
+        <manufacturedProduct classCode="MANU">
+         <templateId root="2.16.840.1.113883.10.20.22.4.23" />
+         <templateId root="2.16.840.1.113883.10.20.22.4.23" extension="2014-06-09" />
+         <manufacturedMaterial>
+          <code code="966407" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm" displayName="Levothyroxine Sodium 50 MCG" />
+         </manufacturedMaterial>
+        </manufacturedProduct>
+       </consumable>
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20231220201113+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1982315636" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="43d0acdb-5a39-483e-bf4d-8af59c0071b1" />
+         <assignedPerson>
+          <name>
+           <prefix>Mrs</prefix>
+           <given>Rebecca</given>
+           <family>McDonald</family>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+       <entryRelationship typeCode="SUBJ" inversionInd="true">
+        <act classCode="ACT" moodCode="INT">
+         <templateId root="2.16.840.1.113883.10.20.22.4.20" />
+         <templateId root="2.16.840.1.113883.10.20.22.4.20" extension="2014-06-09" />
+         <code xsi:type="CE" code="768729006" codeSystem="2.16.840.1.113883.6.96" displayName="Drug Dosage Education (procedure)" />
+         <statusCode code="completed" />
+        </act>
+       </entryRelationship>
+       <entryRelationship typeCode="COMP">
+        <substanceAdministration classCode="SBADM" moodCode="EVN">
+         <templateId root="2.16.840.1.113883.10.20.22.4.147" />
+         <code code="76662-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Medication Instructions" />
+         <text>
+          <reference value="#Med1229cd21-4ddb-43ff-9e88-5711113655bf" />Take 1 capsule (50 mcg) by mouth daily in the morning on an empty stomach</text>
+         <consumable>
+          <manufacturedProduct>
+           <manufacturedLabeledDrug nullFlavor="NA" />
+          </manufacturedProduct>
+         </consumable>
+        </substanceAdministration>
+       </entryRelationship>
+      </substanceAdministration>
+     </entry>
+     <entry typeCode="DRIV">
+      <substanceAdministration classCode="SBADM" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.16" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.16" extension="2014-06-09" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.4.1" extension="719c4077-0f4d-4c22-9ce3-07d6a07c9709" />
+       <text>
+        <reference value="#Med719c4077-0f4d-4c22-9ce3-07d6a07c9709" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime xsi:type="IVL_TS">
+        <low nullFlavor="NI" />
+        <high nullFlavor="NI" />
+       </effectiveTime>
+       <doseQuantity nullFlavor="NI" />
+       <consumable>
+        <manufacturedProduct classCode="MANU">
+         <templateId root="2.16.840.1.113883.10.20.22.4.23" />
+         <templateId root="2.16.840.1.113883.10.20.22.4.23" extension="2014-06-09" />
+         <manufacturedMaterial>
+          <code code="1649961" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm" displayName="Albuterol Sulfate 108 (90 Base) MCG/ACT" />
+         </manufacturedMaterial>
+        </manufacturedProduct>
+       </consumable>
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20231220201041+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1982315636" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="43d0acdb-5a39-483e-bf4d-8af59c0071b1" />
+         <assignedPerson>
+          <name>
+           <prefix>Mrs</prefix>
+           <given>Rebecca</given>
+           <family>McDonald</family>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+       <entryRelationship typeCode="SUBJ" inversionInd="true">
+        <act classCode="ACT" moodCode="INT">
+         <templateId root="2.16.840.1.113883.10.20.22.4.20" />
+         <templateId root="2.16.840.1.113883.10.20.22.4.20" extension="2014-06-09" />
+         <code xsi:type="CE" code="768729006" codeSystem="2.16.840.1.113883.6.96" displayName="Drug Dosage Education (procedure)" />
+         <statusCode code="completed" />
+        </act>
+       </entryRelationship>
+       <entryRelationship typeCode="COMP">
+        <substanceAdministration classCode="SBADM" moodCode="EVN">
+         <templateId root="2.16.840.1.113883.10.20.22.4.147" />
+         <code code="76662-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Medication Instructions" />
+         <text>
+          <reference value="#Med719c4077-0f4d-4c22-9ce3-07d6a07c9709" />1 puff inhaled orally every 4 hours as needed</text>
+         <consumable>
+          <manufacturedProduct>
+           <manufacturedLabeledDrug nullFlavor="NA" />
+          </manufacturedProduct>
+         </consumable>
+        </substanceAdministration>
+       </entryRelationship>
+      </substanceAdministration>
+     </entry>
+     <entry typeCode="DRIV">
+      <substanceAdministration classCode="SBADM" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.16" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.16" extension="2014-06-09" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.4.1" extension="86250118-2d63-4f73-af3d-c3f1ce95745c" />
+       <text>
+        <reference value="#Med86250118-2d63-4f73-af3d-c3f1ce95745c" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime xsi:type="IVL_TS">
+        <low nullFlavor="NI" />
+        <high nullFlavor="NI" />
+       </effectiveTime>
+       <doseQuantity nullFlavor="NI" />
+       <consumable>
+        <manufacturedProduct classCode="MANU">
+         <templateId root="2.16.840.1.113883.10.20.22.4.23" />
+         <templateId root="2.16.840.1.113883.10.20.22.4.23" extension="2014-06-09" />
+         <manufacturedMaterial>
+          <code nullFlavor="NI" />
+         </manufacturedMaterial>
+        </manufacturedProduct>
+       </consumable>
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20231220200949+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1982315636" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="43d0acdb-5a39-483e-bf4d-8af59c0071b1" />
+         <assignedPerson>
+          <name>
+           <prefix>Mrs</prefix>
+           <given>Rebecca</given>
+           <family>McDonald</family>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+       <entryRelationship typeCode="SUBJ" inversionInd="true">
+        <act classCode="ACT" moodCode="INT">
+         <templateId root="2.16.840.1.113883.10.20.22.4.20" />
+         <templateId root="2.16.840.1.113883.10.20.22.4.20" extension="2014-06-09" />
+         <code xsi:type="CE" code="768729006" codeSystem="2.16.840.1.113883.6.96" displayName="Drug Dosage Education (procedure)" />
+         <statusCode code="completed" />
+        </act>
+       </entryRelationship>
+       <entryRelationship typeCode="COMP">
+        <substanceAdministration classCode="SBADM" moodCode="EVN">
+         <templateId root="2.16.840.1.113883.10.20.22.4.147" />
+         <code code="76662-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Medication Instructions" />
+         <text>
+          <reference value="#Med86250118-2d63-4f73-af3d-c3f1ce95745c" />use every day at bedtime</text>
+         <consumable>
+          <manufacturedProduct>
+           <manufacturedLabeledDrug nullFlavor="NA" />
+          </manufacturedProduct>
+         </consumable>
+        </substanceAdministration>
+       </entryRelationship>
+      </substanceAdministration>
+     </entry>
+     <entry typeCode="DRIV">
+      <substanceAdministration classCode="SBADM" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.16" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.16" extension="2014-06-09" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.4.1" extension="e9cccba2-23e3-4dd3-9d28-0db556164d76" />
+       <text>
+        <reference value="#Mede9cccba2-23e3-4dd3-9d28-0db556164d76" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime xsi:type="IVL_TS">
+        <low nullFlavor="NI" />
+        <high nullFlavor="NI" />
+       </effectiveTime>
+       <doseQuantity nullFlavor="NI" />
+       <consumable>
+        <manufacturedProduct classCode="MANU">
+         <templateId root="2.16.840.1.113883.10.20.22.4.23" />
+         <templateId root="2.16.840.1.113883.10.20.22.4.23" extension="2014-06-09" />
+         <manufacturedMaterial>
+          <code code="1649988" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm" displayName="Doxycycline Hyclate 100 MG" />
+         </manufacturedMaterial>
+        </manufacturedProduct>
+       </consumable>
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20231220200914+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1982315636" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="43d0acdb-5a39-483e-bf4d-8af59c0071b1" />
+         <assignedPerson>
+          <name>
+           <prefix>Mrs</prefix>
+           <given>Rebecca</given>
+           <family>McDonald</family>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+       <entryRelationship typeCode="SUBJ" inversionInd="true">
+        <act classCode="ACT" moodCode="INT">
+         <templateId root="2.16.840.1.113883.10.20.22.4.20" />
+         <templateId root="2.16.840.1.113883.10.20.22.4.20" extension="2014-06-09" />
+         <code xsi:type="CE" code="768729006" codeSystem="2.16.840.1.113883.6.96" displayName="Drug Dosage Education (procedure)" />
+         <statusCode code="completed" />
+        </act>
+       </entryRelationship>
+       <entryRelationship typeCode="COMP">
+        <substanceAdministration classCode="SBADM" moodCode="EVN">
+         <templateId root="2.16.840.1.113883.10.20.22.4.147" />
+         <code code="76662-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Medication Instructions" />
+         <text>
+          <reference value="#Mede9cccba2-23e3-4dd3-9d28-0db556164d76" />take 1 capsule (100 mg) by mouth every day as needed</text>
+         <consumable>
+          <manufacturedProduct>
+           <manufacturedLabeledDrug nullFlavor="NA" />
+          </manufacturedProduct>
+         </consumable>
+        </substanceAdministration>
+       </entryRelationship>
+      </substanceAdministration>
+     </entry>
+     <entry typeCode="DRIV">
+      <substanceAdministration classCode="SBADM" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.16" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.16" extension="2014-06-09" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.4.1" extension="5f68ec91-681b-4523-a0f3-aa65590d4cf7" />
+       <text>
+        <reference value="#Med5f68ec91-681b-4523-a0f3-aa65590d4cf7" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime xsi:type="IVL_TS">
+        <low nullFlavor="NI" />
+        <high nullFlavor="NI" />
+       </effectiveTime>
+       <doseQuantity nullFlavor="NI" />
+       <consumable>
+        <manufacturedProduct classCode="MANU">
+         <templateId root="2.16.840.1.113883.10.20.22.4.23" />
+         <templateId root="2.16.840.1.113883.10.20.22.4.23" extension="2014-06-09" />
+         <manufacturedMaterial>
+          <code code="617311" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm" displayName="Atorvastatin Calcium 40 MG" />
+         </manufacturedMaterial>
+        </manufacturedProduct>
+       </consumable>
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20231220200850+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1982315636" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="43d0acdb-5a39-483e-bf4d-8af59c0071b1" />
+         <assignedPerson>
+          <name>
+           <prefix>Mrs</prefix>
+           <given>Rebecca</given>
+           <family>McDonald</family>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+       <entryRelationship typeCode="SUBJ" inversionInd="true">
+        <act classCode="ACT" moodCode="INT">
+         <templateId root="2.16.840.1.113883.10.20.22.4.20" />
+         <templateId root="2.16.840.1.113883.10.20.22.4.20" extension="2014-06-09" />
+         <code xsi:type="CE" code="768729006" codeSystem="2.16.840.1.113883.6.96" displayName="Drug Dosage Education (procedure)" />
+         <statusCode code="completed" />
+        </act>
+       </entryRelationship>
+       <entryRelationship typeCode="COMP">
+        <substanceAdministration classCode="SBADM" moodCode="EVN">
+         <templateId root="2.16.840.1.113883.10.20.22.4.147" />
+         <code code="76662-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Medication Instructions" />
+         <text>
+          <reference value="#Med5f68ec91-681b-4523-a0f3-aa65590d4cf7" />take 1 tablet (40 mg) by mouth every day at bedtime</text>
+         <consumable>
+          <manufacturedProduct>
+           <manufacturedLabeledDrug nullFlavor="NA" />
+          </manufacturedProduct>
+         </consumable>
+        </substanceAdministration>
+       </entryRelationship>
+      </substanceAdministration>
+     </entry>
+     <entry typeCode="DRIV">
+      <substanceAdministration classCode="SBADM" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.16" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.16" extension="2014-06-09" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.4.1" extension="4fa62b62-0da7-4d39-bf18-802040e0dd5b" />
+       <text>
+        <reference value="#Med4fa62b62-0da7-4d39-bf18-802040e0dd5b" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime xsi:type="IVL_TS">
+        <low nullFlavor="NI" />
+        <high nullFlavor="NI" />
+       </effectiveTime>
+       <doseQuantity nullFlavor="NI" />
+       <consumable>
+        <manufacturedProduct classCode="MANU">
+         <templateId root="2.16.840.1.113883.10.20.22.4.23" />
+         <templateId root="2.16.840.1.113883.10.20.22.4.23" extension="2014-06-09" />
+         <manufacturedMaterial>
+          <code code="577127" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm" displayName="Pregabalin 225 MG" />
+         </manufacturedMaterial>
+        </manufacturedProduct>
+       </consumable>
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20231220200813+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1982315636" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="43d0acdb-5a39-483e-bf4d-8af59c0071b1" />
+         <assignedPerson>
+          <name>
+           <prefix>Mrs</prefix>
+           <given>Rebecca</given>
+           <family>McDonald</family>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+       <entryRelationship typeCode="SUBJ" inversionInd="true">
+        <act classCode="ACT" moodCode="INT">
+         <templateId root="2.16.840.1.113883.10.20.22.4.20" />
+         <templateId root="2.16.840.1.113883.10.20.22.4.20" extension="2014-06-09" />
+         <code xsi:type="CE" code="768729006" codeSystem="2.16.840.1.113883.6.96" displayName="Drug Dosage Education (procedure)" />
+         <statusCode code="completed" />
+        </act>
+       </entryRelationship>
+       <entryRelationship typeCode="COMP">
+        <substanceAdministration classCode="SBADM" moodCode="EVN">
+         <templateId root="2.16.840.1.113883.10.20.22.4.147" />
+         <code code="76662-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Medication Instructions" />
+         <text>
+          <reference value="#Med4fa62b62-0da7-4d39-bf18-802040e0dd5b" />Take 1 capsule (225 mg) by mouth 2 times per day</text>
+         <consumable>
+          <manufacturedProduct>
+           <manufacturedLabeledDrug nullFlavor="NA" />
+          </manufacturedProduct>
+         </consumable>
+        </substanceAdministration>
+       </entryRelationship>
+      </substanceAdministration>
+     </entry>
+     <entry typeCode="DRIV">
+      <substanceAdministration classCode="SBADM" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.16" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.16" extension="2014-06-09" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.4.1" extension="0e0da431-b606-49ef-97d6-39861223190f" />
+       <text>
+        <reference value="#Med0e0da431-b606-49ef-97d6-39861223190f" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime xsi:type="IVL_TS">
+        <low nullFlavor="NI" />
+        <high nullFlavor="NI" />
+       </effectiveTime>
+       <doseQuantity nullFlavor="NI" />
+       <consumable>
+        <manufacturedProduct classCode="MANU">
+         <templateId root="2.16.840.1.113883.10.20.22.4.23" />
+         <templateId root="2.16.840.1.113883.10.20.22.4.23" extension="2014-06-09" />
+         <manufacturedMaterial>
+          <code code="1545664" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm" displayName="Empagliflozin 10 MG" />
+         </manufacturedMaterial>
+        </manufacturedProduct>
+       </consumable>
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20231220200755+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1982315636" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="43d0acdb-5a39-483e-bf4d-8af59c0071b1" />
+         <assignedPerson>
+          <name>
+           <prefix>Mrs</prefix>
+           <given>Rebecca</given>
+           <family>McDonald</family>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+       <entryRelationship typeCode="SUBJ" inversionInd="true">
+        <act classCode="ACT" moodCode="INT">
+         <templateId root="2.16.840.1.113883.10.20.22.4.20" />
+         <templateId root="2.16.840.1.113883.10.20.22.4.20" extension="2014-06-09" />
+         <code xsi:type="CE" code="768729006" codeSystem="2.16.840.1.113883.6.96" displayName="Drug Dosage Education (procedure)" />
+         <statusCode code="completed" />
+        </act>
+       </entryRelationship>
+       <entryRelationship typeCode="COMP">
+        <substanceAdministration classCode="SBADM" moodCode="EVN">
+         <templateId root="2.16.840.1.113883.10.20.22.4.147" />
+         <code code="76662-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Medication Instructions" />
+         <text>
+          <reference value="#Med0e0da431-b606-49ef-97d6-39861223190f" />Take 1 tablet (10 mg) by mouth daily</text>
+         <consumable>
+          <manufacturedProduct>
+           <manufacturedLabeledDrug nullFlavor="NA" />
+          </manufacturedProduct>
+         </consumable>
+        </substanceAdministration>
+       </entryRelationship>
+      </substanceAdministration>
+     </entry>
+     <entry typeCode="DRIV">
+      <substanceAdministration classCode="SBADM" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.16" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.16" extension="2014-06-09" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.4.1" extension="68cacd8c-791d-45af-9378-b4db2f0ea1de" />
+       <text>
+        <reference value="#Med68cacd8c-791d-45af-9378-b4db2f0ea1de" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime xsi:type="IVL_TS">
+        <low nullFlavor="NI" />
+        <high nullFlavor="NI" />
+       </effectiveTime>
+       <doseQuantity nullFlavor="NI" />
+       <consumable>
+        <manufacturedProduct classCode="MANU">
+         <templateId root="2.16.840.1.113883.10.20.22.4.23" />
+         <templateId root="2.16.840.1.113883.10.20.22.4.23" extension="2014-06-09" />
+         <manufacturedMaterial>
+          <code code="197658" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm" displayName="Estradiol 1 MG" />
+         </manufacturedMaterial>
+        </manufacturedProduct>
+       </consumable>
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20231220200713+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1982315636" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="43d0acdb-5a39-483e-bf4d-8af59c0071b1" />
+         <assignedPerson>
+          <name>
+           <prefix>Mrs</prefix>
+           <given>Rebecca</given>
+           <family>McDonald</family>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+       <entryRelationship typeCode="SUBJ" inversionInd="true">
+        <act classCode="ACT" moodCode="INT">
+         <templateId root="2.16.840.1.113883.10.20.22.4.20" />
+         <templateId root="2.16.840.1.113883.10.20.22.4.20" extension="2014-06-09" />
+         <code xsi:type="CE" code="768729006" codeSystem="2.16.840.1.113883.6.96" displayName="Drug Dosage Education (procedure)" />
+         <statusCode code="completed" />
+        </act>
+       </entryRelationship>
+       <entryRelationship typeCode="COMP">
+        <substanceAdministration classCode="SBADM" moodCode="EVN">
+         <templateId root="2.16.840.1.113883.10.20.22.4.147" />
+         <code code="76662-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Medication Instructions" />
+         <text>
+          <reference value="#Med68cacd8c-791d-45af-9378-b4db2f0ea1de" />Take 1 tablet (1 mg) by mouth daily</text>
+         <consumable>
+          <manufacturedProduct>
+           <manufacturedLabeledDrug nullFlavor="NA" />
+          </manufacturedProduct>
+         </consumable>
+        </substanceAdministration>
+       </entryRelationship>
+      </substanceAdministration>
+     </entry>
+     <entry typeCode="DRIV">
+      <substanceAdministration classCode="SBADM" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.16" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.16" extension="2014-06-09" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.4.1" extension="398d5652-8c59-420e-aee6-ab6b0d66e684" />
+       <text>
+        <reference value="#Med398d5652-8c59-420e-aee6-ab6b0d66e684" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime xsi:type="IVL_TS">
+        <low nullFlavor="NI" />
+        <high nullFlavor="NI" />
+       </effectiveTime>
+       <doseQuantity nullFlavor="NI" />
+       <consumable>
+        <manufacturedProduct classCode="MANU">
+         <templateId root="2.16.840.1.113883.10.20.22.4.23" />
+         <templateId root="2.16.840.1.113883.10.20.22.4.23" extension="2014-06-09" />
+         <manufacturedMaterial>
+          <code code="848330" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm" displayName="Estradiol Vaginal 7.5 MCG/24HR" />
+         </manufacturedMaterial>
+        </manufacturedProduct>
+       </consumable>
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20231220200640+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1982315636" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="43d0acdb-5a39-483e-bf4d-8af59c0071b1" />
+         <assignedPerson>
+          <name>
+           <prefix>Mrs</prefix>
+           <given>Rebecca</given>
+           <family>McDonald</family>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+       <entryRelationship typeCode="SUBJ" inversionInd="true">
+        <act classCode="ACT" moodCode="INT">
+         <templateId root="2.16.840.1.113883.10.20.22.4.20" />
+         <templateId root="2.16.840.1.113883.10.20.22.4.20" extension="2014-06-09" />
+         <code xsi:type="CE" code="768729006" codeSystem="2.16.840.1.113883.6.96" displayName="Drug Dosage Education (procedure)" />
+         <statusCode code="completed" />
+        </act>
+       </entryRelationship>
+       <entryRelationship typeCode="COMP">
+        <substanceAdministration classCode="SBADM" moodCode="EVN">
+         <templateId root="2.16.840.1.113883.10.20.22.4.147" />
+         <code code="76662-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Medication Instructions" />
+         <text>
+          <reference value="#Med398d5652-8c59-420e-aee6-ab6b0d66e684" />2 mg vaginally every 3 months</text>
+         <consumable>
+          <manufacturedProduct>
+           <manufacturedLabeledDrug nullFlavor="NA" />
+          </manufacturedProduct>
+         </consumable>
+        </substanceAdministration>
+       </entryRelationship>
+      </substanceAdministration>
+     </entry>
+     <entry typeCode="DRIV">
+      <substanceAdministration classCode="SBADM" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.16" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.16" extension="2014-06-09" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.4.1" extension="f995d626-1d45-465e-9f4c-59ebebfa1d96" />
+       <text>
+        <reference value="#Medf995d626-1d45-465e-9f4c-59ebebfa1d96" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime xsi:type="IVL_TS">
+        <low nullFlavor="NI" />
+        <high nullFlavor="NI" />
+       </effectiveTime>
+       <doseQuantity nullFlavor="NI" />
+       <consumable>
+        <manufacturedProduct classCode="MANU">
+         <templateId root="2.16.840.1.113883.10.20.22.4.23" />
+         <templateId root="2.16.840.1.113883.10.20.22.4.23" extension="2014-06-09" />
+         <manufacturedMaterial>
+          <code code="1797907" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm" displayName="Fluticasone Propionate (Nasal) 50 MCG/ACT" />
+         </manufacturedMaterial>
+        </manufacturedProduct>
+       </consumable>
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20231220200610+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1982315636" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="43d0acdb-5a39-483e-bf4d-8af59c0071b1" />
+         <assignedPerson>
+          <name>
+           <prefix>Mrs</prefix>
+           <given>Rebecca</given>
+           <family>McDonald</family>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+       <entryRelationship typeCode="SUBJ" inversionInd="true">
+        <act classCode="ACT" moodCode="INT">
+         <templateId root="2.16.840.1.113883.10.20.22.4.20" />
+         <templateId root="2.16.840.1.113883.10.20.22.4.20" extension="2014-06-09" />
+         <code xsi:type="CE" code="768729006" codeSystem="2.16.840.1.113883.6.96" displayName="Drug Dosage Education (procedure)" />
+         <statusCode code="completed" />
+        </act>
+       </entryRelationship>
+       <entryRelationship typeCode="COMP">
+        <substanceAdministration classCode="SBADM" moodCode="EVN">
+         <templateId root="2.16.840.1.113883.10.20.22.4.147" />
+         <code code="76662-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Medication Instructions" />
+         <text>
+          <reference value="#Medf995d626-1d45-465e-9f4c-59ebebfa1d96" />1 spray intranasally 2 times per day in each nostril</text>
+         <consumable>
+          <manufacturedProduct>
+           <manufacturedLabeledDrug nullFlavor="NA" />
+          </manufacturedProduct>
+         </consumable>
+        </substanceAdministration>
+       </entryRelationship>
+      </substanceAdministration>
+     </entry>
+    </section>
+   </component>
+   <component>
+    <section nullFlavor="NI">
+     <templateId root="2.16.840.1.113883.10.20.22.2.18" />
+     <templateId root="2.16.840.1.113883.10.20.22.2.18" extension="2015-08-01" />
+     <code code="48768-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Payers" />
+     <title>Payers</title>
+     <text>
+      <table width="95%" border="1">
+       <tbody>
+        <tr>
+         <td>No Information</td>
+        </tr>
+       </tbody>
+      </table>
+     </text>
+    </section>
+   </component>
+   <component>
+    <section>
+     <templateId root="2.16.840.1.113883.10.20.22.2.5.1" />
+     <templateId root="2.16.840.1.113883.10.20.22.2.5.1" extension="2015-08-01" />
+     <code code="11450-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Problem List" />
+     <title>Problem List</title>
+     <text>
+      <table width="95%" border="1">
+       <thead>
+        <tr>
+         <th>Description</th>
+         <th>Onset Date</th>
+         <th>Abatement Date</th>
+         <th>Status</th>
+         <th>Author</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr ID="problem953ad2b4-c4d0-4e35-b780-bbe49552370a">
+         <td>Pain</td>
+         <td>not applicable</td>
+         <td>not applicable</td>
+         <td>active</td>
+         <td>Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />12/29/2023</td>
+        </tr>
+        <tr ID="problem7d40f18d-9aa7-4461-8f5d-af838fde9fb6">
+         <td>Fatigue</td>
+         <td>not applicable</td>
+         <td>not applicable</td>
+         <td>active</td>
+         <td>Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />12/29/2023</td>
+        </tr>
+       </tbody>
+      </table>
+     </text>
+     <entry typeCode="DRIV">
+      <act classCode="ACT" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.3" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.3" extension="2015-08-01" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3" extension="1587297830" />
+       <code code="CONC" codeSystem="2.16.840.1.113883.5.6" displayName="Concern" />
+       <statusCode code="active" />
+       <effectiveTime xsi:type="IVL_TS">
+        <low value="20231229010842+0000" />
+        <high nullFlavor="NI" />
+       </effectiveTime>
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20231229010842+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>ND, MS</suffix>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+       <entryRelationship typeCode="SUBJ">
+        <observation classCode="OBS" moodCode="EVN" negationInd="false">
+         <templateId root="2.16.840.1.113883.10.20.22.4.4" />
+         <templateId root="2.16.840.1.113883.10.20.22.4.4" extension="2015-08-01" />
+         <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.2.1" extension="953ad2b4-c4d0-4e35-b780-bbe49552370a" />
+         <code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Diagnosis">
+          <translation code="29308-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Diagnosis" />
+         </code>
+         <text>
+          <reference value="#problem953ad2b4-c4d0-4e35-b780-bbe49552370a" />
+         </text>
+         <statusCode code="completed" />
+         <effectiveTime xsi:type="IVL_TS">
+          <low nullFlavor="NA" />
+          <high nullFlavor="NA" />
+         </effectiveTime>
+         <value xsi:type="CD" code="22253000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Pain">
+          <translation xsi:type="CD" code="R52" codeSystem="2.16.840.1.113883.6.90" codeSystemName="ICD10CM" displayName="Pain, unspecified" />
+          <translation xsi:type="CD" code="780.96" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" displayName="Generalized pain" />
+         </value>
+         <performer typeCode="PRF">
+          <assignedEntity classCode="ASSIGNED">
+           <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+           <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+           <addr use="WP">
+            <streetAddressLine>The Healing Hut</streetAddressLine>
+            <streetAddressLine>8000 W Ustick Rd</streetAddressLine>
+            <city>Boise</city>
+            <state>ID</state>
+            <postalCode>83704</postalCode>
+            <country>US</country>
+           </addr>
+           <telecom use="WP" value="tel:+1(503)896-4636" />
+           <assignedPerson>
+            <name>
+             <prefix>Dr</prefix>
+             <given>Jade</given>
+             <given>N</given>
+             <family>Dandy</family>
+             <suffix>ND, MS</suffix>
+            </name>
+           </assignedPerson>
+          </assignedEntity>
+         </performer>
+         <author>
+          <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+          <time value="20231229010842+0000" />
+          <assignedAuthor>
+           <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+           <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+           <assignedPerson>
+            <name>
+             <prefix>Dr</prefix>
+             <given>Jade</given>
+             <given>N</given>
+             <family>Dandy</family>
+             <suffix>ND, MS</suffix>
+            </name>
+           </assignedPerson>
+           <representedOrganization>
+            <name>The Healing Hut</name>
+           </representedOrganization>
+          </assignedAuthor>
+         </author>
+         <entryRelationship typeCode="REFR">
+          <observation classCode="OBS" moodCode="EVN">
+           <templateId root="2.16.840.1.113883.10.20.22.4.6" />
+           <templateId root="2.16.840.1.113883.10.20.22.4.6" extension="2019-06-20" />
+           <code code="33999-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Status" />
+           <text>
+            <reference value="#problem953ad2b4-c4d0-4e35-b780-bbe49552370a" />
+           </text>
+           <statusCode code="completed" />
+           <effectiveTime xsi:type="IVL_TS">
+            <low nullFlavor="NI" />
+            <high nullFlavor="NI" />
+           </effectiveTime>
+           <value xsi:type="CD" code="55561003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Active" />
+          </observation>
+         </entryRelationship>
+        </observation>
+       </entryRelationship>
+      </act>
+     </entry>
+     <entry typeCode="DRIV">
+      <act classCode="ACT" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.3" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.3" extension="2015-08-01" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3" extension="1587297830" />
+       <code code="CONC" codeSystem="2.16.840.1.113883.5.6" displayName="Concern" />
+       <statusCode code="active" />
+       <effectiveTime xsi:type="IVL_TS">
+        <low value="20231229010849+0000" />
+        <high nullFlavor="NI" />
+       </effectiveTime>
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20231229010849+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>ND, MS</suffix>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+       <entryRelationship typeCode="SUBJ">
+        <observation classCode="OBS" moodCode="EVN" negationInd="false">
+         <templateId root="2.16.840.1.113883.10.20.22.4.4" />
+         <templateId root="2.16.840.1.113883.10.20.22.4.4" extension="2015-08-01" />
+         <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.2.1" extension="7d40f18d-9aa7-4461-8f5d-af838fde9fb6" />
+         <code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Diagnosis">
+          <translation code="29308-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Diagnosis" />
+         </code>
+         <text>
+          <reference value="#problem7d40f18d-9aa7-4461-8f5d-af838fde9fb6" />
+         </text>
+         <statusCode code="completed" />
+         <effectiveTime xsi:type="IVL_TS">
+          <low nullFlavor="NA" />
+          <high nullFlavor="NA" />
+         </effectiveTime>
+         <value xsi:type="CD" code="84229001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Fatigue">
+          <translation xsi:type="CD" code="780.79" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" displayName="Other malaise and fatigue" />
+          <translation xsi:type="CD" code="R53.83" codeSystem="2.16.840.1.113883.6.90" codeSystemName="ICD10CM" displayName="Other fatigue" />
+         </value>
+         <performer typeCode="PRF">
+          <assignedEntity classCode="ASSIGNED">
+           <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+           <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+           <addr use="WP">
+            <streetAddressLine>The Healing Hut</streetAddressLine>
+            <streetAddressLine>8000 W Ustick Rd</streetAddressLine>
+            <city>Boise</city>
+            <state>ID</state>
+            <postalCode>83704</postalCode>
+            <country>US</country>
+           </addr>
+           <telecom use="WP" value="tel:+1(503)896-4636" />
+           <assignedPerson>
+            <name>
+             <prefix>Dr</prefix>
+             <given>Jade</given>
+             <given>N</given>
+             <family>Dandy</family>
+             <suffix>ND, MS</suffix>
+            </name>
+           </assignedPerson>
+          </assignedEntity>
+         </performer>
+         <author>
+          <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+          <time value="20231229010849+0000" />
+          <assignedAuthor>
+           <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+           <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+           <assignedPerson>
+            <name>
+             <prefix>Dr</prefix>
+             <given>Jade</given>
+             <given>N</given>
+             <family>Dandy</family>
+             <suffix>ND, MS</suffix>
+            </name>
+           </assignedPerson>
+           <representedOrganization>
+            <name>The Healing Hut</name>
+           </representedOrganization>
+          </assignedAuthor>
+         </author>
+         <entryRelationship typeCode="REFR">
+          <observation classCode="OBS" moodCode="EVN">
+           <templateId root="2.16.840.1.113883.10.20.22.4.6" />
+           <templateId root="2.16.840.1.113883.10.20.22.4.6" extension="2019-06-20" />
+           <code code="33999-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Status" />
+           <text>
+            <reference value="#problem7d40f18d-9aa7-4461-8f5d-af838fde9fb6" />
+           </text>
+           <statusCode code="completed" />
+           <effectiveTime xsi:type="IVL_TS">
+            <low nullFlavor="NI" />
+            <high nullFlavor="NI" />
+           </effectiveTime>
+           <value xsi:type="CD" code="55561003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Active" />
+          </observation>
+         </entryRelationship>
+        </observation>
+       </entryRelationship>
+      </act>
+     </entry>
+    </section>
+   </component>
+   <component>
+    <section>
+     <templateId root="2.16.840.1.113883.10.20.22.2.23" />
+     <templateId root="2.16.840.1.113883.10.20.22.2.23" extension="2014-06-09" />
+     <code code="46264-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Medical Equipment" />
+     <title>Medical Equipment</title>
+     <text>
+      <table width="95%" border="1">
+       <tbody>
+        <tr>
+         <td>No Information</td>
+        </tr>
+       </tbody>
+      </table>
+     </text>
+     <entry>
+      <procedure classCode="PROC" moodCode="EVN" negationInd="true">
+       <templateId root="2.16.840.1.113883.10.20.22.4.14" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.14" extension="2022-06-01" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.13" extension="ImplantableDevicesNoKnown" />
+       <code code="71388002" codeSystem="2.16.840.1.113883.6.96" displayName="Procedure" />
+       <statusCode code="completed" />
+       <effectiveTime nullFlavor="NA" />
+       <participant typeCode="DEV">
+        <participantRole classCode="MANU">
+         <templateId root="2.16.840.1.113883.10.20.22.4.37" />
+         <id nullFlavor="NA" root="2.16.840.1.113883.3.3719" assigningAuthorityName="FDA" />
+         <playingDevice>
+          <code code="40388003" codeSystem="2.16.840.1.113883.6.96" displayName="Implant" />
+         </playingDevice>
+         <scopingEntity>
+          <id root="2.16.840.1.113883.3.3719" />
+         </scopingEntity>
+        </participantRole>
+       </participant>
+      </procedure>
+     </entry>
+    </section>
+   </component>
+   <component>
+    <section nullFlavor="NI">
+     <templateId root="2.16.840.1.113883.10.20.22.2.7.1" />
+     <templateId root="2.16.840.1.113883.10.20.22.2.7.1" extension="2014-06-09" />
+     <code code="47519-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Procedures" />
+     <title>Procedures</title>
+     <text>
+      <table width="95%" border="1">
+       <thead>
+        <tr>
+         <th>Procedure</th>
+         <th>Date</th>
+         <th>Author</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>No Procedures Indicated</td>
+         <td>Not Applicable</td>
+         <td>&#160;</td>
+        </tr>
+       </tbody>
+      </table>
+     </text>
+    </section>
+   </component>
+   <component>
+    <section>
+     <templateId root="1.3.6.1.4.1.19376.1.5.3.1.3.1" />
+     <templateId root="1.3.6.1.4.1.19376.1.5.3.1.3.1" extension="2014-06-09" />
+     <code code="42349-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Reason for Referral" />
+     <title>Reason for Referral</title>
+     <text>
+      <paragraph>No Reason for Referral Indicated</paragraph>
+     </text>
+    </section>
+   </component>
+   <component>
+    <section>
+     <templateId root="2.16.840.1.113883.10.20.22.2.3.1" />
+     <templateId root="2.16.840.1.113883.10.20.22.2.3.1" extension="2015-08-01" />
+     <code code="30954-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Results" />
+     <title>Results</title>
+     <text>
+      <table width="95%" border="1">
+       <thead>
+        <tr>
+         <th>Test Name</th>
+         <th>Value</th>
+         <th>Date</th>
+         <th>Status</th>
+         <th>Lab Name and Address</th>
+         <th>Specimen Info</th>
+         <th>Author</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr ID="Lab_Result_1_1">
+         <td>See Attachment</td>
+         <td>&#160;</td>
+         <td>2023-12-20</td>
+         <td>Final</td>
+         <td>US</td>
+         <td>&#160;</td>
+         <td>Mrs Tabitha Lewallen<br />The Healing Hut<br />1/4/2024</td>
+        </tr>
+       </tbody>
+      </table>
+      <table width="95%" border="1">
+       <thead>
+        <tr>
+         <th>Test Name</th>
+         <th>Value</th>
+         <th>Date</th>
+         <th>Status</th>
+         <th>Lab Name and Address</th>
+         <th>Specimen Info</th>
+         <th>Author</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr ID="Lab_Result_2_1">
+         <td>ZINC</td>
+         <td>78 mcg/dL</td>
+         <td>2023-12-31</td>
+         <td>Final</td>
+         <td>Quest Diagnostics-Nichols Valencia-Thomas McDonald<br />27027 Tourney Rd<br />Valencia, CA 91355-5386<br />US</td>
+         <td>&#160;</td>
+         <td>Mrs Tabitha Lewallen<br />The Healing Hut<br />1/4/2024</td>
+        </tr>
+       </tbody>
+      </table>
+      <table width="95%" border="1">
+       <thead>
+        <tr>
+         <th>Test Name</th>
+         <th>Value</th>
+         <th>Date</th>
+         <th>Status</th>
+         <th>Lab Name and Address</th>
+         <th>Specimen Info</th>
+         <th>Author</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr ID="Lab_Result_3_1">
+         <td>COPPER</td>
+         <td>155 mcg/dL</td>
+         <td>2023-12-31</td>
+         <td>Final</td>
+         <td>Quest Diagnostics-Nichols Valencia-Thomas McDonald<br />27027 Tourney Rd<br />Valencia, CA 91355-5386<br />US</td>
+         <td>&#160;</td>
+         <td>Mrs Tabitha Lewallen<br />The Healing Hut<br />1/4/2024</td>
+        </tr>
+       </tbody>
+      </table>
+      <table width="95%" border="1">
+       <thead>
+        <tr>
+         <th>Test Name</th>
+         <th>Value</th>
+         <th>Date</th>
+         <th>Status</th>
+         <th>Lab Name and Address</th>
+         <th>Specimen Info</th>
+         <th>Author</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr ID="Lab_Result_4_1">
+         <td>VITAMIN D,25-OH,TOTAL,IA</td>
+         <td>37 ng/mL</td>
+         <td>2023-12-31</td>
+         <td>Final</td>
+         <td>Quest Diagnostics-Seattle 1737 Airport-Roger Graha<br />1737 Airport Way S, Suite 200<br />Seattle, WA 98134-1636<br />US</td>
+         <td>&#160;</td>
+         <td>Mrs Tabitha Lewallen<br />The Healing Hut<br />1/4/2024</td>
+        </tr>
+       </tbody>
+      </table>
+      <table width="95%" border="1">
+       <thead>
+        <tr>
+         <th>Test Name</th>
+         <th>Value</th>
+         <th>Date</th>
+         <th>Status</th>
+         <th>Lab Name and Address</th>
+         <th>Specimen Info</th>
+         <th>Author</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr ID="Lab_Result_5_1">
+         <td>T3, FREE</td>
+         <td>2.7 pg/mL</td>
+         <td>2023-12-31</td>
+         <td>Final</td>
+         <td>Quest Diagnostics-Seattle 1737 Airport-Roger Graha<br />1737 Airport Way S, Suite 200<br />Seattle, WA 98134-1636<br />US</td>
+         <td>&#160;</td>
+         <td>Mrs Tabitha Lewallen<br />The Healing Hut<br />1/4/2024</td>
+        </tr>
+       </tbody>
+      </table>
+      <table width="95%" border="1">
+       <thead>
+        <tr>
+         <th>Test Name</th>
+         <th>Value</th>
+         <th>Date</th>
+         <th>Status</th>
+         <th>Lab Name and Address</th>
+         <th>Specimen Info</th>
+         <th>Author</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr ID="Lab_Result_6_1">
+         <td>FOLATE, SERUM</td>
+         <td>14.2 ng/mL</td>
+         <td>2023-12-31</td>
+         <td>Final</td>
+         <td>Quest Diagnostics-Seattle 1737 Airport-Roger Graha<br />1737 Airport Way S, Suite 200<br />Seattle, WA 98134-1636<br />US</td>
+         <td>&#160;</td>
+         <td>Mrs Tabitha Lewallen<br />The Healing Hut<br />1/4/2024</td>
+        </tr>
+        <tr ID="Lab_Result_6_2">
+         <td>VITAMIN B12</td>
+         <td>746 pg/mL</td>
+         <td>2023-12-31</td>
+         <td>Final</td>
+         <td>Quest Diagnostics-Seattle 1737 Airport-Roger Graha<br />1737 Airport Way S, Suite 200<br />Seattle, WA 98134-1636<br />US</td>
+         <td>(same as previous)</td>
+         <td>Mrs Tabitha Lewallen<br />The Healing Hut<br />1/4/2024</td>
+        </tr>
+       </tbody>
+      </table>
+      <table width="95%" border="1">
+       <thead>
+        <tr>
+         <th>Test Name</th>
+         <th>Value</th>
+         <th>Date</th>
+         <th>Status</th>
+         <th>Lab Name and Address</th>
+         <th>Specimen Info</th>
+         <th>Author</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr ID="Lab_Result_7_1">
+         <td>TSH</td>
+         <td>1.82 mIU/L</td>
+         <td>2023-12-31</td>
+         <td>Final</td>
+         <td>Quest Diagnostics-Seattle 1737 Airport-Roger Graha<br />1737 Airport Way S, Suite 200<br />Seattle, WA 98134-1636<br />US</td>
+         <td>&#160;</td>
+         <td>Mrs Tabitha Lewallen<br />The Healing Hut<br />1/4/2024</td>
+        </tr>
+       </tbody>
+      </table>
+      <table width="95%" border="1">
+       <thead>
+        <tr>
+         <th>Test Name</th>
+         <th>Value</th>
+         <th>Date</th>
+         <th>Status</th>
+         <th>Lab Name and Address</th>
+         <th>Specimen Info</th>
+         <th>Author</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr ID="Lab_Result_8_1">
+         <td>T4, FREE</td>
+         <td>1.0 ng/dL</td>
+         <td>2023-12-31</td>
+         <td>Final</td>
+         <td>Quest Diagnostics-Seattle 1737 Airport-Roger Graha<br />1737 Airport Way S, Suite 200<br />Seattle, WA 98134-1636<br />US</td>
+         <td>&#160;</td>
+         <td>Mrs Tabitha Lewallen<br />The Healing Hut<br />1/4/2024</td>
+        </tr>
+       </tbody>
+      </table>
+      <table width="95%" border="1">
+       <thead>
+        <tr>
+         <th>Test Name</th>
+         <th>Value</th>
+         <th>Date</th>
+         <th>Status</th>
+         <th>Lab Name and Address</th>
+         <th>Specimen Info</th>
+         <th>Author</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr ID="Lab_Result_9_1">
+         <td>FERRITIN</td>
+         <td>16 ng/mL</td>
+         <td>2023-12-31</td>
+         <td>Final</td>
+         <td>Quest Diagnostics-Seattle 1737 Airport-Roger Graha<br />1737 Airport Way S, Suite 200<br />Seattle, WA 98134-1636<br />US</td>
+         <td>&#160;</td>
+         <td>Mrs Tabitha Lewallen<br />The Healing Hut<br />1/4/2024</td>
+        </tr>
+       </tbody>
+      </table>
+      <table width="95%" border="1">
+       <thead>
+        <tr>
+         <th>Test Name</th>
+         <th>Value</th>
+         <th>Date</th>
+         <th>Status</th>
+         <th>Lab Name and Address</th>
+         <th>Specimen Info</th>
+         <th>Author</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr ID="Lab_Result_10_1">
+         <td>THYROID PEROXIDASE ANTIBODIES</td>
+         <td>3 IU/mL</td>
+         <td>2023-12-31</td>
+         <td>Final</td>
+         <td>Quest Diagnostics-West Hills-Tab Toochinda MD<br />8401 Fallbrook Ave<br />West Hills, CA 91304-3226<br />US</td>
+         <td>&#160;</td>
+         <td>Mrs Tabitha Lewallen<br />The Healing Hut<br />1/4/2024</td>
+        </tr>
+       </tbody>
+      </table>
+      <table width="95%" border="1">
+       <thead>
+        <tr>
+         <th>Test Name</th>
+         <th>Value</th>
+         <th>Date</th>
+         <th>Status</th>
+         <th>Lab Name and Address</th>
+         <th>Specimen Info</th>
+         <th>Author</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr ID="Lab_Result_11_1">
+         <td>THYROGLOBULIN ANTIBODIES</td>
+         <td>&lt;1 IU/mL</td>
+         <td>2023-12-31</td>
+         <td>Final</td>
+         <td>Quest Diagnostics-West Hills-Tab Toochinda MD<br />8401 Fallbrook Ave<br />West Hills, CA 91304-3226<br />US</td>
+         <td>&#160;</td>
+         <td>Mrs Tabitha Lewallen<br />The Healing Hut<br />1/4/2024</td>
+        </tr>
+       </tbody>
+      </table>
+      <table width="95%" border="1">
+       <thead>
+        <tr>
+         <th>Test Name</th>
+         <th>Value</th>
+         <th>Date</th>
+         <th>Status</th>
+         <th>Lab Name and Address</th>
+         <th>Specimen Info</th>
+         <th>Author</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr ID="Lab_Result_12_1">
+         <td>T3 REVERSE, LC/MS/MS</td>
+         <td>14 ng/dL</td>
+         <td>2023-12-31</td>
+         <td>Final</td>
+         <td>Quest Diagnostics/Nichols SJC-San Juan Capistrano,<br />33608 Ortega Hwy<br />San Juan Capistrano, CA 92675-2042<br />US</td>
+         <td>&#160;</td>
+         <td>Mrs Tabitha Lewallen<br />The Healing Hut<br />1/4/2024</td>
+        </tr>
+       </tbody>
+      </table>
+      <table width="95%" border="1">
+       <thead>
+        <tr>
+         <th>Test Name</th>
+         <th>Value</th>
+         <th>Date</th>
+         <th>Status</th>
+         <th>Lab Name and Address</th>
+         <th>Specimen Info</th>
+         <th>Author</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr ID="Lab_Result_13_1">
+         <td>% SATURATION</td>
+         <td>16 % (calc)</td>
+         <td>2023-12-31</td>
+         <td>Final</td>
+         <td>Quest Diagnostics-Seattle 1737 Airport-Roger Graha<br />1737 Airport Way S, Suite 200<br />Seattle, WA 98134-1636<br />US</td>
+         <td>&#160;</td>
+         <td>Mrs Tabitha Lewallen<br />The Healing Hut<br />1/4/2024</td>
+        </tr>
+        <tr ID="Lab_Result_13_2">
+         <td>IRON BINDING CAPACITY</td>
+         <td>442 mcg/dL (calc)</td>
+         <td>2023-12-31</td>
+         <td>Final</td>
+         <td>Quest Diagnostics-Seattle 1737 Airport-Roger Graha<br />1737 Airport Way S, Suite 200<br />Seattle, WA 98134-1636<br />US</td>
+         <td>(same as previous)</td>
+         <td>Mrs Tabitha Lewallen<br />The Healing Hut<br />1/4/2024</td>
+        </tr>
+        <tr ID="Lab_Result_13_3">
+         <td>IRON, TOTAL</td>
+         <td>72 mcg/dL</td>
+         <td>2023-12-31</td>
+         <td>Final</td>
+         <td>Quest Diagnostics-Seattle 1737 Airport-Roger Graha<br />1737 Airport Way S, Suite 200<br />Seattle, WA 98134-1636<br />US</td>
+         <td>(same as previous)</td>
+         <td>Mrs Tabitha Lewallen<br />The Healing Hut<br />1/4/2024</td>
+        </tr>
+       </tbody>
+      </table>
+     </text>
+     <entry typeCode="DRIV">
+      <organizer classCode="BATTERY" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.1" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.1" extension="2015-08-01" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.10" />
+       <id root="2.16.840.1.113883.3.3388.411.2.5.4" extension="f19f90b8-ea81-4535-b17b-a1634ab81f56" />
+       <id root="2.16.840.1.113883.3.3388.411.2.5.5" extension="eb03c949-535d-4b78-9f07-b17352454fa2" />
+       <code xsi:type="CE" displayName="PDF Report1" />
+       <statusCode code="completed" />
+       <component>
+        <observation classCode="OBS" moodCode="EVN">
+         <templateId root="2.16.840.1.113883.10.20.22.4.2" />
+         <templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2015-08-01" />
+         <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.10.2" />
+         <id root="2.16.840.1.113883.3.3388.411.2.5.3" extension="5da5b883-b4f4-4779-9f50-469e34263b87" />
+         <code xsi:type="CE" code="PDF" codeSystemName="L" displayName="See Attachment" />
+         <text>
+          <reference value="#Lab_Result_1_1" />
+         </text>
+         <statusCode code="completed" />
+         <effectiveTime value="20231220122600+0000" />
+         <value xsi:type="PQ" nullFlavor="UNK" />
+         <author>
+          <time value="20231220122600+0000" />
+          <assignedAuthor>
+           <id nullFlavor="UNK" root="2.16.840.1.113883.4.6" />
+           <addr use="WP">
+            <streetAddressLine nullFlavor="NI" />
+            <city nullFlavor="NI" />
+            <state nullFlavor="NI" />
+            <postalCode nullFlavor="NI" />
+            <country>US</country>
+           </addr>
+           <telecom nullFlavor="NI" />
+           <representedOrganization>
+            <id root="2.16.840.1.113883.19.5" />
+            <name />
+           </representedOrganization>
+          </assignedAuthor>
+         </author>
+         <author>
+          <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+          <time value="20240104175715+0000" />
+          <assignedAuthor>
+           <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+           <id root="2.16.840.1.113883.3.3388.3.9" extension="41073288-67ef-4450-bff9-0e5c14ee76ca" />
+           <assignedPerson>
+            <name>
+             <prefix>Mrs</prefix>
+             <given>Tabitha</given>
+             <family>Lewallen</family>
+            </name>
+           </assignedPerson>
+           <representedOrganization>
+            <name>The Healing Hut</name>
+           </representedOrganization>
+          </assignedAuthor>
+         </author>
+        </observation>
+       </component>
+      </organizer>
+     </entry>
+     <entry typeCode="DRIV">
+      <organizer classCode="BATTERY" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.1" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.1" extension="2015-08-01" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.10" />
+       <id root="2.16.840.1.113883.3.3388.411.2.5.4" extension="f19f90b8-ea81-4535-b17b-a1634ab81f56" />
+       <id root="2.16.840.1.113883.3.3388.411.2.5.5" extension="fbd0f294-7274-4af4-ad8e-85b878134eb2" />
+       <code xsi:type="CE" displayName="ZINC" />
+       <statusCode code="completed" />
+       <component>
+        <observation classCode="OBS" moodCode="EVN">
+         <templateId root="2.16.840.1.113883.10.20.22.4.2" />
+         <templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2015-08-01" />
+         <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.10.2" />
+         <id root="2.16.840.1.113883.3.3388.411.2.5.3" extension="d43c3aa4-7a28-4668-b4fa-e8294e4ceb8e" />
+         <code xsi:type="CE" code="5763-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Zinc SerPl-mCnc" />
+         <text>
+          <reference value="#Lab_Result_2_1" />
+         </text>
+         <statusCode code="completed" />
+         <effectiveTime value="20231231181300+0000" />
+         <value xsi:type="PQ" value="78" unit="mcg/dL" />
+         <author>
+          <time value="20231231181300+0000" />
+          <assignedAuthor>
+           <id nullFlavor="UNK" root="2.16.840.1.113883.4.6" />
+           <addr use="WP">
+            <streetAddressLine>27027 Tourney Rd</streetAddressLine>
+            <city>Valencia</city>
+            <state>CA</state>
+            <postalCode>91355-5386</postalCode>
+            <country>US</country>
+           </addr>
+           <telecom nullFlavor="NI" />
+           <representedOrganization>
+            <id root="2.16.840.1.113883.19.5" />
+            <name>Quest Diagnostics-Nichols Valencia-Thomas McDonald</name>
+           </representedOrganization>
+          </assignedAuthor>
+         </author>
+         <author>
+          <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+          <time value="20240104175715+0000" />
+          <assignedAuthor>
+           <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+           <id root="2.16.840.1.113883.3.3388.3.9" extension="41073288-67ef-4450-bff9-0e5c14ee76ca" />
+           <assignedPerson>
+            <name>
+             <prefix>Mrs</prefix>
+             <given>Tabitha</given>
+             <family>Lewallen</family>
+            </name>
+           </assignedPerson>
+           <representedOrganization>
+            <name>The Healing Hut</name>
+           </representedOrganization>
+          </assignedAuthor>
+         </author>
+         <referenceRange>
+          <observationRange>
+           <text>60-130</text>
+           <value nullFlavor="UNK" xsi:type="IVL_PQ">
+            <low value="0" />
+            <high value="0" />
+           </value>
+          </observationRange>
+         </referenceRange>
+        </observation>
+       </component>
+      </organizer>
+     </entry>
+     <entry typeCode="DRIV">
+      <organizer classCode="BATTERY" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.1" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.1" extension="2015-08-01" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.10" />
+       <id root="2.16.840.1.113883.3.3388.411.2.5.4" extension="f19f90b8-ea81-4535-b17b-a1634ab81f56" />
+       <id root="2.16.840.1.113883.3.3388.411.2.5.5" extension="7aaa7849-22f6-454d-940a-4edd0acd0710" />
+       <code xsi:type="CE" displayName="COPPER" />
+       <statusCode code="completed" />
+       <component>
+        <observation classCode="OBS" moodCode="EVN">
+         <templateId root="2.16.840.1.113883.10.20.22.4.2" />
+         <templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2015-08-01" />
+         <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.10.2" />
+         <id root="2.16.840.1.113883.3.3388.411.2.5.3" extension="2ef3f303-bf7b-4de4-8c34-b17bbb1b1426" />
+         <code xsi:type="CE" code="5631-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Copper SerPl-mCnc" />
+         <text>
+          <reference value="#Lab_Result_3_1" />
+         </text>
+         <statusCode code="completed" />
+         <effectiveTime value="20231231181300+0000" />
+         <value xsi:type="PQ" value="155" unit="mcg/dL" />
+         <author>
+          <time value="20231231181300+0000" />
+          <assignedAuthor>
+           <id nullFlavor="UNK" root="2.16.840.1.113883.4.6" />
+           <addr use="WP">
+            <streetAddressLine>27027 Tourney Rd</streetAddressLine>
+            <city>Valencia</city>
+            <state>CA</state>
+            <postalCode>91355-5386</postalCode>
+            <country>US</country>
+           </addr>
+           <telecom nullFlavor="NI" />
+           <representedOrganization>
+            <id root="2.16.840.1.113883.19.5" />
+            <name>Quest Diagnostics-Nichols Valencia-Thomas McDonald</name>
+           </representedOrganization>
+          </assignedAuthor>
+         </author>
+         <author>
+          <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+          <time value="20240104175715+0000" />
+          <assignedAuthor>
+           <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+           <id root="2.16.840.1.113883.3.3388.3.9" extension="41073288-67ef-4450-bff9-0e5c14ee76ca" />
+           <assignedPerson>
+            <name>
+             <prefix>Mrs</prefix>
+             <given>Tabitha</given>
+             <family>Lewallen</family>
+            </name>
+           </assignedPerson>
+           <representedOrganization>
+            <name>The Healing Hut</name>
+           </representedOrganization>
+          </assignedAuthor>
+         </author>
+         <referenceRange>
+          <observationRange>
+           <text>70-175</text>
+           <value nullFlavor="UNK" xsi:type="IVL_PQ">
+            <low value="0" />
+            <high value="0" />
+           </value>
+          </observationRange>
+         </referenceRange>
+        </observation>
+       </component>
+      </organizer>
+     </entry>
+     <entry typeCode="DRIV">
+      <organizer classCode="BATTERY" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.1" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.1" extension="2015-08-01" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.10" />
+       <id root="2.16.840.1.113883.3.3388.411.2.5.4" extension="f19f90b8-ea81-4535-b17b-a1634ab81f56" />
+       <id root="2.16.840.1.113883.3.3388.411.2.5.5" extension="9a9f1ffe-436d-4ba0-ac05-50bd1d8baf27" />
+       <code xsi:type="CE" displayName="VITAMIN D,25-OH,TOTAL,IA" />
+       <statusCode code="completed" />
+       <component>
+        <observation classCode="OBS" moodCode="EVN">
+         <templateId root="2.16.840.1.113883.10.20.22.4.2" />
+         <templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2015-08-01" />
+         <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.10.2" />
+         <id root="2.16.840.1.113883.3.3388.411.2.5.3" extension="9f1e3ff7-d7eb-4adc-8c86-261e33b7f894" />
+         <code xsi:type="CE" code="1989-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="25(OH)D3 SerPl-mCnc" />
+         <text>
+          <reference value="#Lab_Result_4_1" />
+         </text>
+         <statusCode code="completed" />
+         <effectiveTime value="20231231181300+0000" />
+         <value xsi:type="PQ" value="37" unit="ng/mL" />
+         <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83" />
+         <author>
+          <time value="20231231181300+0000" />
+          <assignedAuthor>
+           <id nullFlavor="UNK" root="2.16.840.1.113883.4.6" />
+           <addr use="WP">
+            <streetAddressLine>1737 Airport Way S, Suite 200</streetAddressLine>
+            <city>Seattle</city>
+            <state>WA</state>
+            <postalCode>98134-1636</postalCode>
+            <country>US</country>
+           </addr>
+           <telecom nullFlavor="NI" />
+           <representedOrganization>
+            <id root="2.16.840.1.113883.19.5" />
+            <name>Quest Diagnostics-Seattle 1737 Airport-Roger Graha</name>
+           </representedOrganization>
+          </assignedAuthor>
+         </author>
+         <author>
+          <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+          <time value="20240104175715+0000" />
+          <assignedAuthor>
+           <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+           <id root="2.16.840.1.113883.3.3388.3.9" extension="41073288-67ef-4450-bff9-0e5c14ee76ca" />
+           <assignedPerson>
+            <name>
+             <prefix>Mrs</prefix>
+             <given>Tabitha</given>
+             <family>Lewallen</family>
+            </name>
+           </assignedPerson>
+           <representedOrganization>
+            <name>The Healing Hut</name>
+           </representedOrganization>
+          </assignedAuthor>
+         </author>
+         <referenceRange>
+          <observationRange>
+           <text>30-100</text>
+           <value nullFlavor="UNK" xsi:type="IVL_PQ">
+            <low value="0" />
+            <high value="0" />
+           </value>
+          </observationRange>
+         </referenceRange>
+        </observation>
+       </component>
+      </organizer>
+     </entry>
+     <entry typeCode="DRIV">
+      <organizer classCode="BATTERY" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.1" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.1" extension="2015-08-01" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.10" />
+       <id root="2.16.840.1.113883.3.3388.411.2.5.4" extension="f19f90b8-ea81-4535-b17b-a1634ab81f56" />
+       <id root="2.16.840.1.113883.3.3388.411.2.5.5" extension="883d61e3-ba5c-48c2-b5c3-444de3bbbe3e" />
+       <code xsi:type="CE" displayName="T3, FREE" />
+       <statusCode code="completed" />
+       <component>
+        <observation classCode="OBS" moodCode="EVN">
+         <templateId root="2.16.840.1.113883.10.20.22.4.2" />
+         <templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2015-08-01" />
+         <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.10.2" />
+         <id root="2.16.840.1.113883.3.3388.411.2.5.3" extension="6937a2aa-f882-4e37-bd48-03793c059587" />
+         <code xsi:type="CE" code="3051-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="T3Free SerPl-mCnc" />
+         <text>
+          <reference value="#Lab_Result_5_1" />
+         </text>
+         <statusCode code="completed" />
+         <effectiveTime value="20231231181300+0000" />
+         <value xsi:type="PQ" value="2.7" unit="pg/mL" />
+         <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83" />
+         <author>
+          <time value="20231231181300+0000" />
+          <assignedAuthor>
+           <id nullFlavor="UNK" root="2.16.840.1.113883.4.6" />
+           <addr use="WP">
+            <streetAddressLine>1737 Airport Way S, Suite 200</streetAddressLine>
+            <city>Seattle</city>
+            <state>WA</state>
+            <postalCode>98134-1636</postalCode>
+            <country>US</country>
+           </addr>
+           <telecom nullFlavor="NI" />
+           <representedOrganization>
+            <id root="2.16.840.1.113883.19.5" />
+            <name>Quest Diagnostics-Seattle 1737 Airport-Roger Graha</name>
+           </representedOrganization>
+          </assignedAuthor>
+         </author>
+         <author>
+          <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+          <time value="20240104175715+0000" />
+          <assignedAuthor>
+           <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+           <id root="2.16.840.1.113883.3.3388.3.9" extension="41073288-67ef-4450-bff9-0e5c14ee76ca" />
+           <assignedPerson>
+            <name>
+             <prefix>Mrs</prefix>
+             <given>Tabitha</given>
+             <family>Lewallen</family>
+            </name>
+           </assignedPerson>
+           <representedOrganization>
+            <name>The Healing Hut</name>
+           </representedOrganization>
+          </assignedAuthor>
+         </author>
+         <referenceRange>
+          <observationRange>
+           <text>2.3-4.2</text>
+           <value nullFlavor="UNK" xsi:type="IVL_PQ">
+            <low value="0" />
+            <high value="0" />
+           </value>
+          </observationRange>
+         </referenceRange>
+        </observation>
+       </component>
+      </organizer>
+     </entry>
+     <entry typeCode="DRIV">
+      <organizer classCode="BATTERY" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.1" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.1" extension="2015-08-01" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.10" />
+       <id root="2.16.840.1.113883.3.3388.411.2.5.4" extension="f19f90b8-ea81-4535-b17b-a1634ab81f56" />
+       <id root="2.16.840.1.113883.3.3388.411.2.5.5" extension="aaf33c2f-860a-4556-8bb3-bdb37fabe227" />
+       <code xsi:type="CE" displayName="VITAMIN B12/FOLATE, SERUM PANEL" />
+       <statusCode code="completed" />
+       <component>
+        <observation classCode="OBS" moodCode="EVN">
+         <templateId root="2.16.840.1.113883.10.20.22.4.2" />
+         <templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2015-08-01" />
+         <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.10.2" />
+         <id root="2.16.840.1.113883.3.3388.411.2.5.3" extension="86c06abb-8f85-4c2e-9ed2-df68dbfff883" />
+         <code xsi:type="CE" code="2284-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Folate SerPl-mCnc" />
+         <text>
+          <reference value="#Lab_Result_6_1" />
+         </text>
+         <statusCode code="completed" />
+         <effectiveTime value="20231231181300+0000" />
+         <value xsi:type="PQ" value="14.2" unit="ng/mL" />
+         <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83" />
+         <author>
+          <time value="20231231181300+0000" />
+          <assignedAuthor>
+           <id nullFlavor="UNK" root="2.16.840.1.113883.4.6" />
+           <addr use="WP">
+            <streetAddressLine>1737 Airport Way S, Suite 200</streetAddressLine>
+            <city>Seattle</city>
+            <state>WA</state>
+            <postalCode>98134-1636</postalCode>
+            <country>US</country>
+           </addr>
+           <telecom nullFlavor="NI" />
+           <representedOrganization>
+            <id root="2.16.840.1.113883.19.5" />
+            <name>Quest Diagnostics-Seattle 1737 Airport-Roger Graha</name>
+           </representedOrganization>
+          </assignedAuthor>
+         </author>
+         <author>
+          <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+          <time value="20240104175715+0000" />
+          <assignedAuthor>
+           <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+           <id root="2.16.840.1.113883.3.3388.3.9" extension="41073288-67ef-4450-bff9-0e5c14ee76ca" />
+           <assignedPerson>
+            <name>
+             <prefix>Mrs</prefix>
+             <given>Tabitha</given>
+             <family>Lewallen</family>
+            </name>
+           </assignedPerson>
+           <representedOrganization>
+            <name>The Healing Hut</name>
+           </representedOrganization>
+          </assignedAuthor>
+         </author>
+        </observation>
+       </component>
+       <component>
+        <observation classCode="OBS" moodCode="EVN">
+         <templateId root="2.16.840.1.113883.10.20.22.4.2" />
+         <templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2015-08-01" />
+         <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.10.2" />
+         <id root="2.16.840.1.113883.3.3388.411.2.5.3" extension="f5765e4e-bc86-409e-bf72-c6c79ef0f8da" />
+         <code xsi:type="CE" code="2132-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Vit B12 SerPl-mCnc" />
+         <text>
+          <reference value="#Lab_Result_6_2" />
+         </text>
+         <statusCode code="completed" />
+         <effectiveTime value="20231231181300+0000" />
+         <value xsi:type="PQ" value="746" unit="pg/mL" />
+         <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83" />
+         <author>
+          <time value="20231231181300+0000" />
+          <assignedAuthor>
+           <id nullFlavor="UNK" root="2.16.840.1.113883.4.6" />
+           <addr use="WP">
+            <streetAddressLine>1737 Airport Way S, Suite 200</streetAddressLine>
+            <city>Seattle</city>
+            <state>WA</state>
+            <postalCode>98134-1636</postalCode>
+            <country>US</country>
+           </addr>
+           <telecom nullFlavor="NI" />
+           <representedOrganization>
+            <id root="2.16.840.1.113883.19.5" />
+            <name>Quest Diagnostics-Seattle 1737 Airport-Roger Graha</name>
+           </representedOrganization>
+          </assignedAuthor>
+         </author>
+         <author>
+          <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+          <time value="20240104175715+0000" />
+          <assignedAuthor>
+           <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+           <id root="2.16.840.1.113883.3.3388.3.9" extension="41073288-67ef-4450-bff9-0e5c14ee76ca" />
+           <assignedPerson>
+            <name>
+             <prefix>Mrs</prefix>
+             <given>Tabitha</given>
+             <family>Lewallen</family>
+            </name>
+           </assignedPerson>
+           <representedOrganization>
+            <name>The Healing Hut</name>
+           </representedOrganization>
+          </assignedAuthor>
+         </author>
+         <referenceRange>
+          <observationRange>
+           <text>200-1100</text>
+           <value nullFlavor="UNK" xsi:type="IVL_PQ">
+            <low value="0" />
+            <high value="0" />
+           </value>
+          </observationRange>
+         </referenceRange>
+        </observation>
+       </component>
+      </organizer>
+     </entry>
+     <entry typeCode="DRIV">
+      <organizer classCode="BATTERY" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.1" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.1" extension="2015-08-01" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.10" />
+       <id root="2.16.840.1.113883.3.3388.411.2.5.4" extension="f19f90b8-ea81-4535-b17b-a1634ab81f56" />
+       <id root="2.16.840.1.113883.3.3388.411.2.5.5" extension="6d42410b-613a-4c77-b72a-ee8f8d137c29" />
+       <code xsi:type="CE" displayName="TSH" />
+       <statusCode code="completed" />
+       <component>
+        <observation classCode="OBS" moodCode="EVN">
+         <templateId root="2.16.840.1.113883.10.20.22.4.2" />
+         <templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2015-08-01" />
+         <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.10.2" />
+         <id root="2.16.840.1.113883.3.3388.411.2.5.3" extension="d420ee82-c0ce-4fc7-baf7-a0e439bf9905" />
+         <code xsi:type="CE" code="3016-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="TSH SerPl-aCnc" />
+         <text>
+          <reference value="#Lab_Result_7_1" />
+         </text>
+         <statusCode code="completed" />
+         <effectiveTime value="20231231181300+0000" />
+         <value xsi:type="PQ" value="1.82" unit="mIU/L" />
+         <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83" />
+         <author>
+          <time value="20231231181300+0000" />
+          <assignedAuthor>
+           <id nullFlavor="UNK" root="2.16.840.1.113883.4.6" />
+           <addr use="WP">
+            <streetAddressLine>1737 Airport Way S, Suite 200</streetAddressLine>
+            <city>Seattle</city>
+            <state>WA</state>
+            <postalCode>98134-1636</postalCode>
+            <country>US</country>
+           </addr>
+           <telecom nullFlavor="NI" />
+           <representedOrganization>
+            <id root="2.16.840.1.113883.19.5" />
+            <name>Quest Diagnostics-Seattle 1737 Airport-Roger Graha</name>
+           </representedOrganization>
+          </assignedAuthor>
+         </author>
+         <author>
+          <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+          <time value="20240104175715+0000" />
+          <assignedAuthor>
+           <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+           <id root="2.16.840.1.113883.3.3388.3.9" extension="41073288-67ef-4450-bff9-0e5c14ee76ca" />
+           <assignedPerson>
+            <name>
+             <prefix>Mrs</prefix>
+             <given>Tabitha</given>
+             <family>Lewallen</family>
+            </name>
+           </assignedPerson>
+           <representedOrganization>
+            <name>The Healing Hut</name>
+           </representedOrganization>
+          </assignedAuthor>
+         </author>
+        </observation>
+       </component>
+      </organizer>
+     </entry>
+     <entry typeCode="DRIV">
+      <organizer classCode="BATTERY" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.1" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.1" extension="2015-08-01" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.10" />
+       <id root="2.16.840.1.113883.3.3388.411.2.5.4" extension="f19f90b8-ea81-4535-b17b-a1634ab81f56" />
+       <id root="2.16.840.1.113883.3.3388.411.2.5.5" extension="2e3dcea6-5324-4438-8db8-b925341c1fca" />
+       <code xsi:type="CE" displayName="T4, FREE" />
+       <statusCode code="completed" />
+       <component>
+        <observation classCode="OBS" moodCode="EVN">
+         <templateId root="2.16.840.1.113883.10.20.22.4.2" />
+         <templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2015-08-01" />
+         <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.10.2" />
+         <id root="2.16.840.1.113883.3.3388.411.2.5.3" extension="40fa3c6a-e328-4c03-9c4f-16944cb46d6c" />
+         <code xsi:type="CE" code="3024-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="T4 Free SerPl-mCnc" />
+         <text>
+          <reference value="#Lab_Result_8_1" />
+         </text>
+         <statusCode code="completed" />
+         <effectiveTime value="20231231181300+0000" />
+         <value xsi:type="PQ" value="1.0" unit="ng/dL" />
+         <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83" />
+         <author>
+          <time value="20231231181300+0000" />
+          <assignedAuthor>
+           <id nullFlavor="UNK" root="2.16.840.1.113883.4.6" />
+           <addr use="WP">
+            <streetAddressLine>1737 Airport Way S, Suite 200</streetAddressLine>
+            <city>Seattle</city>
+            <state>WA</state>
+            <postalCode>98134-1636</postalCode>
+            <country>US</country>
+           </addr>
+           <telecom nullFlavor="NI" />
+           <representedOrganization>
+            <id root="2.16.840.1.113883.19.5" />
+            <name>Quest Diagnostics-Seattle 1737 Airport-Roger Graha</name>
+           </representedOrganization>
+          </assignedAuthor>
+         </author>
+         <author>
+          <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+          <time value="20240104175715+0000" />
+          <assignedAuthor>
+           <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+           <id root="2.16.840.1.113883.3.3388.3.9" extension="41073288-67ef-4450-bff9-0e5c14ee76ca" />
+           <assignedPerson>
+            <name>
+             <prefix>Mrs</prefix>
+             <given>Tabitha</given>
+             <family>Lewallen</family>
+            </name>
+           </assignedPerson>
+           <representedOrganization>
+            <name>The Healing Hut</name>
+           </representedOrganization>
+          </assignedAuthor>
+         </author>
+         <referenceRange>
+          <observationRange>
+           <text>0.8-1.8</text>
+           <value nullFlavor="UNK" xsi:type="IVL_PQ">
+            <low value="0" />
+            <high value="0" />
+           </value>
+          </observationRange>
+         </referenceRange>
+        </observation>
+       </component>
+      </organizer>
+     </entry>
+     <entry typeCode="DRIV">
+      <organizer classCode="BATTERY" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.1" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.1" extension="2015-08-01" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.10" />
+       <id root="2.16.840.1.113883.3.3388.411.2.5.4" extension="f19f90b8-ea81-4535-b17b-a1634ab81f56" />
+       <id root="2.16.840.1.113883.3.3388.411.2.5.5" extension="a2f8138c-54d9-4b9f-a437-0faa63160e04" />
+       <code xsi:type="CE" displayName="FERRITIN" />
+       <statusCode code="completed" />
+       <component>
+        <observation classCode="OBS" moodCode="EVN">
+         <templateId root="2.16.840.1.113883.10.20.22.4.2" />
+         <templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2015-08-01" />
+         <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.10.2" />
+         <id root="2.16.840.1.113883.3.3388.411.2.5.3" extension="5052cda5-b87b-4def-a436-4af769df205d" />
+         <code xsi:type="CE" code="2276-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Ferritin SerPl-mCnc" />
+         <text>
+          <reference value="#Lab_Result_9_1" />
+         </text>
+         <statusCode code="completed" />
+         <effectiveTime value="20231231181300+0000" />
+         <value xsi:type="PQ" value="16" unit="ng/mL" />
+         <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83" />
+         <author>
+          <time value="20231231181300+0000" />
+          <assignedAuthor>
+           <id nullFlavor="UNK" root="2.16.840.1.113883.4.6" />
+           <addr use="WP">
+            <streetAddressLine>1737 Airport Way S, Suite 200</streetAddressLine>
+            <city>Seattle</city>
+            <state>WA</state>
+            <postalCode>98134-1636</postalCode>
+            <country>US</country>
+           </addr>
+           <telecom nullFlavor="NI" />
+           <representedOrganization>
+            <id root="2.16.840.1.113883.19.5" />
+            <name>Quest Diagnostics-Seattle 1737 Airport-Roger Graha</name>
+           </representedOrganization>
+          </assignedAuthor>
+         </author>
+         <author>
+          <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+          <time value="20240104175715+0000" />
+          <assignedAuthor>
+           <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+           <id root="2.16.840.1.113883.3.3388.3.9" extension="41073288-67ef-4450-bff9-0e5c14ee76ca" />
+           <assignedPerson>
+            <name>
+             <prefix>Mrs</prefix>
+             <given>Tabitha</given>
+             <family>Lewallen</family>
+            </name>
+           </assignedPerson>
+           <representedOrganization>
+            <name>The Healing Hut</name>
+           </representedOrganization>
+          </assignedAuthor>
+         </author>
+         <referenceRange>
+          <observationRange>
+           <text>16-232</text>
+           <value nullFlavor="UNK" xsi:type="IVL_PQ">
+            <low value="0" />
+            <high value="0" />
+           </value>
+          </observationRange>
+         </referenceRange>
+        </observation>
+       </component>
+      </organizer>
+     </entry>
+     <entry typeCode="DRIV">
+      <organizer classCode="BATTERY" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.1" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.1" extension="2015-08-01" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.10" />
+       <id root="2.16.840.1.113883.3.3388.411.2.5.4" extension="f19f90b8-ea81-4535-b17b-a1634ab81f56" />
+       <id root="2.16.840.1.113883.3.3388.411.2.5.5" extension="5c3992c4-ab50-475f-89c6-fed4ec7bedd4" />
+       <code xsi:type="CE" displayName="THYROID PEROXIDASE ANTIBODIES" />
+       <statusCode code="completed" />
+       <component>
+        <observation classCode="OBS" moodCode="EVN">
+         <templateId root="2.16.840.1.113883.10.20.22.4.2" />
+         <templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2015-08-01" />
+         <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.10.2" />
+         <id root="2.16.840.1.113883.3.3388.411.2.5.3" extension="d32b3fce-f629-4715-be39-148364e32e13" />
+         <code xsi:type="CE" code="8099-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Thyroperoxidase Ab SerPl-aCnc" />
+         <text>
+          <reference value="#Lab_Result_10_1" />
+         </text>
+         <statusCode code="completed" />
+         <effectiveTime value="20231231181300+0000" />
+         <value xsi:type="PQ" value="3" unit="IU/mL" />
+         <author>
+          <time value="20231231181300+0000" />
+          <assignedAuthor>
+           <id nullFlavor="UNK" root="2.16.840.1.113883.4.6" />
+           <addr use="WP">
+            <streetAddressLine>8401 Fallbrook Ave</streetAddressLine>
+            <city>West Hills</city>
+            <state>CA</state>
+            <postalCode>91304-3226</postalCode>
+            <country>US</country>
+           </addr>
+           <telecom nullFlavor="NI" />
+           <representedOrganization>
+            <id root="2.16.840.1.113883.19.5" />
+            <name>Quest Diagnostics-West Hills-Tab Toochinda MD</name>
+           </representedOrganization>
+          </assignedAuthor>
+         </author>
+         <author>
+          <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+          <time value="20240104175715+0000" />
+          <assignedAuthor>
+           <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+           <id root="2.16.840.1.113883.3.3388.3.9" extension="41073288-67ef-4450-bff9-0e5c14ee76ca" />
+           <assignedPerson>
+            <name>
+             <prefix>Mrs</prefix>
+             <given>Tabitha</given>
+             <family>Lewallen</family>
+            </name>
+           </assignedPerson>
+           <representedOrganization>
+            <name>The Healing Hut</name>
+           </representedOrganization>
+          </assignedAuthor>
+         </author>
+         <referenceRange>
+          <observationRange>
+           <text>&lt;9</text>
+           <value nullFlavor="UNK" xsi:type="IVL_PQ">
+            <low value="0" />
+            <high value="0" />
+           </value>
+          </observationRange>
+         </referenceRange>
+        </observation>
+       </component>
+      </organizer>
+     </entry>
+     <entry typeCode="DRIV">
+      <organizer classCode="BATTERY" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.1" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.1" extension="2015-08-01" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.10" />
+       <id root="2.16.840.1.113883.3.3388.411.2.5.4" extension="f19f90b8-ea81-4535-b17b-a1634ab81f56" />
+       <id root="2.16.840.1.113883.3.3388.411.2.5.5" extension="d1cebae9-fcb0-441b-990e-4664ea1765c8" />
+       <code xsi:type="CE" displayName="THYROGLOBULIN ANTIBODIES" />
+       <statusCode code="completed" />
+       <component>
+        <observation classCode="OBS" moodCode="EVN">
+         <templateId root="2.16.840.1.113883.10.20.22.4.2" />
+         <templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2015-08-01" />
+         <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.10.2" />
+         <id root="2.16.840.1.113883.3.3388.411.2.5.3" extension="9c9250cd-3c4a-44bb-b51a-296afd1ac3e6" />
+         <code xsi:type="CE" code="8098-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Thyroglob Ab SerPl-aCnc" />
+         <text>
+          <reference value="#Lab_Result_11_1" />
+         </text>
+         <statusCode code="completed" />
+         <effectiveTime value="20231231181300+0000" />
+         <value xsi:type="ST">&lt;1 IU/mL</value>
+         <author>
+          <time value="20231231181300+0000" />
+          <assignedAuthor>
+           <id nullFlavor="UNK" root="2.16.840.1.113883.4.6" />
+           <addr use="WP">
+            <streetAddressLine>8401 Fallbrook Ave</streetAddressLine>
+            <city>West Hills</city>
+            <state>CA</state>
+            <postalCode>91304-3226</postalCode>
+            <country>US</country>
+           </addr>
+           <telecom nullFlavor="NI" />
+           <representedOrganization>
+            <id root="2.16.840.1.113883.19.5" />
+            <name>Quest Diagnostics-West Hills-Tab Toochinda MD</name>
+           </representedOrganization>
+          </assignedAuthor>
+         </author>
+         <author>
+          <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+          <time value="20240104175715+0000" />
+          <assignedAuthor>
+           <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+           <id root="2.16.840.1.113883.3.3388.3.9" extension="41073288-67ef-4450-bff9-0e5c14ee76ca" />
+           <assignedPerson>
+            <name>
+             <prefix>Mrs</prefix>
+             <given>Tabitha</given>
+             <family>Lewallen</family>
+            </name>
+           </assignedPerson>
+           <representedOrganization>
+            <name>The Healing Hut</name>
+           </representedOrganization>
+          </assignedAuthor>
+         </author>
+         <referenceRange>
+          <observationRange>
+           <text>&lt; or = 1</text>
+           <value nullFlavor="UNK" xsi:type="IVL_PQ">
+            <low value="0" />
+            <high value="0" />
+           </value>
+          </observationRange>
+         </referenceRange>
+        </observation>
+       </component>
+      </organizer>
+     </entry>
+     <entry typeCode="DRIV">
+      <organizer classCode="BATTERY" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.1" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.1" extension="2015-08-01" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.10" />
+       <id root="2.16.840.1.113883.3.3388.411.2.5.4" extension="f19f90b8-ea81-4535-b17b-a1634ab81f56" />
+       <id root="2.16.840.1.113883.3.3388.411.2.5.5" extension="08500dc6-aee8-45c8-b7cc-a4f94810d1c0" />
+       <code xsi:type="CE" displayName="T3 REVERSE, LC/MS/MS" />
+       <statusCode code="completed" />
+       <component>
+        <observation classCode="OBS" moodCode="EVN">
+         <templateId root="2.16.840.1.113883.10.20.22.4.2" />
+         <templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2015-08-01" />
+         <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.10.2" />
+         <id root="2.16.840.1.113883.3.3388.411.2.5.3" extension="8cf97dcf-91af-42f5-940b-19edc969339c" />
+         <code xsi:type="CE" code="3052-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="T3Reverse SerPl-mCnc" />
+         <text>
+          <reference value="#Lab_Result_12_1" />
+         </text>
+         <statusCode code="completed" />
+         <effectiveTime value="20231231181300+0000" />
+         <value xsi:type="PQ" value="14" unit="ng/dL" />
+         <author>
+          <time value="20231231181300+0000" />
+          <assignedAuthor>
+           <id nullFlavor="UNK" root="2.16.840.1.113883.4.6" />
+           <addr use="WP">
+            <streetAddressLine>33608 Ortega Hwy</streetAddressLine>
+            <city>San Juan Capistrano</city>
+            <state>CA</state>
+            <postalCode>92675-2042</postalCode>
+            <country>US</country>
+           </addr>
+           <telecom nullFlavor="NI" />
+           <representedOrganization>
+            <id root="2.16.840.1.113883.19.5" />
+            <name>Quest Diagnostics/Nichols SJC-San Juan Capistrano,</name>
+           </representedOrganization>
+          </assignedAuthor>
+         </author>
+         <author>
+          <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+          <time value="20240104175715+0000" />
+          <assignedAuthor>
+           <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+           <id root="2.16.840.1.113883.3.3388.3.9" extension="41073288-67ef-4450-bff9-0e5c14ee76ca" />
+           <assignedPerson>
+            <name>
+             <prefix>Mrs</prefix>
+             <given>Tabitha</given>
+             <family>Lewallen</family>
+            </name>
+           </assignedPerson>
+           <representedOrganization>
+            <name>The Healing Hut</name>
+           </representedOrganization>
+          </assignedAuthor>
+         </author>
+         <referenceRange>
+          <observationRange>
+           <text>8-25</text>
+           <value nullFlavor="UNK" xsi:type="IVL_PQ">
+            <low value="0" />
+            <high value="0" />
+           </value>
+          </observationRange>
+         </referenceRange>
+        </observation>
+       </component>
+      </organizer>
+     </entry>
+     <entry typeCode="DRIV">
+      <organizer classCode="BATTERY" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.1" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.1" extension="2015-08-01" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.10" />
+       <id root="2.16.840.1.113883.3.3388.411.2.5.4" extension="f19f90b8-ea81-4535-b17b-a1634ab81f56" />
+       <id root="2.16.840.1.113883.3.3388.411.2.5.5" extension="ccd93f5f-afb3-4352-8781-50cf33913d0e" />
+       <code xsi:type="CE" displayName="IRON AND TOTAL IRON BINDING CAPACITY" />
+       <statusCode code="completed" />
+       <component>
+        <observation classCode="OBS" moodCode="EVN">
+         <templateId root="2.16.840.1.113883.10.20.22.4.2" />
+         <templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2015-08-01" />
+         <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.10.2" />
+         <id root="2.16.840.1.113883.3.3388.411.2.5.3" extension="7106335b-f2fe-4b2c-9184-e3a05afee535" />
+         <code xsi:type="CE" code="2502-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Iron Satn MFr SerPl" />
+         <text>
+          <reference value="#Lab_Result_13_1" />
+         </text>
+         <statusCode code="completed" />
+         <effectiveTime value="20231231181300+0000" />
+         <value xsi:type="PQ" value="16">
+          <translation>
+           <originalText>16 % (calc)</originalText>
+          </translation>
+         </value>
+         <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83" />
+         <author>
+          <time value="20231231181300+0000" />
+          <assignedAuthor>
+           <id nullFlavor="UNK" root="2.16.840.1.113883.4.6" />
+           <addr use="WP">
+            <streetAddressLine>1737 Airport Way S, Suite 200</streetAddressLine>
+            <city>Seattle</city>
+            <state>WA</state>
+            <postalCode>98134-1636</postalCode>
+            <country>US</country>
+           </addr>
+           <telecom nullFlavor="NI" />
+           <representedOrganization>
+            <id root="2.16.840.1.113883.19.5" />
+            <name>Quest Diagnostics-Seattle 1737 Airport-Roger Graha</name>
+           </representedOrganization>
+          </assignedAuthor>
+         </author>
+         <author>
+          <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+          <time value="20240104175715+0000" />
+          <assignedAuthor>
+           <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+           <id root="2.16.840.1.113883.3.3388.3.9" extension="41073288-67ef-4450-bff9-0e5c14ee76ca" />
+           <assignedPerson>
+            <name>
+             <prefix>Mrs</prefix>
+             <given>Tabitha</given>
+             <family>Lewallen</family>
+            </name>
+           </assignedPerson>
+           <representedOrganization>
+            <name>The Healing Hut</name>
+           </representedOrganization>
+          </assignedAuthor>
+         </author>
+         <referenceRange>
+          <observationRange>
+           <text>16-45</text>
+           <value nullFlavor="UNK" xsi:type="IVL_PQ">
+            <low value="0" />
+            <high value="0" />
+           </value>
+          </observationRange>
+         </referenceRange>
+        </observation>
+       </component>
+       <component>
+        <observation classCode="OBS" moodCode="EVN">
+         <templateId root="2.16.840.1.113883.10.20.22.4.2" />
+         <templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2015-08-01" />
+         <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.10.2" />
+         <id root="2.16.840.1.113883.3.3388.411.2.5.3" extension="1be0d8bf-1ccf-4ef6-978b-3fe5e1c87b31" />
+         <code xsi:type="CE" code="2500-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="TIBC SerPl-mCnc" />
+         <text>
+          <reference value="#Lab_Result_13_2" />
+         </text>
+         <statusCode code="completed" />
+         <effectiveTime value="20231231181300+0000" />
+         <value xsi:type="PQ" value="442">
+          <translation>
+           <originalText>442 mcg/dL (calc)</originalText>
+          </translation>
+         </value>
+         <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83" />
+         <author>
+          <time value="20231231181300+0000" />
+          <assignedAuthor>
+           <id nullFlavor="UNK" root="2.16.840.1.113883.4.6" />
+           <addr use="WP">
+            <streetAddressLine>1737 Airport Way S, Suite 200</streetAddressLine>
+            <city>Seattle</city>
+            <state>WA</state>
+            <postalCode>98134-1636</postalCode>
+            <country>US</country>
+           </addr>
+           <telecom nullFlavor="NI" />
+           <representedOrganization>
+            <id root="2.16.840.1.113883.19.5" />
+            <name>Quest Diagnostics-Seattle 1737 Airport-Roger Graha</name>
+           </representedOrganization>
+          </assignedAuthor>
+         </author>
+         <author>
+          <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+          <time value="20240104175715+0000" />
+          <assignedAuthor>
+           <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+           <id root="2.16.840.1.113883.3.3388.3.9" extension="41073288-67ef-4450-bff9-0e5c14ee76ca" />
+           <assignedPerson>
+            <name>
+             <prefix>Mrs</prefix>
+             <given>Tabitha</given>
+             <family>Lewallen</family>
+            </name>
+           </assignedPerson>
+           <representedOrganization>
+            <name>The Healing Hut</name>
+           </representedOrganization>
+          </assignedAuthor>
+         </author>
+         <referenceRange>
+          <observationRange>
+           <text>250-450</text>
+           <value nullFlavor="UNK" xsi:type="IVL_PQ">
+            <low value="0" />
+            <high value="0" />
+           </value>
+          </observationRange>
+         </referenceRange>
+        </observation>
+       </component>
+       <component>
+        <observation classCode="OBS" moodCode="EVN">
+         <templateId root="2.16.840.1.113883.10.20.22.4.2" />
+         <templateId root="2.16.840.1.113883.10.20.22.4.2" extension="2015-08-01" />
+         <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.10.2" />
+         <id root="2.16.840.1.113883.3.3388.411.2.5.3" extension="d7519252-80dc-4f96-b2bb-fe3a8abaed9b" />
+         <code xsi:type="CE" code="2498-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Iron SerPl-mCnc" />
+         <text>
+          <reference value="#Lab_Result_13_3" />
+         </text>
+         <statusCode code="completed" />
+         <effectiveTime value="20231231181300+0000" />
+         <value xsi:type="PQ" value="72" unit="mcg/dL" />
+         <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83" />
+         <author>
+          <time value="20231231181300+0000" />
+          <assignedAuthor>
+           <id nullFlavor="UNK" root="2.16.840.1.113883.4.6" />
+           <addr use="WP">
+            <streetAddressLine>1737 Airport Way S, Suite 200</streetAddressLine>
+            <city>Seattle</city>
+            <state>WA</state>
+            <postalCode>98134-1636</postalCode>
+            <country>US</country>
+           </addr>
+           <telecom nullFlavor="NI" />
+           <representedOrganization>
+            <id root="2.16.840.1.113883.19.5" />
+            <name>Quest Diagnostics-Seattle 1737 Airport-Roger Graha</name>
+           </representedOrganization>
+          </assignedAuthor>
+         </author>
+         <author>
+          <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+          <time value="20240104175715+0000" />
+          <assignedAuthor>
+           <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+           <id root="2.16.840.1.113883.3.3388.3.9" extension="41073288-67ef-4450-bff9-0e5c14ee76ca" />
+           <assignedPerson>
+            <name>
+             <prefix>Mrs</prefix>
+             <given>Tabitha</given>
+             <family>Lewallen</family>
+            </name>
+           </assignedPerson>
+           <representedOrganization>
+            <name>The Healing Hut</name>
+           </representedOrganization>
+          </assignedAuthor>
+         </author>
+         <referenceRange>
+          <observationRange>
+           <text>45-160</text>
+           <value nullFlavor="UNK" xsi:type="IVL_PQ">
+            <low value="0" />
+            <high value="0" />
+           </value>
+          </observationRange>
+         </referenceRange>
+        </observation>
+       </component>
+      </organizer>
+     </entry>
+    </section>
+   </component>
+   <component>
+    <section>
+     <templateId root="2.16.840.1.113883.10.20.22.2.17" />
+     <templateId root="2.16.840.1.113883.10.20.22.2.17" extension="2015-08-01" />
+     <code code="29762-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Social History" />
+     <title>Social History</title>
+     <text>
+      <table width="95%" border="1">
+       <thead>
+        <tr>
+         <th>Social History</th>
+         <th>Effective Date</th>
+         <th>Author</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr ID="Sex">
+         <td>Sex: Female</td>
+         <td>1970-08-06</td>
+         <td>Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />5/18/2026</td>
+        </tr>
+        <tr ID="SmokingStatus_1">
+         <td>Non-Smoker</td>
+         <td>2023-12-28</td>
+         <td>Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />12/29/2023</td>
+        </tr>
+        <tr ID="personalMedicalHistory-493b7e46-b3c1-4bb1-8ffc-228bd5135a57">
+         <td>Social history (free text): Alcohol: none<br />Tobacco: none<br />Drugs: none<br />Caffeine: cola 1 a day<br />Exercise: 1 a week 45 minutes to an hour<br />Who referred patient: kilani</td>
+         <td>2023-12-29</td>
+         <td>Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />12/29/2023</td>
+        </tr>
+        <tr ID="personalMedicalHistory-f4dbd189-408f-46a5-99ba-381ab0dcefcd">
+         <td>Nutrition history: Breakfast: yogurt and granola<br />Lunch: salad with chicken<br />Dinner: gnocchi soup<br />Snacks: hummus with veggies<br />Beverages: none</td>
+         <td>2023-12-29</td>
+         <td>Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />12/29/2023</td>
+        </tr>
+       </tbody>
+      </table>
+     </text>
+     <entry>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.507" extension="2023-06-28" />
+       <code code="46098-0" codeSystem="2.16.840.1.113883.6.1" displayName="Sex" />
+       <text>
+        <reference value="#Sex" />
+       </text>
+       <statusCode code="completed" />
+       <effectiveTime value="19700806" />
+       <value xsi:type="CD" code="248152002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Female" />
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20260518161634+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>ND, MS</suffix>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+      </observation>
+     </entry>
+     <entry>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.78" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.78" extension="2014-06-09" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.14" extension="01929bb2-26e5-40f0-bf67-18ac27fbbaf6" />
+       <code code="72166-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Tobacco smoking status NHIS" />
+       <text>
+        <reference value="#SmokingStatus_1" />
+       </text>
+       <statusCode code="completed" />
+       <effectiveTime value="20231228" />
+       <value xsi:type="CD" code="8392000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Non-Smoker" />
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20231229011420+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>ND, MS</suffix>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+      </observation>
+     </entry>
+     <entry>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.69" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.69" extension="2022-06-01" />
+       <id root="493b7e46-b3c1-4bb1-8ffc-228bd5135a57" />
+       <code code="8689-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History of Social function" />
+       <text>
+        <reference value="#personalMedicalHistory-493b7e46-b3c1-4bb1-8ffc-228bd5135a57" />
+       </text>
+       <statusCode code="completed" />
+       <effectiveTime value="20231229011850+0000" />
+       <value xsi:type="ST">Alcohol: none 
+Tobacco: none 
+Drugs: none 
+Caffeine: cola 1 a day 
+Exercise: 1 a week 45 minutes to an hour 
+Who referred patient: kilani</value>
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20231229011850+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>ND, MS</suffix>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+      </observation>
+     </entry>
+     <entry>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.69" />
+       <templateId root="2.16.840.1.113883.10.20.22.4.69" extension="2022-06-01" />
+       <id root="f4dbd189-408f-46a5-99ba-381ab0dcefcd" />
+       <code code="61144-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Diet and nutrition Narrative" />
+       <text>
+        <reference value="#personalMedicalHistory-f4dbd189-408f-46a5-99ba-381ab0dcefcd" />
+       </text>
+       <statusCode code="completed" />
+       <effectiveTime value="20231229011850+0000" />
+       <value xsi:type="ST">Breakfast: yogurt and granola 
+Lunch: salad with chicken 
+Dinner: gnocchi soup 
+Snacks: hummus with veggies 
+Beverages: none</value>
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20231229011850+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>ND, MS</suffix>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+      </observation>
+     </entry>
+    </section>
+   </component>
+   <component>
+    <section nullFlavor="NI">
+     <templateId root="2.16.840.1.113883.10.20.22.2.4.1" />
+     <templateId root="2.16.840.1.113883.10.20.22.2.4.1" extension="2015-08-01" />
+     <code code="8716-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Vital Signs" />
+     <title>Vital Signs</title>
+     <text>Not indicated</text>
+    </section>
+   </component>
+   <component>
+    <section nullFlavor="NI">
+     <templateId root="2.16.840.1.113883.10.20.22.2.60" />
+     <code code="61146-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Goals" />
+     <title>Goals</title>
+     <text>
+      <table width="95%" border="1">
+       <tbody>
+        <tr>
+         <td>No Goals are recorded</td>
+        </tr>
+       </tbody>
+      </table>
+     </text>
+    </section>
+   </component>
+   <component>
+    <section>
+     <templateId root="2.16.840.1.113883.10.20.22.2.58" />
+     <templateId root="2.16.840.1.113883.10.20.22.2.58" extension="2015-08-01" />
+     <code code="75310-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Health Concerns Document" />
+     <title>Health Concerns</title>
+     <text>
+      <table width="95%" border="1">
+       <thead>
+        <tr>
+         <th>Date</th>
+         <th>Health Concern</th>
+         <th>Author</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr ID="concern9fb0800a-54a6-415c-a1df-d9a0604f0127">
+         <td>&#160;</td>
+         <td>Note: Recent Changes In:<br />Skin: naso oral rash<br />Head/Neck: headaches<br />Ears: ear aches and congestion<br />Back:  pain and tightness<br />Circulation: cold feet and hands<br />Energy level: always low<br />Ability to sleep: some insomnia<br />Other pain and discomforts fibromyalgia pain in arms and legs</td>
+         <td>Dr Jade N Dandy, ND, MS<br />The Healing Hut<br />12/29/2023</td>
+        </tr>
+       </tbody>
+      </table>
+     </text>
+     <entry>
+      <act classCode="ACT" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.132" extension="2015-08-01" />
+       <id root="2.16.840.1.113883.3.3388.1.1.1.529462.3.1587297830.1.16" extension="9fb0800a-54a6-415c-a1df-d9a0604f0127" />
+       <code code="75310-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Health Concern" />
+       <text>
+        <reference value="#concern9fb0800a-54a6-415c-a1df-d9a0604f0127" />
+       </text>
+       <statusCode code="active" />
+       <effectiveTime nullFlavor="NI" />
+       <author>
+        <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+        <time value="20231229011358+0000" />
+        <assignedAuthor>
+         <id root="2.16.840.1.113883.4.6" extension="1780030916" />
+         <id root="2.16.840.1.113883.3.3388.3.9" extension="4baf2e24-6cde-4207-aa9b-229170031f7a" />
+         <assignedPerson>
+          <name>
+           <prefix>Dr</prefix>
+           <given>Jade</given>
+           <given>N</given>
+           <family>Dandy</family>
+           <suffix>ND, MS</suffix>
+          </name>
+         </assignedPerson>
+         <representedOrganization>
+          <name>The Healing Hut</name>
+         </representedOrganization>
+        </assignedAuthor>
+       </author>
+      </act>
+     </entry>
+    </section>
+   </component>
+  </structuredBody>
+ </component>
+</ClinicalDocument>
