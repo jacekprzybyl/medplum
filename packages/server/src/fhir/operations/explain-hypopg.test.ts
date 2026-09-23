@@ -72,7 +72,7 @@ describe('withHypotheticalIndexes', () => {
     expect(repo.withTransaction).toHaveBeenCalledOnce();
   });
 
-  test('rolls back and resets when EXPLAIN fails', async () => {
+  test('resets HypoPG state when EXPLAIN fails', async () => {
     const repo = mockRepo();
     const calls: string[] = [];
     repo.executeRawSql.mockImplementation(async (sql: string) => {
