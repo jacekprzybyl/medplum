@@ -592,9 +592,7 @@
           {
             "use": "official",
             "family": "Hunt",
-            "given": [
-              "Tara"
-            ]
+            "given": ["Tara"]
           }
         ],
         "gender": "female",
@@ -602,9 +600,7 @@
         "address": [
           {
             "use": "home",
-            "line": [
-              "564 E FULLERTON LN"
-            ],
+            "line": ["564 E FULLERTON LN"],
             "city": "IDAHO FALLS",
             "state": "ID",
             "postalCode": "83404",
@@ -612,9 +608,7 @@
           },
           {
             "use": "home",
-            "line": [
-              "564 E Fullerton Lane"
-            ],
+            "line": ["564 E Fullerton Lane"],
             "city": "Idaho Falls",
             "state": "ID",
             "postalCode": "83404",
@@ -709,23 +703,15 @@
         ],
         "name": [
           {
-            "prefix": [
-              "Mrs"
-            ],
-            "given": [
-              "Tabitha"
-            ],
+            "prefix": ["Mrs"],
+            "given": ["Tabitha"],
             "family": "Lewallen"
           }
         ],
         "address": [
           {
             "use": "work",
-            "line": [
-              "Jade Dandy Practice",
-              "600 E State St Ste B",
-              "D"
-            ],
+            "line": ["Jade Dandy Practice", "600 E State St Ste B", "D"],
             "city": "Eagle",
             "state": "ID",
             "postalCode": "83616",
@@ -833,25 +819,16 @@
         ],
         "name": [
           {
-            "prefix": [
-              "Dr"
-            ],
+            "prefix": ["Dr"],
             "family": "Rainey",
-            "given": [
-              "Kimberly"
-            ],
-            "suffix": [
-              "DPT"
-            ]
+            "given": ["Kimberly"],
+            "suffix": ["DPT"]
           }
         ],
         "address": [
           {
             "use": "work",
-            "line": [
-              "The Healing Hut",
-              "8000 W Ustick Rd"
-            ],
+            "line": ["The Healing Hut", "8000 W Ustick Rd"],
             "city": "Boise",
             "state": "ID",
             "postalCode": "83704",
@@ -895,12 +872,8 @@
         ],
         "name": [
           {
-            "prefix": [
-              "Mrs"
-            ],
-            "given": [
-              "Rebecca"
-            ],
+            "prefix": ["Mrs"],
+            "given": ["Rebecca"],
             "family": "McDonald"
           }
         ],
@@ -1715,9 +1688,7 @@
         "resourceType": "MedicationRequest",
         "id": "af4b09c6-228f-4811-8413-a2730af9ff6a",
         "meta": {
-          "profile": [
-            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
-          ],
+          "profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"],
           "tag": [
             {
               "system": "urn:ccda-import",
@@ -1778,9 +1749,7 @@
         "resourceType": "MedicationRequest",
         "id": "9c8f2bf2-322c-48b6-8200-07103b008a9c",
         "meta": {
-          "profile": [
-            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
-          ],
+          "profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"],
           "tag": [
             {
               "system": "urn:ccda-import",
@@ -1841,9 +1810,7 @@
         "resourceType": "MedicationRequest",
         "id": "a0860b8c-3413-48f7-85d6-94ef652de132",
         "meta": {
-          "profile": [
-            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
-          ],
+          "profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"],
           "tag": [
             {
               "system": "urn:ccda-import",
@@ -1905,9 +1872,7 @@
         "resourceType": "MedicationRequest",
         "id": "4e5f02a9-a50e-4b72-87e0-a4264f93612d",
         "meta": {
-          "profile": [
-            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
-          ],
+          "profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"],
           "tag": [
             {
               "system": "urn:ccda-import",
@@ -1968,9 +1933,7 @@
         "resourceType": "MedicationRequest",
         "id": "dfd975dc-a709-48ae-80b5-085603a80b6b",
         "meta": {
-          "profile": [
-            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
-          ],
+          "profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"],
           "tag": [
             {
               "system": "urn:ccda-import",
@@ -2031,9 +1994,7 @@
         "resourceType": "MedicationRequest",
         "id": "6cba0aae-e4d6-4792-8e79-c6328ad8cd06",
         "meta": {
-          "profile": [
-            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
-          ],
+          "profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"],
           "tag": [
             {
               "system": "urn:ccda-import",
@@ -2085,9 +2046,7 @@
         "resourceType": "MedicationRequest",
         "id": "37d50b4d-7672-4e73-87b8-5977380d8342",
         "meta": {
-          "profile": [
-            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
-          ],
+          "profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"],
           "tag": [
             {
               "system": "urn:ccda-import",
@@ -2151,9 +2110,7 @@
         "resourceType": "MedicationRequest",
         "id": "19f5ac40-3a0a-4776-832d-266866b6dced",
         "meta": {
-          "profile": [
-            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
-          ],
+          "profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"],
           "tag": [
             {
               "system": "urn:ccda-import",
@@ -2217,9 +2174,7 @@
         "resourceType": "MedicationRequest",
         "id": "063620f1-30cd-4700-81fd-5510e4f8c243",
         "meta": {
-          "profile": [
-            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
-          ],
+          "profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"],
           "tag": [
             {
               "system": "urn:ccda-import",
@@ -2283,9 +2238,7 @@
         "resourceType": "MedicationRequest",
         "id": "d423080e-9b29-4e51-8470-4cfc634f0244",
         "meta": {
-          "profile": [
-            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
-          ],
+          "profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"],
           "tag": [
             {
               "system": "urn:ccda-import",
@@ -2342,9 +2295,7 @@
         "resourceType": "MedicationRequest",
         "id": "69aa1039-7928-41d4-8c79-ea72eac6ea59",
         "meta": {
-          "profile": [
-            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
-          ],
+          "profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"],
           "tag": [
             {
               "system": "urn:ccda-import",
@@ -2401,9 +2352,7 @@
         "resourceType": "MedicationRequest",
         "id": "ea4e10e4-a857-429a-8b16-e5e009323757",
         "meta": {
-          "profile": [
-            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
-          ],
+          "profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"],
           "tag": [
             {
               "system": "urn:ccda-import",
@@ -2467,9 +2416,7 @@
         "resourceType": "MedicationRequest",
         "id": "e1147d7d-debd-4e8e-817a-d63663ae98ce",
         "meta": {
-          "profile": [
-            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
-          ],
+          "profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"],
           "tag": [
             {
               "system": "urn:ccda-import",
@@ -2533,9 +2480,7 @@
         "resourceType": "MedicationRequest",
         "id": "8d4fa7fa-324f-4270-8887-c8a19e0b9a42",
         "meta": {
-          "profile": [
-            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
-          ],
+          "profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"],
           "tag": [
             {
               "system": "urn:ccda-import",
@@ -2613,9 +2558,7 @@
           }
         ],
         "meta": {
-          "profile": [
-            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"
-          ],
+          "profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"],
           "tag": [
             {
               "system": "urn:ccda-import",
@@ -2714,9 +2657,7 @@
           }
         ],
         "meta": {
-          "profile": [
-            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"
-          ],
+          "profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"],
           "tag": [
             {
               "system": "urn:ccda-import",
@@ -2815,9 +2756,7 @@
           }
         ],
         "meta": {
-          "profile": [
-            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"
-          ],
+          "profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"],
           "tag": [
             {
               "system": "urn:ccda-import",

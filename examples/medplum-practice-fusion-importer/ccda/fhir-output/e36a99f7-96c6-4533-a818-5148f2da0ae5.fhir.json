@@ -438,9 +438,7 @@
           {
             "use": "official",
             "family": "Setoki",
-            "given": [
-              "Alicia"
-            ]
+            "given": ["Alicia"]
           }
         ],
         "gender": "female",
@@ -448,9 +446,7 @@
         "address": [
           {
             "use": "home",
-            "line": [
-              "1284 E 2 1/2 St"
-            ],
+            "line": ["1284 E 2 1/2 St"],
             "city": "Meridian",
             "state": "ID",
             "postalCode": "83642",
@@ -526,22 +522,15 @@
         ],
         "name": [
           {
-            "prefix": [
-              "Mrs"
-            ],
-            "given": [
-              "Tabitha"
-            ],
+            "prefix": ["Mrs"],
+            "given": ["Tabitha"],
             "family": "Lewallen"
           }
         ],
         "address": [
           {
             "use": "work",
-            "line": [
-              "The Healing Hut",
-              "8000 W Ustick Rd"
-            ],
+            "line": ["The Healing Hut", "8000 W Ustick Rd"],
             "city": "Boise",
             "state": "ID",
             "postalCode": "83704",
@@ -1017,12 +1006,8 @@
         ],
         "name": [
           {
-            "prefix": [
-              "Mrs"
-            ],
-            "given": [
-              "Mary"
-            ],
+            "prefix": ["Mrs"],
+            "given": ["Mary"],
             "family": "Downey"
           }
         ],
@@ -1059,9 +1044,7 @@
           }
         ],
         "meta": {
-          "profile": [
-            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"
-          ],
+          "profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"],
           "tag": [
             {
               "system": "urn:ccda-import",
@@ -1160,9 +1143,7 @@
           }
         ],
         "meta": {
-          "profile": [
-            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"
-          ],
+          "profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"],
           "tag": [
             {
               "system": "urn:ccda-import",
@@ -1261,9 +1242,7 @@
           }
         ],
         "meta": {
-          "profile": [
-            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"
-          ],
+          "profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"],
           "tag": [
             {
               "system": "urn:ccda-import",

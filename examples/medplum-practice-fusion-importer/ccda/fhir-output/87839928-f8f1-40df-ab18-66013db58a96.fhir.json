@@ -814,9 +814,7 @@
           {
             "use": "official",
             "family": "Jensen",
-            "given": [
-              "James"
-            ]
+            "given": ["James"]
           }
         ],
         "gender": "male",
@@ -824,9 +822,7 @@
         "address": [
           {
             "use": "home",
-            "line": [
-              "8597 W Goddard Rd"
-            ],
+            "line": ["8597 W Goddard Rd"],
             "city": "Boise",
             "state": "ID",
             "postalCode": "83704",
@@ -874,22 +870,15 @@
         ],
         "name": [
           {
-            "prefix": [
-              "Mrs"
-            ],
-            "given": [
-              "Tabitha"
-            ],
+            "prefix": ["Mrs"],
+            "given": ["Tabitha"],
             "family": "Lewallen"
           }
         ],
         "address": [
           {
             "use": "work",
-            "line": [
-              "The Healing Hut",
-              "8000 W Ustick Rd"
-            ],
+            "line": ["The Healing Hut", "8000 W Ustick Rd"],
             "city": "Boise",
             "state": "ID",
             "postalCode": "83704",
@@ -933,22 +922,15 @@
         ],
         "name": [
           {
-            "prefix": [
-              "Mrs"
-            ],
-            "given": [
-              "Mary"
-            ],
+            "prefix": ["Mrs"],
+            "given": ["Mary"],
             "family": "Downey"
           }
         ],
         "address": [
           {
             "use": "work",
-            "line": [
-              "The Healing Hut",
-              "8000 W Ustick Rd"
-            ],
+            "line": ["The Healing Hut", "8000 W Ustick Rd"],
             "city": "Boise",
             "state": "ID",
             "postalCode": "83704",
@@ -992,22 +974,15 @@
         ],
         "name": [
           {
-            "prefix": [
-              "Mrs"
-            ],
-            "given": [
-              "Michaela"
-            ],
+            "prefix": ["Mrs"],
+            "given": ["Michaela"],
             "family": "Bates"
           }
         ],
         "address": [
           {
             "use": "work",
-            "line": [
-              "The Healing Hut",
-              "8000 W Ustick Rd"
-            ],
+            "line": ["The Healing Hut", "8000 W Ustick Rd"],
             "city": "Boise",
             "state": "ID",
             "postalCode": "83704",
@@ -1055,25 +1030,16 @@
         ],
         "name": [
           {
-            "prefix": [
-              "Dr"
-            ],
+            "prefix": ["Dr"],
             "family": "Rainey",
-            "given": [
-              "Kimberly"
-            ],
-            "suffix": [
-              "DPT"
-            ]
+            "given": ["Kimberly"],
+            "suffix": ["DPT"]
           }
         ],
         "address": [
           {
             "use": "work",
-            "line": [
-              "The Healing Hut",
-              "8000 W Ustick Rd"
-            ],
+            "line": ["The Healing Hut", "8000 W Ustick Rd"],
             "city": "Boise",
             "state": "ID",
             "postalCode": "83704",
@@ -1117,23 +1083,15 @@
         ],
         "name": [
           {
-            "prefix": [
-              "Dr"
-            ],
-            "given": [
-              "Jacqueline"
-            ],
+            "prefix": ["Dr"],
+            "given": ["Jacqueline"],
             "family": "Schrempp"
           }
         ],
         "address": [
           {
             "use": "work",
-            "line": [
-              "Jade Dandy Practice",
-              "600 E State St Ste B",
-              "D"
-            ],
+            "line": ["Jade Dandy Practice", "600 E State St Ste B", "D"],
             "city": "Eagle",
             "state": "ID",
             "postalCode": "83616",
@@ -10526,9 +10484,7 @@
         "resourceType": "MedicationRequest",
         "id": "01a3b7c3-571c-4a01-8080-6e7e6a6008b5",
         "meta": {
-          "profile": [
-            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
-          ],
+          "profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"],
           "tag": [
             {
               "system": "urn:ccda-import",
@@ -10584,9 +10540,7 @@
         "resourceType": "MedicationRequest",
         "id": "b9f3ed2f-1204-432e-8b27-af1bee3750e5",
         "meta": {
-          "profile": [
-            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
-          ],
+          "profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"],
           "tag": [
             {
               "system": "urn:ccda-import",
@@ -10642,9 +10596,7 @@
         "resourceType": "MedicationRequest",
         "id": "97d67e60-1d96-4402-8250-7a689f9e1c2c",
         "meta": {
-          "profile": [
-            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
-          ],
+          "profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"],
           "tag": [
             {
               "system": "urn:ccda-import",
@@ -10697,9 +10649,7 @@
         "resourceType": "MedicationRequest",
         "id": "9613840b-37ab-47bc-81bf-04b9f137743c",
         "meta": {
-          "profile": [
-            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
-          ],
+          "profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"],
           "tag": [
             {
               "system": "urn:ccda-import",
@@ -10752,9 +10702,7 @@
         "resourceType": "MedicationRequest",
         "id": "48afb2ce-7e22-47af-83fe-ad7bdfed2f80",
         "meta": {
-          "profile": [
-            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
-          ],
+          "profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"],
           "tag": [
             {
               "system": "urn:ccda-import",
@@ -10807,9 +10755,7 @@
         "resourceType": "MedicationRequest",
         "id": "7f92da29-4793-4066-849d-c224fb27bf4f",
         "meta": {
-          "profile": [
-            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
-          ],
+          "profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"],
           "tag": [
             {
               "system": "urn:ccda-import",

@@ -425,9 +425,7 @@
           {
             "use": "official",
             "family": "Christen",
-            "given": [
-              "Kent"
-            ]
+            "given": ["Kent"]
           }
         ],
         "gender": "male",
@@ -435,9 +433,7 @@
         "address": [
           {
             "use": "home",
-            "line": [
-              "818 W Arbor Pt Way"
-            ],
+            "line": ["818 W Arbor Pt Way"],
             "city": "Nampa",
             "state": "ID",
             "postalCode": "83686",
@@ -481,12 +477,8 @@
         ],
         "name": [
           {
-            "prefix": [
-              "Mrs"
-            ],
-            "given": [
-              "Tabitha"
-            ],
+            "prefix": ["Mrs"],
+            "given": ["Tabitha"],
             "family": "Lewallen"
           }
         ],
@@ -641,9 +633,7 @@
         "resourceType": "MedicationRequest",
         "id": "89d076da-f0d2-4ada-8f9c-4327bba8393b",
         "meta": {
-          "profile": [
-            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
-          ],
+          "profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"],
           "tag": [
             {
               "system": "urn:ccda-import",
@@ -704,9 +694,7 @@
         "resourceType": "MedicationRequest",
         "id": "7201d25a-fb22-4909-86aa-394d6ca7843c",
         "meta": {
-          "profile": [
-            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
-          ],
+          "profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"],
           "tag": [
             {
               "system": "urn:ccda-import",
@@ -767,9 +755,7 @@
         "resourceType": "MedicationRequest",
         "id": "a23e4bf3-0c65-4dd5-865d-4a759cc9e4fb",
         "meta": {
-          "profile": [
-            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
-          ],
+          "profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"],
           "tag": [
             {
               "system": "urn:ccda-import",
@@ -831,9 +817,7 @@
         "resourceType": "MedicationRequest",
         "id": "91bdb9a8-5ec4-4ab1-84bc-79997b7386c9",
         "meta": {
-          "profile": [
-            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
-          ],
+          "profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"],
           "tag": [
             {
               "system": "urn:ccda-import",

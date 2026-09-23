@@ -401,9 +401,7 @@
           {
             "use": "official",
             "family": "Opheim",
-            "given": [
-              "Hermione"
-            ]
+            "given": ["Hermione"]
           }
         ],
         "gender": "female",
@@ -411,9 +409,7 @@
         "address": [
           {
             "use": "home",
-            "line": [
-              "654 N Tresa Pl"
-            ],
+            "line": ["654 N Tresa Pl"],
             "city": "Star",
             "state": "ID",
             "postalCode": "83669",
@@ -461,25 +457,16 @@
         ],
         "name": [
           {
-            "prefix": [
-              "Dr"
-            ],
+            "prefix": ["Dr"],
             "family": "Rainey",
-            "given": [
-              "Kimberly"
-            ],
-            "suffix": [
-              "DPT"
-            ]
+            "given": ["Kimberly"],
+            "suffix": ["DPT"]
           }
         ],
         "address": [
           {
             "use": "work",
-            "line": [
-              "The Healing Hut",
-              "8000 W Ustick Rd"
-            ],
+            "line": ["The Healing Hut", "8000 W Ustick Rd"],
             "city": "Boise",
             "state": "ID",
             "postalCode": "83704",
