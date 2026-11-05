@@ -27,6 +27,7 @@ import type {
   Immunization,
   ImmunizationPerformer,
   Medication,
+  MedicationRequest,
   Observation,
   ObservationReferenceRange,
   Organization,
@@ -88,6 +89,7 @@ import {
   MEDICATION_STATUS_MAPPER,
   OBSERVATION_CATEGORY_MAPPER,
   PARTICIPATION_CODE_SYSTEM,
+  PLANNED_MEDICATION_MOOD_MAPPER,
   PROBLEM_STATUS_MAPPER,
   PROCEDURE_STATUS_MAPPER,
   TELECOM_USE_MAPPER,
@@ -604,8 +606,13 @@ class CcdaToFhirConverter {
     const templateId = section.templateId[0]['@_root'];
     switch (templateId) {
       case OID_MEDICATIONS_SECTION_ENTRIES_REQUIRED:
+        return this.processMedicationSubstanceAdministration(substanceAdmin, 'order');
       case OID_PLAN_OF_CARE_SECTION:
-        return this.processMedicationSubstanceAdministration(substanceAdmin);
+        // Planned Medication and Planned Immunization Activities carry a planned moodCode (INT, RQO, PRMS, PRP)
+        return this.processMedicationSubstanceAdministration(
+          substanceAdmin,
+          PLANNED_MEDICATION_MOOD_MAPPER.mapCcdaToFhirWithDefault(substanceAdmin['@_moodCode'], 'order')
+        );
       case OID_IMMUNIZATIONS_SECTION_ENTRIES_OPTIONAL:
       case OID_IMMUNIZATIONS_SECTION_ENTRIES_REQUIRED:
         return this.processImmunizationSubstanceAdministration(substanceAdmin);
@@ -617,8 +624,12 @@ class CcdaToFhirConverter {
     }
   }
 
-  private processMedicationSubstanceAdministration(substanceAdmin: CcdaSubstanceAdministration): Resource | undefined {
+  private processMedicationSubstanceAdministration(
+    substanceAdmin: CcdaSubstanceAdministration,
+    intent: MedicationRequest['intent']
+  ): Resource | undefined {
     const cdaId = this.mapId(substanceAdmin.id);
+    const effectiveTime = substanceAdmin.effectiveTime?.[0];
     const medicationCode = substanceAdmin.consumable?.manufacturedProduct?.[0]?.manufacturedMaterial?.[0]?.code?.[0];
     const routeCode = substanceAdmin.routeCode;
     const doseQuantity = substanceAdmin.doseQuantity;
@@ -665,16 +676,17 @@ class CcdaToFhirConverter {
       },
       extension: this.mapTextReference(substanceAdmin.text),
       status: MEDICATION_STATUS_MAPPER.mapCcdaToFhirWithDefault(substanceAdmin.statusCode?.['@_code'], 'active'),
-      intent: 'order',
+      intent,
       medicationReference: medication ? { reference: '#med-' + cdaId } : undefined,
       medicationCodeableConcept,
       subject: createReference(this.patient as Patient),
       authoredOn: mapCcdaToFhirDateTime(substanceAdmin.author?.[0]?.time?.['@_value']),
-      dispenseRequest: substanceAdmin.effectiveTime?.[0]
+      dispenseRequest: effectiveTime
         ? {
             validityPeriod: {
-              start: mapCcdaToFhirDateTime(substanceAdmin.effectiveTime?.[0]?.low?.['@_value']),
-              end: mapCcdaToFhirDateTime(substanceAdmin.effectiveTime?.[0]?.high?.['@_value']),
+              // A single @value is a point in time, e.g. when a planned medication should start
+              start: mapCcdaToFhirDateTime(effectiveTime.low?.['@_value'] ?? effectiveTime['@_value']),
+              end: mapCcdaToFhirDateTime(effectiveTime.high?.['@_value']),
             },
           }
         : undefined,
